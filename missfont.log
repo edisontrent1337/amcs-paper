@@ -1,0 +1,95 @@
+mktextfm OpenSans-Light-T1-TLF
+mktextfm OpenSans-Light-T1-TLF
+mktextfm OpenSans-Light-T1-TLF
+mktextfm OpenSans-Regular-T1-TLF
+mktextfm OpenSans-SemiBold-T1-TLF
+mktextfm rm-iwonal
+mktextfm rm-iwonal
+mktextfm rm-iwonal
+mktextfm mi-iwonali
+mktextfm mi-iwonali
+mktextfm mi-iwonali
+mktextfm sy-iwonalz
+mktextfm sy-iwonalz
+mktextfm sy-iwonalz
+mktextfm ex-iwonal
+mktextfm ex-iwonal
+mktextfm ex-iwonal
+mktextfm OpenSans-Light-T1-TLF
+mktextfm OpenSans-Light-T1-TLF
+mktextfm OpenSans-LightItalic-T1-TLF
+mktextfm OpenSans-LightItalic-T1-TLF
+mktextfm OpenSans-LightItalic-T1-TLF
+mktextfm OpenSans-Light-LGR-TLF
+mktextfm OpenSans-Light-LGR-TLF
+mktextfm OpenSans-Light-LGR-TLF
+mktextfm OpenSans-LightItalic-LGR-TLF
+mktextfm OpenSans-LightItalic-LGR-TLF
+mktextfm OpenSans-LightItalic-LGR-TLF
+mktextfm OpenSans-SemiBold-T1-TLF
+mktextfm OpenSans-Regular-T1-TLF
+mktextfm OpenSans-SemiBold-T1-TLF
+mktextfm OpenSans-SemiBold-T1-TLF
+mktextfm rm-iwonal
+mktextfm rm-iwonal
+mktextfm mi-iwonali
+mktextfm mi-iwonali
+mktextfm sy-iwonalz
+mktextfm sy-iwonalz
+mktextfm ex-iwonal
+mktextfm ex-iwonal
+mktextfm OpenSans-Light-T1-TLF
+mktextfm OpenSans-LightItalic-T1-TLF
+mktextfm OpenSans-LightItalic-T1-TLF
+mktextfm OpenSans-Light-LGR-TLF
+mktextfm OpenSans-Light-LGR-TLF
+mktextfm OpenSans-LightItalic-LGR-TLF
+mktextfm OpenSans-LightItalic-LGR-TLF
+mktextfm OpenSans-Regular-T1-TLF
+mktextfm OpenSans-Light-T1-TLF
+mktextfm OpenSans-Regular-T1-TLF
+mktextfm OpenSans-SemiBold-T1-TLF
+mktextfm rm-iwonal
+mktextfm rm-iwonal
+mktextfm rm-iwonal
+mktextfm mi-iwonali
+mktextfm mi-iwonali
+mktextfm mi-iwonali
+mktextfm sy-iwonalz
+mktextfm sy-iwonalz
+mktextfm sy-iwonalz
+mktextfm ex-iwonal
+mktextfm ex-iwonal
+mktextfm ex-iwonal
+mktextfm rm-iwonal
+mktextfm rm-iwonal
+mktextfm mi-iwonali
+mktextfm mi-iwonali
+mktextfm sy-iwonalz
+mktextfm sy-iwonalz
+mktextfm ex-iwonal
+mktextfm ex-iwonal
+mktexpk --mfmode / --bdpi 600 --mag 1+120/600 --dpi 720 OpenSans-Light-T1-TLF--base
+mktexpk --mfmode / --bdpi 600 --mag 1+120/600 --dpi 720 OpenSans-Light-T1-TLF--base
+mktexpk --mfmode / --bdpi 600 --mag 1+120/600 --dpi 720 OpenSans-Light-T1-TLF--base
+mktexpk --mfmode / --bdpi 600 --mag 1+120/600 --dpi 720 OpenSans-Light-T1-TLF--base
+mktexpk --mfmode / --bdpi 600 --mag 1+120/600 --dpi 720 OpenSans-Light-T1-TLF--base
+mktexpk --mfmode / --bdpi 600 --mag 1+120/600 --dpi 720 OpenSans-Light-T1-TLF--base
+mktexpk --mfmode / --bdpi 600 --mag 1+120/600 --dpi 720 OpenSans-Light-T1-TLF--base
+mktexpk --mfmode / --bdpi 600 --mag 1+120/600 --dpi 720 OpenSans-Light-T1-TLF--base
+mktextfm ptmr7t
+mktextfm ptmr7t
+mktextfm ptmb7t
+mktextfm nullfont
+mktextfm ptmr7t
+mktextfm ptmr7t
+mktextfm ptmr7t
+mktextfm ptmro7t
+mktextfm ptmb7t
+mktextfm nullfont
+mktextfm ptmb7t
+mktextfm nullfont
+mktextfm ptmbi7t
+mktextfm nullfont
+mktextfm ptmri7t
+mktextfm ptmr7t

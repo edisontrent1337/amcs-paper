@@ -1,190 +1,48 @@
-%-----------------------------------------------------------------------------
-%
-%               Template for sigplanconf LaTeX Class
-%
-% Name:         sigplanconf-template.tex
-%
-% Purpose:      A template for sigplanconf.cls, which is a LaTeX 2e class
-%               file for SIGPLAN conference proceedings.
-%
-% Guide:        Refer to "Author's Guide to the ACM SIGPLAN Class,"
-%               sigplanconf-guide.pdf
-%
-% Author:       Paul C. Anagnostopoulos
-%               Windfall Software
-%               978 371-2316
-%               paul@windfall.com
-%
-% Created:      15 February 2005
-%
-%-----------------------------------------------------------------------------
+\documentclass[ngerman]{tudscrreprt}
+\ifpdftex{
+	\usepackage[T1]{fontenc}
+	\usepackage[ngerman=ngerman-x-latest]{hyphsubst}
+}{
+	\usepackage{fontspec}
+}
+\usepackage{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{todonotes}
 
 
-\documentclass{sigplanconf}
-
-% The following \documentclass options may be useful:
-
-% preprint      Remove this option only once the paper is in final form.
-% 10pt          To set in 10-point type instead of 9-point.
-% 11pt          To set in 11-point type instead of 9-point.
-% authoryear    To obtain author/year citation style instead of numeric.
-
-\usepackage{amsmath}
-
+\newcommand{\todogrf}{\todo{add graphic here}}
+\newcommand{\todosct}{\todo{add section here}}
+\newcommand{\todoedit}{\todo{edit this section}}
 
 \begin{document}
-
-\special{papersize=8.5in,11in}
-\setlength{\pdfpageheight}{\paperheight}
-\setlength{\pdfpagewidth}{\paperwidth}
-
-\conferenceinfo{CONF 'yy}{Month d--d, 20yy, City, ST, Country} 
-\copyrightyear{20yy} 
-\copyrightdata{978-1-nnnn-nnnn-n/yy/mm} 
-\doi{nnnnnnn.nnnnnnn}
-
-% Uncomment one of the following two, if you are not going for the 
-% traditional copyright transfer agreement.
-
-%\exclusivelicense                % ACM gets exclusive license to publish, 
-                                  % you retain copyright
-
-%\permissiontopublish             % ACM gets nonexclusive license to publish
-                                  % (paid open-access papers, 
-                                  % short abstracts)
-
-\titlebanner{banner above paper title}        % These are ignored unless
-\preprintfooter{short description of paper}   % 'preprint' option specified.
-
-\title{Redesign and unification of the web view of AMCS}
-
-\authorinfo{Sinthujan Thanabalasingam}
-           {TU Dresden}
-           {sinthujan.thanabalasingam@tu-dresden.de}
-
-\maketitle
-
+	\faculty{Faculty Computer Science}
+	\institute{Institute of Systems Architecture}
+	\chair{Chair of Computer Networks}
+	\date{15.11.2019}
+	\author{Sinthujan Thanabalasingam}
+	\title{Redesign and unification of the web view of AMCS}
+	\maketitle
+	
 \begin{abstract}
-
-AMCS is an Audience Response system developed by several individuals at the TU Dresden in 2012. Speakers and docents can use it to get immediate feedback from students that participate in live lectures. One goal of AMCS is to improve the way knowledge is presented and transferred to the audience by offering interactive polls students can participate in before, during and after a lecture.
-Several standalone front end applications for different platforms such as iOS or Android and web are provided to the audience. But because of its ease of access, a majority of students interact with the system via their web browsers on different mobile devices such as laptops, tablets and smartphones. 
-Regarding usability, design and consistency, the challenge lays in providing a unified and responsive user interface across all supported platforms that is intuitive to use.
+	
+	Auditorium Mobile Classroom Service (AMCS) is an Audience Response system that is actively developed by several individuals at the TU Dresden since 2012. In the educational context, speakers and docents use it to enhance and manage their lectures during the semester. One of the main goals of AMCS is to improve the way knowledge is presented and transferred to the audience by offering interactive polls that students can participate in before, during and after a lecture.
+	Several standalone front end applications for platforms like iOS, Android and web are provided that enable usage of the system. However because of its ease of access, a majority of students use the system via their web browsers on different mobile devices such as laptops, tablets and smartphones. 
+	Regarding usability, design and consistency, the challenge lays in providing a unified and responsive user interface across all supported platforms that is intuitive to use.
+	
 \end{abstract}
 
-TODO: fix the category and terms
-\category{UI-design}{usability}{web}{}
-
-% general terms are not compulsory anymore, 
-% you may leave them out
-\terms
-term1, term2
-
-\keywords
-keyword1, keyword2
-
-\section{Introduction}
-
-\subsection{Motivation}
-
-
-AMCS (Auditorium Mobile Classroom Service) is an Audience Response system currently under  development at the TU Dresden. Several individuals initialized the project in 2012 and since then, the system has grown continuously and countless features were added over the years. In general, the system's main objective is to improve and support the way knowledge is transferred to the audience. By providing interactive polls and evaluation, AMCS hopes to increase the students engagement before, during and after a lecture takes place. Speakers and docents use it not only during their lectures to get immediate feedback from participating students, but also to manage their lectures during the semester. They can gain an insight on the understanding of their audience by evaluating the results of polls, repeating and emphasizing parts of their lectures that the audience might struggle with. Furthermore, the student's learning process is supported by providing question pools and self-evaluation mechanisms that work on saved answers. 
-Several standalone front end applications for different platforms such as iOS, Android and web are provided to the audience. But because it is easy to access, the system is used by the majority of students via its web page across different mobile devices such as laptops, tablets and smartphones. 
-Regarding usability, design and consistency, the challenge lays in the system to provide a unified and responsive user interface across all platforms.
-
-\subsection{Objectives}
-
-The main objective of this work is to develop a redesign strategy that - when implemented - improves the highly used web view of AMCS that is currently in place.
-Each proposal for itself is focused at improving usability of the application while all proposals as a whole aim at keeping a consistent and recognizable interface across all supported platforms. 
-In order to reach this objective, an analysis of the current state of the application is conducted, identifying weaknesses and inconsistencies that the design can be improved on.
-Additionally, relevant existing applications and work are analyzed to identify strategies that can be tranferred and applied to AMCS. 
-Finally, the strategy it is implemented as a prototype that uses the existing back end system. An evaluation of the prototype concludes this work.
-
-\section{State of the art}
-\paragraph{Current state of the application}
-At the time of writing, AMCS offers front end applications for iOS, Android and web that students can use. This work will focus on the web view / web page of AMCS. In general, the user can register an account by providing credentials and subscribe to lectures by typing in an optional PIN code. From thereon, students gain access to the system. This section elaborates on the views presented to the user that allow for access to the different functionalities of AMCS. 
-
-\subsection{Main View}
-After successfully logging in, the user is presented with the main view of the system.
-It can be scrolled in the vertical direction and is divided into header and body. On top, the header comes along with corporate branding on the left side and a burger menu on the right side. Below it, the view's body organizes information in different sections as follows:
-
-
-TODO: INSERT graphic here
-
-\subsubsection{Lectures}
-
-The lectures section lists all lectures relevant to the student. It is organized in subsections that indicate the temporal context of the lecture.
-
-\paragraph{Upcoming lectures} - Lectures that will take place in the future are shown here.
-\paragraph{Active lectures} - Lectures that take place right now are shown here.
-\paragraph{Past lectures} - Lectures that have already taken place are shown here.
-
-\newline
-
-\paragraph{Rendering of lectures in the main view}
-
-Each of these subsections is organized as a vertical list that contains all corresponding lectures (see Fig.1). A lecture is rendered in a box that uses all horizontal space available to it. The box consists of a blue header with the lecture's name, a white info/detail area and a light blue footer that contains the course this lecture belongs to.
-A color-coded badge on the top right of the boxes additionally serves as an indicator for the temporal context of the lecture.
-
-\subsubsection{Enrolled Courses}
-
-This section serves two purposes: Primarily, it provides a way to enroll into a course. An enrollment form is shown that consists of a text field to enter the course PIN and a blue button to trigger the enrollment (see Fig.1). When provided with a valid PIN, pressing the button redirects the user to a course overview on successful enrollment.
-Secondly, the view shows all courses the student is currently enrolled in. They are rendered as light blue buttons in a vertical list. A trash can icon on each button provides a way to leave the given course.
-
-
-\subsection{Menu and Navigation}
-Additional functionality can be reached by navigating the burger menu that is shown on the top right of the screen. Pressing the button reveals a sub menu that expands vertically on the view, offering three additional sub menus. In the following, these sub menus and their functionality are explained. This list is ordered by the relevance of the sub menus to the proposals of this paper from least to most relevant:
-
-\paragraph{How it works}
-
-Pressing this button will redirect to a page that shows tutorial instructions on how to use AMCS.
-This help page is rendered identical on all mobile devices and therefore falls out of the scope of this paper.
-
-\paragraph{Logout}
-
-As the name already states, pressing this button will logout the user and end the session. 
-If the logout was successful, the landing page of AMCS is shown.
-
-\paragraph{Student}
-
-This is one of the most important buttons that offers access to a subset of main functionalities of AMCS. Upon pressing this button, the menu expands again vertically, showing a list of further sub menus. Most of the functionalities shown in this list will be touched by the proposals for improvement that are presented section TODO add section here. The functionalities in questions are:
-
-\begin{enumerate}
-\item Answering polls and receiving feedback
-\item Evaluation of answers
-\item Question Pool	
-\end{enumerate}
-
-
-\subsubsection{Answering Polls}
-
-Answering polls is the main functionality of the system that users will engage with. Each poll consists of a set of questions the user can give an answer to. They are rendered in a view that is reused  by the system depending on the situation and context. This means that the view might only be accessible under certain circumstances, for example when the lecture reaches a specific point in time, making it a slide poll (SP). SPs are shown when a specific slide is on display and can only be answered in this very moment. Other types of polls include “global” course polls (CP) that are always accessible during the semester and lecture polls (LP) that can only be answered during the life time of a lecture. The different types of polls that occur in AMCS are further summarized in Table \ref{tab:pollTypes}.
-
-\begin{table}[t]
-	{\renewcommand{\arraystretch}{2}
-	\begin{tabular}{ | p{3cm} | p{4.5cm} |}
-		\hline
-		Poll Type & Explanation \\ \hline \hline
-		Slide Poll (SP) & Active when a specific slide is shown. Commonly used for pop quizzes after a difficult section in a lecture to make sure that students understood everything correctly. \\ \hline
-		Preparation Poll (PP) & Active before the lecture takes place. Is commonly used to instruct students to prepare for a certain topic \\ \hline
-		Lecture Poll (LP) & Active during the life time of a lecture. \\ \hline
-		Post Processing Poll (PPP) & Active after a lecture has taken place. Commonly used to check gained knowledge. \\ \hline
-	    Course Poll (CP) & Active during the whole lifetime of the course (commonly during the whole semester) \\
-		\hline
-	\end{tabular}
-	}
-\caption{Different poll types that the user might encounter when using AMCS.}
-\label{tab:pollTypes}
-\end{table}
-
+\include{introduction}
+\include{state-of-the-art}
+\include{concept.tex}
+\include{implementation}
+\include{evaluation}
+\include{conclusion}
 
 \appendix
 \section{Appendix Title}
 
 This is the text of the appendix, if you need one.
 
-\acks
-
-Acknowledgments, if needed.
 
 % We recommend abbrvnat bibliography style.
 
@@ -193,20 +51,10 @@ Acknowledgments, if needed.
 % The bibliography should be embedded for final submission.
 
 \begin{thebibliography}{}
-\softraggedright
-
-\bibitem[Smith et~al.(2009)Smith, Jones]{smith02}
-P. Q. Smith, and X. Y. Jones. ...reference text...
-
+	
+	\bibitem[Smith et~al.(2009)Smith, Jones]{smith02}
+	P. Q. Smith, and X. Y. Jones. ...reference text...
+	
 \end{thebibliography}
 
-
 \end{document}
-
-%                       Revision History
-%                       -------- -------
-%  Date         Person  Ver.    Change
-%  ----         ------  ----    ------
-
-%  2013.06.29   TU      0.1--4  comments on permission/copyright notices
-

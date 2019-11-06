@@ -33,10 +33,30 @@ Additionally, for each enrolled course, a box is shown with the title of the cou
 Section \todosct describes the rendering of questions as boxes that are aligned in a vertical scrolling list. This introduces similar problems as already described in section 3.1, namely the extensive use of vertical space on the screen. Bigger polls that consist of multiple questions unnecessarily take a lot of vertical screen estate. The view also lacks of basic information such as number of questions in total or number of remaining questions that might be useful in bigger polls if students want to gain an overview of how many questions are left.
 Answering one question usually does not require to see the neighboring questions, but most of the time, two to three questions are in view simultaneously. This might be distracting to some students.
 
-\subsection{Navigation}
+\subsection{Local navigation}
 
 The vertical list is difficult to navigate as it requires scrolling between questions. If a student wants to jump from the first to the last question,  or vice versa, several swiping gestures are needed to reach the top or the bottom of the list.
 Similar to the lecture list described in \todosct, the question list is also segmented into different sections. Lecture and course questions are similarly appended to the bottom of a slide poll. This means again, that a student that wants to view these questions has to scroll all the way to the bottom of the list. Again, this layout introduces a lot of indirection and is not intuitive to the user.
 
 
-\section{Proposals for Improvement}
+\section{Menu and Navigation}
+
+At the time of writing, the problem of navigating the application is not solved in the most intuitive and efficient way. Several layers of indirection introduce problems and may lead to confusion or reduced usability.
+
+\subsection{Burger Menu}
+
+The burger menu located in the top right part of the header offers most of the navigation functionality. Students have to click on this icon to access a menu that consists of sub menus as described in 2.2. To unveil the menus that lead to the question evaluation and the question pool, the student has to execute two clicks. The menu again uses a lot of vertical screen space and delocates the rest of the content that is currently shown.
+The menu can be confusing to the student because the first menu entry is labeled as “Student”, implying that there might exist additional roles that a student can take on in AMCS, which is not the case. Therefore, the “Student” entry is an unnecessary indirection to the functionality that the student is interested in.
+
+\subsection{Evaluation of answers}
+
+Clicking on the option “Evaluation of answers” button in the burger menu leads to a view with a drop down menu from which students can choose a course that they are interested in. Afterwards, an list of expandable items is shown, where each item represents a lecture. Clicking on one or multiple of these items will expand a vertical list of questions similar to  the regular question list described in section 2.3, but answers given by the student are shown as well (see Fig. 4).
+Multiple problems occur on this view: First of all, the navigation path to reach this view contains a lot of indirection and might not be intuitive enough. Students might expect this functionality to be located at the main view attached to the elements of the course list or inside the course view itself. Instead, everytime evaluation of given answers is attempted, this functionality can only be accessed by using the burger menu, choosing the appropriate item from the sub menu, selecting the course in question and afterwards expand the lecture and the corresponding question list.
+Additionally, the question list suffers from the same rendering and navigation problems already described in 3.2 - questions are poorly navigable and a lot of scrolling is needed to jump between questions.
+
+\subsection{Question Pool}
+
+The question pool suffers from the same navigation problems described in the previous section. Again, a drop down menu for selecting a course is shown before students can see the overview of the question pool. Once more, students might think that access to this functionality is located near the main view or the course view, which is not the case.
+
+
+

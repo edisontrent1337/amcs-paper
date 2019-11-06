@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7200 64-bit) (preloaded format=pdflatex 2019.11.6)  6 NOV 2019 19:38
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7200 64-bit) (preloaded format=pdflatex 2019.11.6)  6 NOV 2019 20:08
 entering extended mode
 **./sigplanconf-template.tex
 (sigplanconf-template.tex
@@ -1355,7 +1355,8 @@ Package typearea Info: These are the values describing the layout:
 (typearea)              on input line 12.
 
 (sigplanconf-template.aux (introduction.aux) (state-of-the-art.aux)
-(concept.aux) (implementation.aux) (evaluation.aux) (conclusion.aux))
+(concept-problems.aux) (concept-proposals.aux) (implementation.aux)
+(evaluation.aux) (conclusion.aux))
 \openout1 = `sigplanconf-template.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 12.
@@ -1708,15 +1709,44 @@ Underfull \hbox (badness 10000) in paragraph at lines 43--55
  []
 
 [6]) [7]
-\openout2 = `concept.aux'.
+\openout2 = `concept-problems.aux'.
 
- (concept.tex
+ (concept-problems.tex
 chapter 3.
 [8
 
 
 
 ] [9]) [10]
+\openout2 = `concept-proposals.aux'.
+
+ (concept-proposals.tex [11
+
+
+] [12]
+Overfull \hbox (2.65501pt too wide) in paragraph at lines 38--38
+\OT1/opensans-TLF/l/n/10.95 about 
+ []
+
+
+Overfull \hbox (2.65501pt too wide) in paragraph at lines 38--38
+\OT1/opensans-TLF/l/n/10.95 about 
+ []
+
+
+Overfull \hbox (2.65501pt too wide) in paragraph at lines 40--40
+\OT1/opensans-TLF/l/n/10.95 about 
+ []
+
+
+Overfull \hbox (2.65501pt too wide) in paragraph at lines 40--40
+\OT1/opensans-TLF/l/n/10.95 about 
+ []
+
+
+LaTeX Warning: Marginpar on page 13 moved.
+
+) [13]
 \openout2 = `implementation.aux'.
 
  (implementation.tex)
@@ -1725,35 +1755,36 @@ chapter 3.
  (evaluation.tex)
 \openout2 = `conclusion.aux'.
 
- (conclusion.tex) [11
+ (conclusion.tex) [14
 
 
 
 
 
 
+
+] [15
 
 ]
-[12
-
-] (sigplanconf-template.aux (introduction.aux) (state-of-the-art.aux)
-(concept.aux) (implementation.aux) (evaluation.aux) (conclusion.aux)) ) 
+(sigplanconf-template.aux (introduction.aux) (state-of-the-art.aux)
+(concept-problems.aux) (concept-proposals.aux) (implementation.aux)
+(evaluation.aux) (conclusion.aux)) ) 
 Here is how much of TeX's memory you used:
- 33566 strings out of 492453
- 698403 string characters out of 3129817
- 932062 words of memory out of 3000000
- 37484 multiletter control sequences out of 15000+200000
+ 33611 strings out of 492453
+ 699618 string characters out of 3129817
+ 935062 words of memory out of 3000000
+ 37522 multiletter control sequences out of 15000+200000
  594380 words of font info for 129 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  73i,19n,91p,10121b,958s stack positions out of 5000i,500n,10000p,200000b,50000s
-{D:/Prog
-ram Files/MiKTeX 2.9/fonts/enc/dvips/opensans/a_n3lhbv.enc}<D:/Program Files/Mi
-KTeX 2.9/fonts/type1/ascender/opensans/OpenSans-Light.pfb><D:/Program Files/MiK
-TeX 2.9/fonts/type1/ascender/opensans/OpenSans-Regular.pfb><D:/Program Files/Mi
-KTeX 2.9/fonts/type1/ascender/opensans/OpenSans-SemiBold.pfb>
-Output written on sigplanconf-template.pdf (12 pages, 78019 bytes).
+{D:/Program Files/MiKTeX 2.9/fonts/enc/dvip
+s/opensans/a_n3lhbv.enc}<D:/Program Files/MiKTeX 2.9/fonts/type1/ascender/opens
+ans/OpenSans-Light.pfb><D:/Program Files/MiKTeX 2.9/fonts/type1/ascender/opensa
+ns/OpenSans-Regular.pfb><D:/Program Files/MiKTeX 2.9/fonts/type1/ascender/opens
+ans/OpenSans-SemiBold.pfb>
+Output written on sigplanconf-template.pdf (15 pages, 90188 bytes).
 PDF statistics:
- 92 PDF objects out of 1000 (max. 8388607)
+ 102 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  154 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,0 +1,42 @@
+\chapter{Concept}
+This chapter will cover identified problems that occur when using AMCS via a web browser on mobile
+devices. To narrow down the extend of this work, the system is analyzed from the point of view that an audience member like a student has while using AMCS on their smartphone. When doing so, students will interact mostly with the Main View and the Navigation, which are the components that this work will focus on.
+
+\section{Problems of the mobile view}
+
+The web page of AMCS reacts on requests coming from mobile devices such as smartphones or tablets by providing a responsive mobile view to its clients. However, in some aspects AMCS struggles to offer a UI experience that guarantees high usability and uniformity across all end user devices.
+One challenge lays in the fact that the system has to deal with limited screen space to visualize information as effectively as possible. Additionally, users might approach the application with different ways of interaction and navigation in mind that are typical for mobile devices. For example, a smartphone user might expect to be able to use swiping gestures to navigate a menu or that information is organized in views consisting of separate tabs. This section lists key issues that lower usability or might cause confusion to users when using the system on a smartphone.
+
+\subsection{Main View}
+As already described in section \todosct, the main view relies on a vertically scrolling list view, consisting of different sections. The general vertical layout causes problems with regard to the usability of the application.
+
+\subsubsection{General Visualization Problems}
+
+Section \todosct covered the fact, that lectures are rendered by displaying the title of the lecture in the top section of the box in white letters on a solid blue background. It is followed by detail information about the lecture such as time, duration and a textual description, visualized in grey letters and icons in a white screen. Finally, at the bottom of the box, the title of the course is shown in grey letters on a light blue background. The alignment of lecture title, details and course title can cause confusion to students, as the hierarchical order of the information displayed is mixed up. The most coarse grain piece of information - the name of the course - is displayed at the bottom of the box rather than at the top. Generally, when seeking information about active lectures, a student will most likely remember the name of the course rather than the name of a single lecture. Therefore, this out of order display of information might cause confusion and students take longer time to find the pieces of information that they are looking for.
+
+\subsubsection{Indirection Problems}
+
+The boxes that represent each course claim a lot of screen space in relation to the information that is displayed to the student. The layout causes a lot of indirection, because per default, the section for upcoming and active lectures are expanded fully. This might be handy when quickly gathering information about lectures that are active or soon will be active, but in every other case it slows navigation and overall use, because the course enrollment form that follows is pushed down to the bottom of the page.
+A list of only four of these boxes can cause a scrollbar to appear on the very common screen resolution of 1920x1080 pixels. A student that navigates to the main view to enroll into a new course therefore always has to scroll to the bottom of the page before he reaches the enrollment form. The same problem likewise occurs when seeking information about what courses a student is enrolled in or when trying to leave a course altogether, as this functionality is offered only at the bottom of the view. If a student looks for information regarding a specific course, no filter or search functionality is offered by the lecture list. Instead, they have to scroll down to the bottom of the list, find the course in the list of enrolled courses and click on the corresponding item. Then, he is redirected to  the course view that is is essentially reusing the lecture list along with the sections “Upcoming lectures”, “Active lectures” and “Past lectures”. This level of indirection is only further increased the more courses the student is enrolled in. 
+
+\subsubsection{Redundancy}
+
+A lot of visual noise and redundancy is added by the badges that are displayed on the top right corner of each lecture. These badges are used to visualize the temporal context of the lecture for each item in the corresponding section. Furthermore, the badge's names do not match the section's name, e.g. an upcoming lecture's badge reads “BEFORE” instead of “UPCOMING”.
+
+Additionally, for each enrolled course, a box is shown with the title of the course along with the disenrollment button, represented by a trash can icon. The redundant rendering of the boxes adds noise to the overall look of the view and uses much of the vertical screen estate.
+
+
+\section{Poll View}
+
+\subsection{Rendering}
+
+Section \todosct describes the rendering of questions as boxes that are aligned in a vertical scrolling list. This introduces similar problems as already described in section 3.1, namely the extensive use of vertical space on the screen. Bigger polls that consist of multiple questions unnecessarily take a lot of vertical screen estate. The view also lacks of basic information such as number of questions in total or number of remaining questions that might be useful in bigger polls if students want to gain an overview of how many questions are left.
+Answering one question usually does not require to see the neighboring questions, but most of the time, two to three questions are in view simultaneously. This might be distracting to some students.
+
+\subsection{Navigation}
+
+The vertical list is difficult to navigate as it requires scrolling between questions. If a student wants to jump from the first to the last question,  or vice versa, several swiping gestures are needed to reach the top or the bottom of the list.
+Similar to the lecture list described in \todosct, the question list is also segmented into different sections. Lecture and course questions are similarly appended to the bottom of a slide poll. This means again, that a student that wants to view these questions has to scroll all the way to the bottom of the list. Again, this layout introduces a lot of indirection and is not intuitive to the user.
+
+
+\section{Proposals for Improvement}

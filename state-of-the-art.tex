@@ -1,17 +1,19 @@
 \chapter{State of the art}
-
-At the time of writing, AMCS offers front end applications for iOS, Android and web that students can use. As already mentioned in \todo INSERT HERE this work will focus on the web view / web page of AMCS.
-This section elaborates the current state of the system by identifying and analyzing all views that allow for access to the different functionalities of AMCS. 
+\label{chapter:stateoftheart}
+At the time of writing, AMCS offers front end applications for iOS, Android and web that students can use. As already mentioned in \todosct this work will focus on the web view / web page of AMCS.
+This section elaborates on the current state of the system by identifying and analyzing all views that allow for access to the different functionalities of AMCS from a student's point of view. 
 
 
 \section{Landing Page}
-When accessing the website https://amcs.website, users will be shown the landing page of AMCS.
-In order to use the system, users have to create an account by providing credentials. Additionally, users have to subscribe to lectures by typing in an optional PIN code. From thereon, students gain access to the system. 
+\label{section:landingpage}
+When accessing the website via \emph{https://amcs.website}, students will be shown the landing page of AMCS.
+\todo{Describe in more detail how it looks like and mention the enrollment form}
+In order to use the system, students have to create an account by providing credentials. Additionally, a subscription to lectures is mandatory. By typing in an optional PIN code. From thereon, students gain access to the system. 
 \todogrf
  
 \section{Main View}
 After successfully logging in, the user is presented with the main view of the system.
-It can be scrolled in the vertical direction and is divided into header and body. On top, the header comes along with corporate branding on the left side and a burger menu on the right side. Below it, the view's body organizes information in different sections as follows:
+It can be scrolled in the vertical direction and is divided into header and body. On top, the header consists of corporate branding on the left side and a burger menu on the right side. Below it, the view's body organizes information in different sections as follows:
 
 \todogrf
 
@@ -25,22 +27,26 @@ This section lists all lectures that the user subscribed to. It is organized in 
 
 \paragraph{Rendering of lectures}
 
-Each of these subsections is organized as a vertical list that contains all corresponding lectures (see Fig.1). A lecture is rendered in a box that uses all horizontal space available to it. The box consists of a blue header with the lecture's name, a white info/detail area and a light blue footer that contains the course this lecture belongs to.
-A color-coded badge on the top right of the boxes additionally serves as an indicator for the temporal context of the lecture.
+Each of the aforementioned subsections is organized in a list that contains all corresponding lectures (see \todosct). For each lecture, a box is rendered that uses all horizontal space available to it. The box consists of a blue header with the lecture's name, a white info/detail area and a light blue footer that contains the course this lecture belongs to.
+A color-coded badge on the top right of the boxes serves as an indicator for the temporal context of the lecture.
 
-\subsection{Enrolled Courses}
+\todo{add graphic of badges}
 
-This section serves two purposes: Primarily, it provides a way to enroll into a course. An enrollment form is shown that consists of a text field to enter the course PIN and a blue button to trigger the enrollment (see Fig.1). When provided with a valid PIN, pressing the button redirects the user to a course overview on successful enrollment.
+\subsection{Course management}
+
+Further down on the page, the section "Courses" can be found. It serves two purposes: Primarily, it provides a way to enroll into a course. An enrollment form is shown that consists of a text field to enter the course PIN and a blue button to trigger the enrollment (see Fig.1). When provided with a valid PIN, pressing the button redirects the user to a course overview on successful enrollment.
 Secondly, the view shows all courses the student is currently enrolled in. They are rendered as light blue buttons in a vertical list. A trash can icon on each button provides a way to leave the given course.
 
 
 \section{Poll View}
-Answering polls is the main functionality of the system that users will engage with.
+Answering polls is one of the main functionalities of the system that users will engage with.
 Polls can be reached by clicking on a lecture box as described in \todosct.
-Each poll consists of a set of questions the user can give an answer to. They are rendered in a view that is reused  by the system depending on the situation and context. This means that the view might only be accessible under certain circumstances, for example when the lecture reaches a specific point in time, making it a slide poll (SP). SPs are shown when a specific slide is on display and can only be answered in this very moment. Other types of polls include “global” course polls (CP) that are always accessible during the semester and lecture polls (LP) that can only be answered during the life time of a lecture. The different types of polls that occur in AMCS are further summarized in Table \ref{tab:pollTypes}.
+Each poll consists of a set of questions the user can answer. They are rendered in a view that is reused  by the system depending on the situation and context. This means that the view might only be accessible under certain circumstances, for example when the lecture reaches a specific point in time, making it a slide poll (SP). SPs are shown when a specific slide is on display and can only be answered in this very moment. Other types of polls include “global” course polls (CP) that are always accessible during the semester and lecture polls (LP) that can only be answered during the life time of a lecture. The different types of polls that occur in AMCS are further summarized in Table \ref{tab:pollTypes}.
+
+If no polls for a given lecture are available, the user is presented with the hint shown in \todogrf.
 
 \begin{table}[t]
-	{\renewcommand{\arraystretch}{2}L
+	{\renewcommand{\arraystretch}{2}
 		\begin{tabular}{ | p{3cm} | p{12cm} |}
 			\hline
 			Poll Type & Explanation \\ \hline \hline
@@ -56,9 +62,11 @@ Each poll consists of a set of questions the user can give an answer to. They ar
 	\label{tab:pollTypes}
 \end{table}
 
+\section{Course View}
+\todo{Describe the duplicate course view in more detail and cover it in the problems of the application in more detail and also in the list of improvements}
+
 \section{Menu and Navigation}
 Besides by using the main view, additional functionality can be reached by navigating the burger menu that is shown on the top right of the screen. It reveals a sub menu that expands vertically on the view, offering three additional sub menus. In the following, these sub menus and their functionality are briefly explained.
-
 
 \subsection{Student}
 
@@ -79,16 +87,17 @@ This help page is rendered identical on all mobile devices and therefore falls o
 \subsection{Logout}
 
 As the name already states, pressing this button will logout the user and end the session. 
-If the logout was successful, the landing page of AMCS is shown.
+If logging out was successful, the landing page of AMCS is shown.
 
 
 
 \subsection{Question Pool}
 
-By selecting this option from the burger menu, the student is offered the possibility to create collections of already answered questions. The intent is to provide a way for the students to identify and repeat questions that they had difficulty in answering.
-Similar to 2.1.2, the student is prompted with a drop down menu to select the course they are interested in. After selection, the student is presented with a list of all lectures and their polls respectively. All questions of each poll are grouped and shown to the student in a vertical list. From this list, the student can select all questions that they might be interested in to create a pool of questions.
-These pools are composed into polls that the student then can answer again. These polls are rendered in the same manner as stated in 2.3.
+By selecting this option from the burger menu, the student is offered the possibility to create collections of already answered questions. The intent is to provide a way for students to collect and repeat questions that they had difficulty in answering.
+Similar to \todosct, the student is prompted with a drop down menu to select the course they are interested in. After selection, the student is presented with a list of all lectures and their polls respectively. All questions of each poll are grouped and shown to the student in a vertical list. From this list, the student can select all questions that they might be interested in to create a pool of questions.
+These pools are composed into polls that the student then can answer again. These polls are rendered in the same manner as stated in \todosct.
 
+\todo{Add a table that summarizes this section, listing all views and briefly describe the intention of the view}
 
 \section{Related Systems}
 \todo{Add this}

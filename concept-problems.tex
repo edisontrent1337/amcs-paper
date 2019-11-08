@@ -8,55 +8,71 @@ The web page of AMCS reacts on requests coming from mobile devices such as smart
 One challenge lays in the fact that the system has to deal with limited screen space to visualize information as effectively as possible. Additionally, users might approach the application with different ways of interaction and navigation in mind that are typical for mobile devices. For example, a smartphone user might expect to be able to use swiping gestures to navigate a menu or that information is organized in views consisting of separate tabs. This section lists key issues that lower usability or might cause confusion to users when using the system on a smartphone.
 
 \subsection{Main View}
-As already described in section \todosct, the main view relies on a vertically scrolling list view, consisting of different sections. The general vertical layout causes problems with regard to the usability of the application.
+As already described in section \todosct, the main view relies on a vertically scrolling list view, consisting of different sections. The layout in place causes problems regarding usability aspects of the application.
 
 \subsubsection{General Visualization Problems}
 
-Section \todosct covered the fact, that lectures are rendered by displaying the title of the lecture in the top section of the box in white letters on a solid blue background. It is followed by detail information about the lecture such as time, duration and a textual description, visualized in grey letters and icons in a white screen. Finally, at the bottom of the box, the title of the course is shown in grey letters on a light blue background. The alignment of lecture title, details and course title can cause confusion to students, as the hierarchical order of the information displayed is mixed up. The most coarse grain piece of information - the name of the course - is displayed at the bottom of the box rather than at the top. Generally, when seeking information about active lectures, a student will most likely remember the name of the course rather than the name of a single lecture. Therefore, this out of order display of information might cause confusion and students take longer time to find the pieces of information that they are looking for.
+Section \todosct covered the fact, that lectures are rendered by displaying the title of the lecture in the top section of the box in white letters on a solid blue background. It is followed by detail information about the lecture such as time, duration and a textual description, visualized in grey letters and icons in a white screen. Finally, at the bottom of the box, the course name is shown in gray letters on a light blue background. The order "lecture name then details and then course name" can cause confusion to students.
+
+The most coarse grain piece of information - the course name - is displayed at the bottom of the box rather than at the top. Generally, when seeking information about active lectures, a student will most likely remember the course name rather than the name of a single lecture, as timetables used by students only contain course names.
+They will start to scan the displayed information with their eyeballs from top to bottom. Therefore, displaying the course information out of order might cause confusion and students take longer time to find the pieces of information that they are looking for.
+In addition to that, no iconography or colors are used to differentiate between course name and lecture name.
 
 \subsubsection{Indirection Problems}
 
-The boxes that represent each course claim a lot of screen space in relation to the information that is displayed to the student. The layout causes a lot of indirection, because per default, the section for upcoming and active lectures are expanded fully. This might be handy when quickly gathering information about lectures that are active or soon will be active, but in every other case it slows navigation and overall use, because the course enrollment form that follows is pushed down to the bottom of the page.
-A list of only four of these boxes can cause a scrollbar to appear on the very common screen resolution of 1920x1080 pixels. A student that navigates to the main view to enroll into a new course therefore always has to scroll to the bottom of the page before he reaches the enrollment form. The same problem likewise occurs when seeking information about what courses a student is enrolled in or when trying to leave a course altogether, as this functionality is offered only at the bottom of the view. If a student looks for information regarding a specific course, no filter or search functionality is offered by the lecture list. Instead, they have to scroll down to the bottom of the list, find the course in the list of enrolled courses and click on the corresponding item. Then, he is redirected to  the course view that is is essentially reusing the lecture list along with the sections “Upcoming lectures”, “Active lectures” and “Past lectures”. This level of indirection is only further increased the more courses the student is enrolled in. 
+The boxes that represent each lecture claim a lot of screen space in relation to the information that is displayed to the student. The layout causes a lot of indirection, because per default, the sections for upcoming and active lectures are expanded fully. This might be handy when quickly gathering information about lectures that are or soon will be active, but in every other case it slows navigation and overall interaction, because the course management section is pushed down to the bottom of the page.
+A list of only four boxes causes a scroll bar to appear on the very common screen resolution of 1920x1080 pixels. A student that navigates to the main view to enroll into a new course therefore always has to scroll to the bottom of the page before they reach the enrollment form. The same problem likewise occurs when simply seeking information about what courses a student is already enrolled in or when trying to leave a course altogether. 
+
+Further more, if a student looks for information regarding a specific course, no filter or search functionality is offered by the lecture list. Instead, they have to scroll down to the bottom of the lecture list, scan the course list manually with their eyeballs, find the course and click on the corresponding item. Finally, they are redirected to the course view. This level of indirection is only further increased the more courses the student is enrolled in. 
+To sum it up, the hierarchical and logical relationship between courses and lectures is broken. 
 
 \subsubsection{Redundancy}
 
-A lot of visual noise and redundancy is added by the badges that are displayed on the top right corner of each lecture. These badges are used to visualize the temporal context of the lecture for each item in the corresponding section. Furthermore, the badge's names do not match the section's name, e.g. an upcoming lecture's badge reads “BEFORE” instead of “UPCOMING”.
+Some visual redundancy is added by the badges that are displayed on the top right corner of each lecture. These badges are used to visualize the temporal context of the lecture for each item in the corresponding section. It seems that the badge's intention is to help conveying the temporal context of the lecture, because sorting the lectures in their respective section alone fails to do so. Furthermore, the badge's names do not match the section's names, e.g. an upcoming lecture's badge reads “BEFORE” instead of “UPCOMING”. 
 
-Additionally, for each enrolled course, a box is shown with the title of the course along with the disenrollment button, represented by a trash can icon. The redundant rendering of the boxes adds noise to the overall look of the view and uses much of the vertical screen estate.
+In the course management section below, for each course the student is enrolled in, a box is shown with the course's name along with an unsubscribe button, represented by a trash can icon.
+\todogrf
+This is a redundant way of rendering the courses which adds noise to the overall look of the view and uses much of the vertical screen estate.
 
+\subsection{Course View}
+\todo{Add this}
+the course view that is is essentially reusing the lecture list along with the sections “Upcoming lectures”, “Active lectures” and “Past lectures”.
 
-\section{Poll View}
+\todogrf
 
-\subsection{Rendering}
+\subsection{Poll View}
+
+\subsubsection{Rendering}
 
 Section \todosct describes the rendering of questions as boxes that are aligned in a vertical scrolling list. This introduces similar problems as already described in section 3.1, namely the extensive use of vertical space on the screen. Bigger polls that consist of multiple questions unnecessarily take a lot of vertical screen estate. The view also lacks of basic information such as number of questions in total or number of remaining questions that might be useful in bigger polls if students want to gain an overview of how many questions are left.
 Answering one question usually does not require to see the neighboring questions, but most of the time, two to three questions are in view simultaneously. This might be distracting to some students.
+\todo{Provide screenshots and explain this better.}
+Additionally, the layout lacks of separation and distinction between types of polls.
+Different types of polls are simply appended to the bottom of the list, making it even longer.
 
-\subsection{Local navigation}
+\subsubsection{Local navigation}
 
 The vertical list is difficult to navigate as it requires scrolling between questions. If a student wants to jump from the first to the last question,  or vice versa, several swiping gestures are needed to reach the top or the bottom of the list.
 Similar to the lecture list described in \todosct, the question list is also segmented into different sections. Lecture and course questions are similarly appended to the bottom of a slide poll. This means again, that a student that wants to view these questions has to scroll all the way to the bottom of the list. Again, this layout introduces a lot of indirection and is not intuitive to the user.
 
 
-\section{Menu and Navigation}
+\subsection{Burger Menu and Navigation}
 
-At the time of writing, the problem of navigating the application is not solved in the most intuitive and efficient way. Several layers of indirection introduce problems and may lead to confusion or reduced usability.
+At the time of writing, the ways of navigating the application can be described as problematic and partly confusing. Several layers of indirection introduce problems and may worsen the user experience.
+The burger menu icon is located in the top right part of the header and offers most of the navigation functionality. Students have to tap on this icon to access menu that consists of sub menus as described in \todosct. 
+One problem that arises is the fact that the menu uses a lot of vertical screen space and delocates the rest of the content that is currently shown.
+In addition, the menu can be confusing to the student because the first entry is labeled as “Student”. This implies to users in general that there exist different roles that a user can take on in AMCS, which is the case. But the user's role should not be the label of a sub menu in the navigation as it is not intuitive that functionality like account management can be accessed via a button labeled "Student".
 
-\subsection{Burger Menu}
+\subsubsection{Evaluation of answers}
 
-The burger menu located in the top right part of the header offers most of the navigation functionality. Students have to click on this icon to access a menu that consists of sub menus as described in 2.2. To unveil the menus that lead to the question evaluation and the question pool, the student has to execute two clicks. The menu again uses a lot of vertical screen space and delocates the rest of the content that is currently shown.
-The menu can be confusing to the student because the first menu entry is labeled as “Student”, implying that there might exist additional roles that a student can take on in AMCS, which is not the case. Therefore, the “Student” entry is an unnecessary indirection to the functionality that the student is interested in.
+Clicking on the option “Evaluation of answers” button in the expanded burger menu leads to a view with a drop down menu from which students can choose a course that they are interested in. Afterwards, an list of expandable items is shown, where each item represents a lecture. Clicking on one or multiple of these items will expand a vertical list of questions similar to  the regular question list described in section \todosct, but answers given by the student are shown as well (see Fig. \todosct).
+Multiple problems occur on this view: First of all, the navigation path to reach this view contains unnecessary indirection and might not be intuitive enough. Students might expect this functionality to be located at the main view attached to the elements of the course list or inside the course view itself. Instead, every time evaluation of given answers is attempted, this functionality can only be accessed by using the burger menu, choosing the appropriate item from the sub menu, selecting the course in question and afterwards expand the lecture and the corresponding question list.
+\todo{Insert a graphic that visualizes the click path that is problematic}
+Additionally, the question list suffers from the same rendering and navigation problems already described in \todosct. Questions are poorly navigable and a lot of scrolling is needed to jump between questions.
 
-\subsection{Evaluation of answers}
-
-Clicking on the option “Evaluation of answers” button in the burger menu leads to a view with a drop down menu from which students can choose a course that they are interested in. Afterwards, an list of expandable items is shown, where each item represents a lecture. Clicking on one or multiple of these items will expand a vertical list of questions similar to  the regular question list described in section 2.3, but answers given by the student are shown as well (see Fig. 4).
-Multiple problems occur on this view: First of all, the navigation path to reach this view contains a lot of indirection and might not be intuitive enough. Students might expect this functionality to be located at the main view attached to the elements of the course list or inside the course view itself. Instead, everytime evaluation of given answers is attempted, this functionality can only be accessed by using the burger menu, choosing the appropriate item from the sub menu, selecting the course in question and afterwards expand the lecture and the corresponding question list.
-Additionally, the question list suffers from the same rendering and navigation problems already described in 3.2 - questions are poorly navigable and a lot of scrolling is needed to jump between questions.
-
-\subsection{Question Pool}
+\subsubsection{Question Pool}
 
 The question pool suffers from the same navigation problems described in the previous section. Again, a drop down menu for selecting a course is shown before students can see the overview of the question pool. Once more, students might think that access to this functionality is located near the main view or the course view, which is not the case.
 
-
+\todo{Add a table that names and describes all analyzed weaknesses so that the proposals chapter can refer to this}
 

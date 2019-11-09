@@ -12,11 +12,10 @@ As already described in section \todosct, the main view relies on a vertically s
 
 \subsubsection{General Visualization Problems}
 \label{section:con:problems:mainview:generalvis}
-Section \todosct covered the fact, that lectures are rendered by displaying the title of the lecture in the top section of the box in white letters on a solid blue background. It is followed by detail information about the lecture such as time, duration and a textual description, visualized in grey letters and icons in a white screen. Finally, at the bottom of the box, the course name is shown in gray letters on a light blue background. The order "lecture name then details and then course name" can cause confusion to students.
+Section \todosct covered the fact, that lectures are rendered by displaying the title of the lecture in the top section of the box in white letters on a solid blue background. It is followed by detail information about the lecture such as time, duration and a textual description, visualized in gray letters and icons in a white screen. Finally, at the bottom of the box, the course name is shown in gray letters on a light blue background. The order "lecture name then details and then course name" can cause confusion to students.
 
-The most coarse grain piece of information - the course name - is displayed at the bottom of the box rather than at the top. Generally, when seeking information about active lectures, a student will most likely remember the course name rather than the name of a single lecture, as timetables used by students only contain course names.
-They will start to scan the displayed information with their eyeballs from top to bottom. Therefore, displaying the course information out of order might cause confusion and students take longer time to find the pieces of information that they are looking for.
-In addition to that, no iconography or colors are used to differentiate between course name and lecture name.
+The most coarse grain piece of information - the course name - is displayed at the bottom of the box rather than at the top. Generally, when seeking information about active lectures, a student will most likely remember the course name rather than the name of a single lecture, as timetables used by students only contain course names. Therefore, displaying the course information in this order might cause confusion and students take longer time to find the pieces of information that they are looking for.
+In addition to that, background colors and font size are used to differentiate between course name and lecture name, further supporting the ambiguity described above.
 
 \subsubsection{Indirection Problems}
 
@@ -35,10 +34,9 @@ In the course management section below, for each course the student is enrolled 
 This is a redundant way of rendering the courses which adds noise to the overall look of the view and uses much of the vertical screen estate.
 
 \subsection{Course View}
-\todo{Add this}
 
 Since the course view reuses the lecture list along with the sections “Upcoming lectures”, “Active lectures” and “Past lectures”, likewise the same issues arise as for the main view, as already described in section \ref{section:con:problems:mainview:generalvis}. 
-The course view has a very important function in terms of usability as it acts as a filter for lectures belonging to a certain course. 
+The course view has a very important function in terms of usability as it acts as a filter for lectures belonging to a certain course. Problems arise, when a user wants to switch quickly between different courses. Doing so requires to leave the course view by tapping the back button and then scanning the course management section for the element of interest, which is slow and cumbersome.
 
 \todogrf
 
@@ -61,15 +59,19 @@ Similar to the lecture list described in \todosct, the question list is also seg
 \subsection{Burger Menu and Navigation}
 
 At the time of writing, the ways of navigating the application can be described as problematic and partly confusing. Several layers of indirection introduce problems and may worsen the user experience.
-The burger menu icon is located in the top right part of the header and offers most of the navigation functionality. Students have to tap on this icon to access menu that consists of sub menus as described in \todosct. 
-One problem that arises is the fact that the menu uses a lot of vertical screen space and delocates the rest of the content that is currently shown.
-In addition, the menu can be confusing to the student because the first entry is labeled as \emph{Student}. This implies to users in general that there exist different roles that a user can take on in AMCS, which is the case. But the user's role should not be the label of a sub menu in the navigation as it is not intuitive that functionality like account management can be accessed via a button labeled \emph{Student}.
+Figure \ref{figure:clickpathproblems} illustrates that the click paths a user must take in order to reach different views (illustrated in blue) within AMCS. In general, some views are connected via the burger menu as the overarching element of navigation (illustrated in green). In contrast, other views are interconnected and can be reached by clicking on elements inside a view such as a course or lecture. The following paragraphs elaborate more on both aspects of navigation.
+
+On the one hand, the interconnected graph of views as it is described in Figure \ref{figure:clickpathproblems} contains two main issues. One example of unexpected behavior is the fact that when a user wants to return from the Poll View to the Main View in order to chose a different poll, they are first redirected to the Course View. However, it is possible to reach the Poll View from the Main View with one tap, by selecting a lecture for example. Furthermore, some views like the Question Pool View and the Answer Evaluation View do not offer buttons that allow to navigate back. The navigation relies partly on the corporate branding on the top left that when tapped will redirect to the Main View.
+This means that the interconnectedness between different views might not be strong enough.
+
+On the other hand, the burger menu connects several aspects and functionalities of AMCS in an overarching manner, as it is part of every view. Students have to tap on the icon to access menu that consists of sub menus as described in \todosct. 
+One visual problem that arises is the fact that the menu uses a lot of vertical screen space and delocates the rest of the content that is currently shown when several sub menus are expanded. An example as to why this is problematic might be the following scenario: a student wants to evaluate their answers to polls for a certain lecture. When opening the menus on their phone from the Main View, information like course name and lecture title are pushed down by the menu. But this information is required in the Answer Evaluation View because the user is asked to chose their course and lecture of interest from two drop down menus. This could lead to users having to return to the Main View to look up the lecture name or other details again.
+In addition to that, the menu can confuse students because the first menu entry is labeled as \emph{Student}. This implies to users in general that there exist different roles that a user can take on in AMCS, which is the case. However the user's role should not be the label of a sub menu in the navigation as it is not intuitive that functionality like account management, the Question Pool and Answer Evaluation can be accessed via a button labeled \emph{Student}.
 
 \subsubsection{Evaluation of answers}
 
 Clicking on the option “Evaluation of answers” button in the expanded burger menu leads to a view with a drop down menu from which students can choose a course that they are interested in. Afterwards, an list of expandable items is shown, where each item represents a lecture. Clicking on one or multiple of these items will expand a vertical list of questions similar to  the regular question list described in section \todosct, but answers given by the student are shown as well (see Fig. \todosct).
-Multiple problems occur on this view: First of all, the navigation path to reach this view contains unnecessary indirection and might not be intuitive enough. Students might expect this functionality to be located at the main view attached to the elements of the course list or inside the course view itself. Instead, every time evaluation of given answers is attempted, this functionality can only be accessed by using the burger menu, choosing the appropriate item from the sub menu, selecting the course in question and afterwards expand the lecture and the corresponding question list.
-\todo{Insert a graphic that visualizes the click path that is problematic}
+Multiple problems occur on this view: First of all, the navigation path to reach this view contains unnecessary indirection and might not be intuitive enough, which is again illustrated by Figure \ref{figure:clickpathproblems}. Students might expect this functionality to be located at the Main View attached to the elements of the course list or inside the Course View itself. Instead, every time evaluation of given answers is attempted, this functionality can only be accessed by using the burger menu, choosing the appropriate item from the sub menu, selecting the course in question and afterwards expand the lecture and the corresponding question list.
 Additionally, the question list suffers from the same rendering and navigation problems already described in \todosct. Questions are poorly navigable and a lot of scrolling is needed to jump between questions.
 
 
@@ -77,12 +79,25 @@ Additionally, the question list suffers from the same rendering and navigation p
 \begin{figure}[ht]
 	\centering
 	\includegraphics[width=\textwidth]{diagrams/amcs-click-paths.png}
-	\caption{um 30 Grad gedreht}
-	\label{fig1}
+	\caption{Navigation concept of AMCS: Every arrow represents a tap / click the user has to do to reach the desired destination.}
+	\label{figure:clickpathproblems}
 \end{figure}
 \subsubsection{Question Pool}
 
 The question pool suffers from the same navigation problems described in the previous section. Again, a drop down menu for selecting a course is shown before students can see the overview of the question pool. Once more, students might think that access to this functionality is located near the main view or the course view, which is not the case.
 
 \todo{Add a table that names and describes all analyzed weaknesses so that the proposals chapter can refer to this}
+
+
+\begin{table}[t]
+	{\renewcommand{\arraystretch}{2}
+		\begin{tabular}{ | p{1cm} | p{2.5cm} |  p{2.5cm} |  p{6cm} |}
+			\hline
+			ID & Name & Category & Summary \\ \hline \hline
+			Slide Poll (SP) & Test & Test & test \\ \hline
+		\end{tabular}
+	}
+	\caption{Different poll types that the user might encounter when using AMCS.}
+	\label{tab:problems}
+\end{table}
 

@@ -11,7 +11,7 @@ One challenge lays in the fact that the system has to deal with limited screen s
 As already described in section \todosct, the main view relies on a vertically scrolling list view, consisting of different sections. The layout in place causes problems regarding usability aspects of the application.
 
 \subsubsection{General Visualization Problems}
-
+\label{section:con:problems:mainview:generalvis}
 Section \todosct covered the fact, that lectures are rendered by displaying the title of the lecture in the top section of the box in white letters on a solid blue background. It is followed by detail information about the lecture such as time, duration and a textual description, visualized in grey letters and icons in a white screen. Finally, at the bottom of the box, the course name is shown in gray letters on a light blue background. The order "lecture name then details and then course name" can cause confusion to students.
 
 The most coarse grain piece of information - the course name - is displayed at the bottom of the box rather than at the top. Generally, when seeking information about active lectures, a student will most likely remember the course name rather than the name of a single lecture, as timetables used by students only contain course names.
@@ -36,7 +36,9 @@ This is a redundant way of rendering the courses which adds noise to the overall
 
 \subsection{Course View}
 \todo{Add this}
-the course view that is is essentially reusing the lecture list along with the sections “Upcoming lectures”, “Active lectures” and “Past lectures”.
+
+Since the course view reuses the lecture list along with the sections “Upcoming lectures”, “Active lectures” and “Past lectures”, likewise the same issues arise as for the main view, as already described in section \ref{section:con:problems:mainview:generalvis}. 
+The course view has a very important function in terms of usability as it acts as a filter for lectures belonging to a certain course. 
 
 \todogrf
 
@@ -61,7 +63,7 @@ Similar to the lecture list described in \todosct, the question list is also seg
 At the time of writing, the ways of navigating the application can be described as problematic and partly confusing. Several layers of indirection introduce problems and may worsen the user experience.
 The burger menu icon is located in the top right part of the header and offers most of the navigation functionality. Students have to tap on this icon to access menu that consists of sub menus as described in \todosct. 
 One problem that arises is the fact that the menu uses a lot of vertical screen space and delocates the rest of the content that is currently shown.
-In addition, the menu can be confusing to the student because the first entry is labeled as “Student”. This implies to users in general that there exist different roles that a user can take on in AMCS, which is the case. But the user's role should not be the label of a sub menu in the navigation as it is not intuitive that functionality like account management can be accessed via a button labeled "Student".
+In addition, the menu can be confusing to the student because the first entry is labeled as \emph{Student}. This implies to users in general that there exist different roles that a user can take on in AMCS, which is the case. But the user's role should not be the label of a sub menu in the navigation as it is not intuitive that functionality like account management can be accessed via a button labeled \emph{Student}.
 
 \subsubsection{Evaluation of answers}
 
@@ -70,6 +72,14 @@ Multiple problems occur on this view: First of all, the navigation path to reach
 \todo{Insert a graphic that visualizes the click path that is problematic}
 Additionally, the question list suffers from the same rendering and navigation problems already described in \todosct. Questions are poorly navigable and a lot of scrolling is needed to jump between questions.
 
+
+
+\begin{figure}[ht]
+	\centering
+	\includegraphics[width=\textwidth]{diagrams/amcs-click-paths.png}
+	\caption{um 30 Grad gedreht}
+	\label{fig1}
+\end{figure}
 \subsubsection{Question Pool}
 
 The question pool suffers from the same navigation problems described in the previous section. Again, a drop down menu for selecting a course is shown before students can see the overview of the question pool. Once more, students might think that access to this functionality is located near the main view or the course view, which is not the case.

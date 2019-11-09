@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7200 64-bit) (preloaded format=pdflatex 2019.11.6)  9 NOV 2019 12:37
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7200 64-bit) (preloaded format=pdflatex 2019.11.6)  9 NOV 2019 13:28
 entering extended mode
 **./sigplanconf-template.tex
 (sigplanconf-template.tex
@@ -1942,11 +1942,11 @@ LaTeX Warning: Marginpar on page 11 moved.
 
 LaTeX Warning: Marginpar on page 11 moved.
 
-<diagrams/amcs-click-paths.png, id=151, 645.41125pt x 593.21625pt>
+<diagrams/amcs-click-paths.png, id=151, 718.685pt x 927.465pt>
 File: diagrams/amcs-click-paths.png Graphic file (type png)
 <use diagrams/amcs-click-paths.png>
 Package pdftex.def Info: diagrams/amcs-click-paths.png  used on input line 79.
-(pdftex.def)             Requested size: 455.24417pt x 418.4257pt.
+(pdftex.def)             Requested size: 455.24417pt x 587.5044pt.
 [11]
 Overfull \hbox (2.34512pt too wide) in paragraph at lines 87--87
 \OT1/opensans-TLF/l/n/10.95 weak- 
@@ -1967,10 +1967,10 @@ Overfull \hbox (1.2972pt too wide) in paragraph at lines 87--87
 \OT1/opensans-TLF/l/n/10.95 chap- 
  []
 
-) [12 <./diagrams/amcs-click-paths.png>]
+) [12] [13 <./diagrams/amcs-click-paths.png>]
 \openout2 = `concept-proposals.aux'.
 
- (concept-proposals.tex [13
+ (concept-proposals.tex [14
 
 
 ]
@@ -2014,16 +2014,16 @@ Overfull \hbox (1.14172pt too wide) in paragraph at lines 29--29
  []
 
 
-LaTeX Warning: Marginpar on page 14 moved.
+LaTeX Warning: Marginpar on page 15 moved.
 
 
-LaTeX Warning: Marginpar on page 14 moved.
+LaTeX Warning: Marginpar on page 15 moved.
 
 
-LaTeX Warning: Marginpar on page 14 moved.
+LaTeX Warning: Marginpar on page 15 moved.
 
 
-LaTeX Warning: Marginpar on page 14 moved.
+LaTeX Warning: Marginpar on page 15 moved.
 
 
 Overfull \hbox (1.73521pt too wide) in paragraph at lines 33--33
@@ -2046,9 +2046,9 @@ Overfull \hbox (1.56549pt too wide) in paragraph at lines 33--33
  []
 
 
-LaTeX Warning: Marginpar on page 14 moved.
+LaTeX Warning: Marginpar on page 15 moved.
 
-[14]
+[15]
 Overfull \hbox (2.65501pt too wide) in paragraph at lines 46--46
 \OT1/opensans-TLF/l/n/10.95 about 
  []
@@ -2069,7 +2069,7 @@ Overfull \hbox (2.65501pt too wide) in paragraph at lines 49--49
  []
 
 
-LaTeX Warning: Marginpar on page 15 moved.
+LaTeX Warning: Marginpar on page 16 moved.
 
 
 Overfull \hbox (1.2972pt too wide) in paragraph at lines 51--51
@@ -2082,9 +2082,9 @@ Overfull \hbox (1.2972pt too wide) in paragraph at lines 51--51
  []
 
 
-LaTeX Warning: Marginpar on page 15 moved.
+LaTeX Warning: Marginpar on page 16 moved.
 
-) [15]
+) [16]
 \openout2 = `implementation.aux'.
 
  (implementation.tex)
@@ -2093,7 +2093,7 @@ LaTeX Warning: Marginpar on page 15 moved.
  (evaluation.tex)
 \openout2 = `conclusion.aux'.
 
- (conclusion.tex) [16
+ (conclusion.tex) [17
 
 
 
@@ -2101,7 +2101,7 @@ LaTeX Warning: Marginpar on page 15 moved.
 
 
 
-] [17
+] [18
 
 ]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 57.
@@ -2116,9 +2116,9 @@ Package rerunfilecheck Info: File `sigplanconf-template.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 38034 strings out of 492453
- 772591 string characters out of 3129817
- 1101349 words of memory out of 3000000
+ 38035 strings out of 492453
+ 772598 string characters out of 3129817
+ 1100349 words of memory out of 3000000
  41742 multiletter control sequences out of 15000+200000
  594717 words of font info for 130 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -2129,9 +2129,9 @@ eX 2.9/fonts/type1/ascender/opensans/OpenSans-Light.pfb><D:/Program Files/MiKTe
 X 2.9/fonts/type1/ascender/opensans/OpenSans-LightItalic.pfb><D:/Program Files/
 MiKTeX 2.9/fonts/type1/ascender/opensans/OpenSans-Regular.pfb><D:/Program Files
 /MiKTeX 2.9/fonts/type1/ascender/opensans/OpenSans-SemiBold.pfb>
-Output written on sigplanconf-template.pdf (17 pages, 166299 bytes).
+Output written on sigplanconf-template.pdf (18 pages, 171913 bytes).
 PDF statistics:
- 349 PDF objects out of 1000 (max. 8388607)
- 114 named destinations out of 1000 (max. 500000)
+ 354 PDF objects out of 1000 (max. 8388607)
+ 115 named destinations out of 1000 (max. 500000)
  391 words of extra memory for PDF output out of 10000 (max. 10000000)
 

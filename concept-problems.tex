@@ -1,25 +1,26 @@
 \chapter{Concept}
+\label{chapter:concept}
 This chapter will cover identified problems that occur when using AMCS via a web browser on mobile
 devices. To narrow down the extend of this work, the system is analyzed from the point of view that an audience member like a student has while using AMCS on their smartphone. When doing so, students will interact mostly with the Main View and the Navigation, which are the components that this work will focus on.
 
 \section{Problems of the mobile view}
-
+\label{section:con:problems}
 The web page of AMCS reacts on requests coming from mobile devices such as smartphones or tablets by providing a responsive mobile view to its clients. However, in some aspects AMCS struggles to offer a UI experience that guarantees high usability and uniformity across all end user devices.
 One challenge lays in the fact that the system has to deal with limited screen space to visualize information as effectively as possible. Additionally, users might approach the application with different ways of interaction and navigation in mind that are typical for mobile devices. For example, a smartphone user might expect to be able to use swiping gestures to navigate a menu or that information is organized in views consisting of separate tabs. This section lists key issues that lower usability or might cause confusion to users when using the system on a smartphone.
 
 \subsection{Main View}
-As already described in section \todosct, the main view relies on a vertically scrolling list view, consisting of different sections. The layout in place causes problems regarding usability aspects of the application.
+As already described in section \ref{section:soa:mainview}, the main view relies on a vertically scrolling list view, consisting of different sections. The layout in place causes problems regarding usability aspects of the application.
 
 \subsubsection{General Visualization Problems}
 \label{section:con:problems:mainview:generalvis}
-Section \todosct covered the fact, that lectures are rendered by displaying the title of the lecture in the top section of the box in white letters on a solid blue background. It is followed by detail information about the lecture such as time, duration and a textual description, visualized in gray letters and icons in a white screen. Finally, at the bottom of the box, the course name is shown in gray letters on a light blue background. The order "lecture name then details and then course name" can cause confusion to students.
+Section \ref{section:soa:mainview:lectures} covered the fact, that lectures are rendered by displaying the title of the lecture in the top section of the box in white letters on a solid blue background. It is followed by detail information about the lecture such as time, duration and a textual description, visualized in gray letters and icons in a white screen. Finally, at the bottom of the box, the course name is shown in gray letters on a light blue background. The order "lecture name then details and then course name" can cause confusion to students.
 
 The most coarse grain piece of information - the course name - is displayed at the bottom of the box rather than at the top. Generally, when seeking information about active lectures, a student will most likely remember the course name rather than the name of a single lecture, as timetables used by students only contain course names. Therefore, displaying the course information in this order might cause confusion and students take longer time to find the pieces of information that they are looking for.
 In addition to that, background colors and font size are used to differentiate between course name and lecture name, further supporting the ambiguity described above.
 
 \subsubsection{Indirection Problems}
 
-The boxes that represent each lecture claim a lot of screen space in relation to the information that is displayed to the student. The layout causes a lot of indirection, because per default, the sections for upcoming and active lectures are expanded fully. This might be handy when quickly gathering information about lectures that are or soon will be active, but in every other case it slows navigation and overall interaction, because the course management section is pushed down to the bottom of the page.
+The boxes that represent each lecture claim a lot of screen space in relation to the information that is displayed to the student (see Figure \ref{fig:mainview}). The layout causes a lot of indirection, because per default, the sections for upcoming and active lectures are expanded fully. This might be handy when quickly gathering information about lectures that are or soon will be active, but in every other case it slows navigation and overall interaction, because the course management section is pushed down to the bottom of the page.
 A list of only four boxes causes a scroll bar to appear on the very common screen resolution of 1920x1080 pixels. A student that navigates to the main view to enroll into a new course therefore always has to scroll to the bottom of the page before they reach the enrollment form. The same problem likewise occurs when simply seeking information about what courses a student is already enrolled in or when trying to leave a course altogether. 
 
 Further more, if a student looks for information regarding a specific course, no filter or search functionality is offered by the lecture list. Instead, they have to scroll down to the bottom of the lecture list, scan the course list manually with their eyeballs, find the course and click on the corresponding item. Finally, they are redirected to the course view. This level of indirection is only further increased the more courses the student is enrolled in. 
@@ -35,28 +36,27 @@ This is a redundant way of rendering the courses which adds noise to the overall
 
 \subsection{Course View}
 
-Since the course view reuses the lecture list along with the sections “Upcoming lectures”, “Active lectures” and “Past lectures”, likewise the same issues arise as for the main view, as already described in section \ref{section:con:problems:mainview:generalvis}. 
-The course view has a very important function in terms of usability as it acts as a filter for lectures belonging to a certain course. Problems arise, when a user wants to switch quickly between different courses. Doing so requires to leave the course view by tapping the back button and then scanning the course management section for the element of interest, which is slow and cumbersome.
-
-\todogrf
+Since the course view reuses the lecture list along with the sections “Upcoming lectures”, \emph{Active lectures} and \emph{Past lectures}, likewise the same issues arise as for the main view, as already described in section \ref{section:con:problems:mainview:generalvis}. 
+The course view has a very important function in terms of usability as it acts as a filter for lectures belonging to a certain course. Problems arise, when a user wants to switch quickly between different courses. Doing so requires to leave the course view by tapping the back button and then scanning the course management section for the element of interested, which is slow and cumbersome. This is explained in more detail in section \ref{section:con:problems:navigation}
 
 \subsection{Poll View}
 
 \subsubsection{Rendering}
 
-Section \todosct describes the rendering of questions as boxes that are aligned in a vertical scrolling list. This introduces similar problems as already described in section 3.1, namely the extensive use of vertical space on the screen. Bigger polls that consist of multiple questions unnecessarily take a lot of vertical screen estate. The view also lacks of basic information such as number of questions in total or number of remaining questions that might be useful in bigger polls if students want to gain an overview of how many questions are left.
-Answering one question usually does not require to see the neighboring questions, but most of the time, two to three questions are in view simultaneously. This might be distracting to some students.
-\todo{Provide screenshots and explain this better.}
+Section \ref{section:soa:pollview} describes the rendering of questions as boxes that are aligned in a vertical scrolling list. Namely the extensive use of vertical space on the screen is one problem introduced by this layout. Bigger polls that consist of multiple questions unnecessarily take a lot of vertical screen estate. The view also lacks of basic information such as number of questions in total or number of remaining questions that might be useful in bigger polls if students want to gain an overview of how many questions are left.
+Answering one question usually does not require to see the neighboring questions, but most of the time, two to three questions are in view simultaneously (see Figure \todosct). This might be distracting to some students.
+\todogrf
 Additionally, the layout lacks of separation and distinction between types of polls.
 Different types of polls are simply appended to the bottom of the list, making it even longer.
-
+\todogrf
 \subsubsection{Local navigation}
 
 The vertical list is difficult to navigate as it requires scrolling between questions. If a student wants to jump from the first to the last question,  or vice versa, several swiping gestures are needed to reach the top or the bottom of the list.
-Similar to the lecture list described in \todosct, the question list is also segmented into different sections. Lecture and course questions are similarly appended to the bottom of a slide poll. This means again, that a student that wants to view these questions has to scroll all the way to the bottom of the list. Again, this layout introduces a lot of indirection and is not intuitive to the user.
+Similar to the lecture list described in \ref{section:soa:mainview:lectures}, the question list is also segmented into different sections. Lecture and course questions are similarly appended to the bottom of a slide poll. This means again, that a student that wants to view these questions has to scroll all the way to the bottom of the list. Again, this layout introduces a lot of indirection and is not intuitive to the user.
 
 
 \subsection{Burger Menu and Navigation}
+\label{section:con:problems:navigation}
 
 At the time of writing, the ways of navigating the application can be described as problematic and partly confusing. Several layers of indirection introduce problems and may worsen the user experience.
 Figure \ref{figure:clickpathproblems} illustrates that the click paths a user must take in order to reach different views (illustrated in blue) within AMCS. In general, some views are connected via the burger menu as the overarching element of navigation (illustrated in green). In contrast, other views are interconnected and can be reached by clicking on elements inside a view such as a course or lecture. The following paragraphs elaborate more on both aspects of navigation.

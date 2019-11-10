@@ -1,26 +1,60 @@
 \chapter{State of the art}
 \label{chapter:stateoftheart}
-At the time of writing, AMCS offers front end applications for iOS, Android and web that students can use. As already mentioned in \todosct this work will focus on the web view / web page of AMCS.
+At the time of writing, AMCS offers front end applications for iOS, Android and web that students can use. As already mentioned in section \ref{section:intro:objective} this work will focus on the web view / web page of AMCS.
 This section elaborates on the current state of the system by identifying and analyzing all views that allow for access to the different functionalities of AMCS from a student's point of view. 
 
+\section{Web Technology}
+The AMCS web page is written using Angular\footnote{https://angular.io}, a typescript-based front end framework for building mobile and desktop web applications.
 
-\section{Landing Page}
+\section{Landing Page and Login}
 \label{section:landingpage}
-When accessing the website via \emph{https://amcs.website}, students will be shown the landing page of AMCS.
-\todo{Describe in more detail how it looks like and mention the enrollment form}
-In order to use the system, students have to create an account by providing credentials. Additionally, a subscription to lectures is mandatory. By typing in an optional PIN code. From thereon, students gain access to the system. 
-\todogrf
+When accessing the website\footnote{https://amcs.website}, students will be shown the landing page of AMCS (see Figure \ref{fig:landingpage}). A big login button is displayed that when pressed on will reveal a login form (see Figure \ref{fig:loginform}).
+In order to use the system, students have to create an account by providing credentials. Additionally, a subscription to lectures is mandatory in order to reasonably use the service. By typing in an optional PIN code, students will subscribe automatically to the corresponding course. From thereon, students have access to the system. 
+ 
+\begin{figure}
+	\centering
+	\begin{minipage}[t]{.5\textwidth}
+		\centering
+  		\includegraphics[width=0.95\linewidth]{screenshots/landing_page.jpg}
+		\captionsetup{width=.8\linewidth}
+		\caption{The landing page of AMCS. This is the initial screen shown when accessing \emph{https://amcs.website}}
+		\label{fig:landingpage}
+	\end{minipage}%
+	\begin{minipage}[t]{.5\textwidth}
+		\centering
+		\includegraphics[width=0.95\linewidth]{screenshots/login_form.jpg}
+		\captionsetup{width=.8\linewidth}
+		\caption{The login form of AMCS. Users can choose a synonym and a password to create an account.}
+		\label{fig:loginform}
+	\end{minipage}
+\end{figure}
  
 \section{Main View}
 \label{section:soa:mainview}
-After successfully logging in, the user is presented with the main view of the system.
+After successfully logging in, the user is presented with the main view of the system (see Figure \ref{fig:mainview}).
 It can be scrolled in the vertical direction and is divided into header and body. On top, the header consists of corporate branding on the left side and a burger menu on the right side. Below it, the view's body organizes information in different sections as follows:
 
-\todogrf
+\begin{figure}
+	\centering
+	\begin{minipage}[t]{.5\textwidth}
+		\centering
+		\includegraphics[width=0.95\linewidth]{screenshots/main_view_1.jpg}
+		\captionsetup{width=.8\linewidth}
+		\caption{Main View: Lecture information is provided in different sections for each temporal context. Per default, a section with proposed lectures is expanded.}
+		\label{fig:mainview}
+	\end{minipage}%
+	\begin{minipage}[t]{.5\textwidth}
+		\centering
+		\includegraphics[width=0.95\linewidth]{screenshots/main_view_course_management.jpg}
+		\captionsetup{width=.8\linewidth}
+		\caption{Course management below Lectures: Each course is listed below an enrollment form consisting of a PIN input and a submit button.}
+		\label{fig:mainviewcoursemanagement}
+	\end{minipage}
+\end{figure}
 
 \subsection{Lectures}
 \label{section:soa:mainview:lectures}
-This section lists all lectures that the user subscribed to. It is organized in subsections that indicate the temporal context of each lecture. These include:
+This section lists all lectures that the user subscribed to (see Figure \ref{fig:mainview}). It is organized in subsections that indicate the temporal context of each lecture. These include:
 
 \paragraph{Upcoming lectures} - Lectures that will take place in the future are shown here.
 \paragraph{Active lectures} - Lectures that take place right now are shown here.
@@ -28,16 +62,21 @@ This section lists all lectures that the user subscribed to. It is organized in 
 
 \paragraph{Rendering of lectures}
 
-Each of the aforementioned subsections is organized in a list that contains all corresponding lectures (see \todosct). For each lecture, a box is rendered that uses all horizontal space available to it. The box consists of a blue header with the lecture's name, a white info/detail area and a light blue footer that contains the course this lecture belongs to.
+Each of the aforementioned subsections is organized in a list that contains all corresponding lectures. For each lecture, a box is rendered that uses all horizontal space available to it. The box consists of a blue header with the lecture's name, a white info/detail area and a light blue footer that contains the course this lecture belongs to.
 A color-coded badge on the top right of the boxes serves as an indicator for the temporal context of the lecture.
 
 \todo{add graphic of badges}
 
 
+\subsection{Course management}
+
+Further down on the page, the section \emph{Enrolled Courses} can be found (see Figure \ref{fig:mainviewcoursemanagement}). It serves two purposes: Primarily, it provides a way to enroll into a course. An enrollment form is shown that consists of a text field to enter the course PIN and a blue button to trigger the enrollment (see Fig.1). When provided with a valid PIN, pressing the button redirects the user to the course view (described in section \ref{section:soa:courseview})  on successful enrollment.
+Secondly, the view shows all courses the student is currently enrolled in. They are rendered as light blue buttons in a vertical list. A trash can icon on each button provides a way to leave the given course.
 
 \section{Poll View}
+\label{section:soa:pollview}
 Answering polls is one of the main functionalities of the system that users will engage with.
-Polls can be reached by clicking on a lecture box as described in \todosct.
+Polls can be reached by clicking on a lecture box from either the Main View or the Course View.
 Each poll consists of a set of questions the user can answer. They are rendered in a view that is reused  by the system depending on the situation and context. This means that the view might only be accessible under certain circumstances, for example when the lecture reaches a specific point in time, making it a slide poll (SP). SPs are shown when a specific slide is on display and can only be answered in this very moment. Other types of polls include “global” course polls (CP) that are always accessible during the semester and lecture polls (LP) that can only be answered during the life time of a lecture. The different types of polls that occur in AMCS are further summarized in Table \ref{tab:pollTypes}.
 
 If no polls for a given lecture are available, the user is presented with the hint shown in \todogrf.
@@ -59,18 +98,29 @@ If no polls for a given lecture are available, the user is presented with the hi
 	\label{tab:pollTypes}
 \end{table}
 
-\subsection{Course management}
-
-Further down on the page, the section "Courses" can be found. It serves two purposes: Primarily, it provides a way to enroll into a course. An enrollment form is shown that consists of a text field to enter the course PIN and a blue button to trigger the enrollment (see Fig.1). When provided with a valid PIN, pressing the button redirects the user to the course view (described in section \ref{section:soa:courseview})  on successful enrollment.
-Secondly, the view shows all courses the student is currently enrolled in. They are rendered as light blue buttons in a vertical list. A trash can icon on each button provides a way to leave the given course.
-
 \section{Course View}
 \label{section:soa:courseview}
 
-The course view is shown when the user selects one of the courses from the course management section. Its purpose is essentially to provide a filtered view on the lectures of a single course.
+The course view is shown when the user selects one of the courses from the course management section (see Figure \ref{fig:courseview} and \ref{fig:courseviewlectures}). Its purpose is essentially to provide a filtered view on the lectures of a single course.
 The course name and PIN, it's description and lists of upcoming, live and past lectures are shown from top to bottom in this order to the user. It reuses the lecture sections component described in section \ref{section:soa:mainview:lectures}.
 
-\todogrf
+\begin{figure}
+	\centering
+	\begin{minipage}[t]{.5\textwidth}
+		\centering
+		\includegraphics[width=0.95\linewidth]{screenshots/course_view_1.jpg}
+		\captionsetup{width=.8\linewidth}
+		\caption{Course View: Details like the course name, description and PIN are displayed.}
+		\label{fig:courseview}
+	\end{minipage}%
+	\begin{minipage}[t]{.5\textwidth}
+		\centering
+		\includegraphics[width=0.95\linewidth]{screenshots/course_view_3.jpg}
+		\captionsetup{width=.8\linewidth}
+		\caption{Lectures that belong to a certain course displayed in the Course View.}
+		\label{fig:courseviewlectures}
+	\end{minipage}
+\end{figure}
 
 
 \section{Menu and Navigation}
@@ -78,7 +128,7 @@ Besides by using the main view, additional functionality can be reached by navig
 
 \subsection{Student}
 
-This is one of the most important buttons that offers access to a subset of main functionalities of AMCS. Upon pressing this button, the menu expands again vertically, showing a list of further sub menus. Most of the functionalities shown in this list will be touched by the proposals for improvement that are presented section \todosct. The functionalities in questions are:
+This is one of the most important buttons that offers access to a subset of main functionalities of AMCS. Upon pressing this button, the menu expands again vertically, showing a list of further sub menus. Most of the functionalities shown in this list will be touched by the proposals for improvement that are presented in chapter \ref{chapter:concept}. The functionalities in questions are:
 
 \begin{enumerate}
 	\item Question Pool
@@ -96,8 +146,6 @@ This help page is rendered identical on all mobile devices and therefore falls o
 
 As the name already states, pressing this button will logout the user and end the session. 
 If logging out was successful, the landing page of AMCS is shown.
-
-
 
 \subsection{Question Pool}
 

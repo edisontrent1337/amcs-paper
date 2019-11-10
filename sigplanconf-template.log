@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7200 64-bit) (preloaded format=pdflatex 2019.11.6)  9 NOV 2019 14:55
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7200 64-bit) (preloaded format=pdflatex 2019.11.6)  10 NOV 2019 20:38
 entering extended mode
 **./sigplanconf-template.tex
 (sigplanconf-template.tex
@@ -945,6 +945,25 @@ Package shellesc Info: Restricted shell escape enabled on input line 72.
 Package: transparent 2018/11/18 v1.3 Transparency via pdfTeX's color stack (HO)
 
 )
+("D:\Program Files\MiKTeX 2.9\tex/latex/caption\caption.sty"
+Package: caption 2019/09/01 v3.3d Customizing captions (AR)
+
+("D:\Program Files\MiKTeX 2.9\tex/latex/caption\caption3.sty"
+Package: caption3 2019/09/01 v1.8d caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 64.
+\captionmargin=\dimen258
+\captionmargin@=\dimen259
+\captionwidth=\dimen260
+\caption@tempdima=\dimen261
+\caption@indent=\dimen262
+\caption@parindent=\dimen263
+\caption@hangindent=\dimen264
+)
+Package caption Info: KOMA-Script document class.
+\c@caption@flags=\count293
+\c@ContinuedFloat=\count294
+Package caption Info: hyperref package is loaded.
+)
 ("D:\Program Files\MiKTeX 2.9\tex/latex/tudscr\tudscrcolor.sty"
 Package: tudscrcolor 2019/10/23 v2.06e TUD-Script package (corporate design col
 ors)
@@ -955,16 +974,16 @@ File: omliwona.fd 2008/07/22 v0.995 font definition file for OML/iwona (MW)
 ("D:\Program Files\MiKTeX 2.9\tex/latex/iwona\omsiwona.fd"
 File: omsiwona.fd 2008/07/22 v0.995 font definition file for OMS/iwona (MW)
 )
-LaTeX Info: Redefining \textcdln on input line 13.
-LaTeX Info: Redefining \textcdrn on input line 13.
-LaTeX Info: Redefining \textcdsn on input line 13.
-LaTeX Info: Redefining \textcdbn on input line 13.
-LaTeX Info: Redefining \textcdxn on input line 13.
-LaTeX Info: Redefining \textcdli on input line 13.
-LaTeX Info: Redefining \textcdri on input line 13.
-LaTeX Info: Redefining \textcdsi on input line 13.
-LaTeX Info: Redefining \textcdbi on input line 13.
-LaTeX Info: Redefining \textcdxi on input line 13.
+LaTeX Info: Redefining \textcdln on input line 14.
+LaTeX Info: Redefining \textcdrn on input line 14.
+LaTeX Info: Redefining \textcdsn on input line 14.
+LaTeX Info: Redefining \textcdbn on input line 14.
+LaTeX Info: Redefining \textcdxn on input line 14.
+LaTeX Info: Redefining \textcdli on input line 14.
+LaTeX Info: Redefining \textcdri on input line 14.
+LaTeX Info: Redefining \textcdsi on input line 14.
+LaTeX Info: Redefining \textcdbi on input line 14.
+LaTeX Info: Redefining \textcdxi on input line 14.
 
 ("D:\Program Files\MiKTeX 2.9\tex/latex/mathastext\mathastext.sty"
 Package: mathastext 2019/09/19 v1.3v Use the text font in math mode (JFB)
@@ -1352,14 +1371,14 @@ File: lgrenc.dfu 2019/07/11 1.7 UTF-8 support for Greek
 )
 \symtudupgrk=\mathgroup6
 LaTeX Font Info:    Overwriting symbol font `tudupgrk' in version `bold'
-(Font)                  LGR/cmr/m/n --> LGR/cmr/bx/n on input line 13.
+(Font)                  LGR/cmr/m/n --> LGR/cmr/bx/n on input line 14.
 \symtuditgrk=\mathgroup7
 LaTeX Font Info:    Overwriting symbol font `tuditgrk' in version `bold'
-(Font)                  LGR/cmr/m/it --> LGR/cmr/bx/it on input line 13.
-\c@mv@tudnormal=\count293
+(Font)                  LGR/cmr/m/it --> LGR/cmr/bx/it on input line 14.
+\c@mv@tudnormal=\count295
 LaTeX Font Info:    Overwriting symbol font `mtletterfont' in version `tudnorma
 l'
-(Font)                  OT1/cmr/m/n --> OT1/opensans-TLF/l/it on input line 13.
+(Font)                  OT1/cmr/m/n --> OT1/opensans-TLF/l/it on input line 14.
 
 
 ** Latin letters in math version `tudnormal' will use the font OT1/opensans-TLF
@@ -1368,14 +1387,14 @@ l'
 LaTeX Font Info:    Overwriting math alphabet `\mathnormalbold' in version `tud
 normal'
 (Font)                  OT1/cmr/bx/n --> OT1/opensans-TLF/bx/it on input line 1
-3.
+4.
 LaTeX Font Info:    Overwriting symbol font `mtoperatorfont' in version `tudnor
 mal'
-(Font)                  OT1/cmr/m/n --> OT1/opensans-TLF/l/n on input line 13.
-\c@mv@tudbold=\count294
+(Font)                  OT1/cmr/m/n --> OT1/opensans-TLF/l/n on input line 14.
+\c@mv@tudbold=\count296
 LaTeX Font Info:    Overwriting symbol font `mtletterfont' in version `tudbold'
 
-(Font)                  OT1/cmr/m/n --> OT1/opensans-TLF/m/it on input line 13.
+(Font)                  OT1/cmr/m/n --> OT1/opensans-TLF/m/it on input line 14.
 
 ** Latin letters in math version `tudbold' will use the font OT1/opensans-TLF/m
 /it
@@ -1383,73 +1402,73 @@ LaTeX Font Info:    Overwriting symbol font `mtletterfont' in version `tudbold'
 LaTeX Font Info:    Overwriting math alphabet `\mathnormalbold' in version `tud
 bold'
 (Font)                  OT1/cmr/bx/n --> OT1/opensans-TLF/bx/it on input line 1
-3.
+4.
 LaTeX Font Info:    Overwriting symbol font `mtoperatorfont' in version `tudbol
 d'
-(Font)                  OT1/cmr/m/n --> OT1/opensans-TLF/m/n on input line 13.
+(Font)                  OT1/cmr/m/n --> OT1/opensans-TLF/m/n on input line 14.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `tudnormal'
-(Font)                  OT1/cmr/m/n --> OT1/iwona/l/n on input line 13.
+(Font)                  OT1/cmr/m/n --> OT1/iwona/l/n on input line 14.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `tudbold'
-(Font)                  OT1/cmr/m/n --> OT1/iwona/m/n on input line 13.
+(Font)                  OT1/cmr/m/n --> OT1/iwona/m/n on input line 14.
 LaTeX Font Info:    Overwriting symbol font `letters' in version `tudnormal'
-(Font)                  OML/cmm/m/it --> OML/iwona/l/it on input line 13.
+(Font)                  OML/cmm/m/it --> OML/iwona/l/it on input line 14.
 LaTeX Font Info:    Overwriting symbol font `letters' in version `tudbold'
-(Font)                  OML/cmm/m/it --> OML/iwona/m/it on input line 13.
+(Font)                  OML/cmm/m/it --> OML/iwona/m/it on input line 14.
 LaTeX Font Info:    Overwriting symbol font `symbols' in version `tudnormal'
-(Font)                  OMS/cmsy/m/n --> OMS/iwona/l/n on input line 13.
+(Font)                  OMS/cmsy/m/n --> OMS/iwona/l/n on input line 14.
 LaTeX Font Info:    Overwriting symbol font `symbols' in version `tudbold'
-(Font)                  OMS/cmsy/m/n --> OMS/iwona/m/n on input line 13.
+(Font)                  OMS/cmsy/m/n --> OMS/iwona/m/n on input line 14.
 LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `tudnorma
 l'
-(Font)                  OMX/cmex/m/n --> OMX/iwona/l/n on input line 13.
+(Font)                  OMX/cmex/m/n --> OMX/iwona/l/n on input line 14.
 LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `tudbold'
 
-(Font)                  OMX/cmex/m/n --> OMX/iwona/m/n on input line 13.
+(Font)                  OMX/cmex/m/n --> OMX/iwona/m/n on input line 14.
 LaTeX Font Info:    Overwriting symbol font `tudupgrk' in version `tudnormal'
-(Font)                  LGR/cmr/m/n --> LGR/opensans-TLF/l/n on input line 13.
+(Font)                  LGR/cmr/m/n --> LGR/opensans-TLF/l/n on input line 14.
 LaTeX Font Info:    Overwriting symbol font `tuditgrk' in version `tudnormal'
-(Font)                  LGR/cmr/m/it --> LGR/opensans-TLF/l/it on input line 13
+(Font)                  LGR/cmr/m/it --> LGR/opensans-TLF/l/it on input line 14
 .
 LaTeX Font Info:    Overwriting symbol font `tudupgrk' in version `tudbold'
-(Font)                  LGR/cmr/m/n --> LGR/opensans-TLF/m/n on input line 13.
+(Font)                  LGR/cmr/m/n --> LGR/opensans-TLF/m/n on input line 14.
 LaTeX Font Info:    Overwriting symbol font `tuditgrk' in version `tudbold'
-(Font)                  LGR/cmr/m/it --> LGR/opensans-TLF/m/it on input line 13
+(Font)                  LGR/cmr/m/it --> LGR/opensans-TLF/m/it on input line 14
 .
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `tudnormal'
-(Font)                  OT1/iwona/l/n --> OT1/opensans-TLF/l/n on input line 13
+(Font)                  OT1/iwona/l/n --> OT1/opensans-TLF/l/n on input line 14
 .
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `tudbold'
-(Font)                  OT1/iwona/m/n --> OT1/opensans-TLF/m/n on input line 13
+(Font)                  OT1/iwona/m/n --> OT1/opensans-TLF/m/n on input line 14
 .
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `tudnormal'
-(Font)                  OT1/cmr/bx/n --> OT1/opensans-TLF/m/n on input line 13.
+(Font)                  OT1/cmr/bx/n --> OT1/opensans-TLF/m/n on input line 14.
 
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `tudbold'
-(Font)                  OT1/cmr/bx/n --> OT1/opensans-TLF/sb/n on input line 13
+(Font)                  OT1/cmr/bx/n --> OT1/opensans-TLF/sb/n on input line 14
 .
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `tudnormal'
-(Font)                  OT1/cmss/m/n --> OT1/opensans-TLF/l/n on input line 13.
+(Font)                  OT1/cmss/m/n --> OT1/opensans-TLF/l/n on input line 14.
 
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `tudbold'
-(Font)                  OT1/cmss/m/n --> OT1/opensans-TLF/m/n on input line 13.
+(Font)                  OT1/cmss/m/n --> OT1/opensans-TLF/m/n on input line 14.
 
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `tudnormal'
-(Font)                  OT1/cmr/m/it --> OT1/opensans-TLF/l/it on input line 13
+(Font)                  OT1/cmr/m/it --> OT1/opensans-TLF/l/it on input line 14
 .
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `tudbold'
-(Font)                  OT1/cmr/m/it --> OT1/opensans-TLF/m/it on input line 13
+(Font)                  OT1/cmr/m/it --> OT1/opensans-TLF/m/it on input line 14
 .
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `tudnormal'
-(Font)                  OT1/cmtt/m/n --> OT1/tudtt/l/n on input line 13.
+(Font)                  OT1/cmtt/m/n --> OT1/tudtt/l/n on input line 14.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `tudbold'
-(Font)                  OT1/cmtt/m/n --> OT1/tudtt/m/n on input line 13.
+(Font)                  OT1/cmtt/m/n --> OT1/tudtt/m/n on input line 14.
 LaTeX Font Info:    Overwriting math alphabet `\mathcal' in version `tudnormal'
 
-(Font)                  OMS/iwona/l/n --> U/eus/m/n on input line 13.
+(Font)                  OMS/iwona/l/n --> U/eus/m/n on input line 14.
 LaTeX Font Info:    Overwriting math alphabet `\mathcal' in version `tudbold'
-(Font)                  OMS/iwona/m/n --> U/eus/b/n on input line 13.
+(Font)                  OMS/iwona/m/n --> U/eus/b/n on input line 14.
 LaTeX Font Info:    Trying to load font information for OT1+opensans-TLF on inp
-ut line 13.
+ut line 14.
 ("D:\Program Files\MiKTeX 2.9\tex/latex/opensans\ot1opensans-tlf.fd"
 File: OT1opensans-TLF.fd 2019/06/24 Font definitions for OT1/opensans-TLF.
 )
@@ -1488,78 +1507,78 @@ Package typearea Info: These are the values describing the layout:
 (typearea)              \topskip        = 11.0pt
 (typearea)              \footskip       = 47.6pt
 (typearea)              \baselineskip   = 13.6pt
-(typearea)              on input line 13.
+(typearea)              on input line 14.
 
 (sigplanconf-template.aux (introduction.aux) (state-of-the-art.aux)
 (concept-problems.aux) (concept-proposals.aux) (implementation.aux)
 (evaluation.aux) (conclusion.aux))
 \openout1 = `sigplanconf-template.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for LGR/cmr/m/n on input line 13.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for LGR/cmr/m/n on input line 14.
 LaTeX Font Info:    Trying to load font information for LGR+cmr on input line 1
-3.
+4.
 
 ("D:\Program Files\MiKTeX 2.9\tex/latex/cbfonts-fd\lgrcmr.fd"
 File: lgrcmr.fd 2017/07/29 v1.2 Greek European Computer Regular
 )
-LaTeX Font Info:    ... okay on input line 13.
-Package scrbase Info: activating ngerman \graduationtext on input line 13.
-Package scrbase Info: activating ngerman \refereename on input line 13.
-Package scrbase Info: activating ngerman \refereeothername on input line 13.
-Package scrbase Info: activating ngerman \advisorname on input line 13.
-Package scrbase Info: activating ngerman \advisorothername on input line 13.
-Package scrbase Info: activating ngerman \supervisorname on input line 13.
-Package scrbase Info: activating ngerman \supervisorothername on input line 13.
+LaTeX Font Info:    ... okay on input line 14.
+Package scrbase Info: activating ngerman \graduationtext on input line 14.
+Package scrbase Info: activating ngerman \refereename on input line 14.
+Package scrbase Info: activating ngerman \refereeothername on input line 14.
+Package scrbase Info: activating ngerman \advisorname on input line 14.
+Package scrbase Info: activating ngerman \advisorothername on input line 14.
+Package scrbase Info: activating ngerman \supervisorname on input line 14.
+Package scrbase Info: activating ngerman \supervisorothername on input line 14.
 
-Package scrbase Info: activating ngerman \professorname on input line 13.
-Package scrbase Info: activating ngerman \professorothername on input line 13.
-Package scrbase Info: activating ngerman \datetext on input line 13.
-Package scrbase Info: activating ngerman \dateofbirthtext on input line 13.
-Package scrbase Info: activating ngerman \placeofbirthtext on input line 13.
-Package scrbase Info: activating ngerman \defensedatetext on input line 13.
+Package scrbase Info: activating ngerman \professorname on input line 14.
+Package scrbase Info: activating ngerman \professorothername on input line 14.
+Package scrbase Info: activating ngerman \datetext on input line 14.
+Package scrbase Info: activating ngerman \dateofbirthtext on input line 14.
+Package scrbase Info: activating ngerman \placeofbirthtext on input line 14.
+Package scrbase Info: activating ngerman \defensedatetext on input line 14.
 Package scrbase Info: activating ngerman \matriculationyearname on input line 1
-3.
+4.
 Package scrbase Info: activating ngerman \matriculationnumbername on input line
- 13.
-Package scrbase Info: activating ngerman \coverpagename on input line 13.
-Package scrbase Info: activating ngerman \titlepagename on input line 13.
-Package scrbase Info: activating ngerman \titlename on input line 13.
-Package scrbase Info: activating ngerman \confirmationname on input line 13.
-Package scrbase Info: activating ngerman \confirmationtext on input line 13.
-Package scrbase Info: activating ngerman \blockingname on input line 13.
-Package scrbase Info: activating ngerman \blockingtext on input line 13.
-Package scrbase Info: activating ngerman \coursename on input line 13.
-Package scrbase Info: activating ngerman \disciplinename on input line 13.
-Package scrbase Info: activating ngerman \listingname on input line 13.
-Package scrbase Info: activating ngerman \listlistingname on input line 13.
-Package scrbase Info: activating ngerman \dissertationname on input line 13.
-Package scrbase Info: activating ngerman \diplomathesisname on input line 13.
-Package scrbase Info: activating ngerman \masterthesisname on input line 13.
-Package scrbase Info: activating ngerman \bachelorthesisname on input line 13.
-Package scrbase Info: activating ngerman \studentthesisname on input line 13.
-Package scrbase Info: activating ngerman \studentresearchname on input line 13.
+ 14.
+Package scrbase Info: activating ngerman \coverpagename on input line 14.
+Package scrbase Info: activating ngerman \titlepagename on input line 14.
+Package scrbase Info: activating ngerman \titlename on input line 14.
+Package scrbase Info: activating ngerman \confirmationname on input line 14.
+Package scrbase Info: activating ngerman \confirmationtext on input line 14.
+Package scrbase Info: activating ngerman \blockingname on input line 14.
+Package scrbase Info: activating ngerman \blockingtext on input line 14.
+Package scrbase Info: activating ngerman \coursename on input line 14.
+Package scrbase Info: activating ngerman \disciplinename on input line 14.
+Package scrbase Info: activating ngerman \listingname on input line 14.
+Package scrbase Info: activating ngerman \listlistingname on input line 14.
+Package scrbase Info: activating ngerman \dissertationname on input line 14.
+Package scrbase Info: activating ngerman \diplomathesisname on input line 14.
+Package scrbase Info: activating ngerman \masterthesisname on input line 14.
+Package scrbase Info: activating ngerman \bachelorthesisname on input line 14.
+Package scrbase Info: activating ngerman \studentthesisname on input line 14.
+Package scrbase Info: activating ngerman \studentresearchname on input line 14.
 
-Package scrbase Info: activating ngerman \projectpapername on input line 13.
-Package scrbase Info: activating ngerman \seminarpapername on input line 13.
-Package scrbase Info: activating ngerman \termpapername on input line 13.
-Package scrbase Info: activating ngerman \researchname on input line 13.
-Package scrbase Info: activating ngerman \logname on input line 13.
-Package scrbase Info: activating ngerman \internshipname on input line 13.
-Package scrbase Info: activating ngerman \reportname on input line 13.
+Package scrbase Info: activating ngerman \projectpapername on input line 14.
+Package scrbase Info: activating ngerman \seminarpapername on input line 14.
+Package scrbase Info: activating ngerman \termpapername on input line 14.
+Package scrbase Info: activating ngerman \researchname on input line 14.
+Package scrbase Info: activating ngerman \logname on input line 14.
+Package scrbase Info: activating ngerman \internshipname on input line 14.
+Package scrbase Info: activating ngerman \reportname on input line 14.
 
 *geometry* detected driver: <none>
 *geometry* verbose mode - [ preamble ] result:
@@ -1596,16 +1615,16 @@ Package scrbase Info: activating ngerman \reportname on input line 13.
 
 ("D:\Program Files\MiKTeX 2.9\tex/context/base/mkii\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count295
-\scratchdimen=\dimen258
+\scratchcounter=\count297
+\scratchdimen=\dimen265
 \scratchbox=\box73
-\nofMPsegments=\count296
-\nofMParguments=\count297
+\nofMPsegments=\count298
+\nofMParguments=\count299
 \everyMPshowfont=\toks39
-\MPscratchCnt=\count298
-\MPscratchDim=\dimen259
-\MPnumerator=\count299
-\makeMPintoPDFobject=\count300
+\MPscratchCnt=\count300
+\MPscratchDim=\dimen266
+\MPnumerator=\count301
+\makeMPintoPDFobject=\count302
 \everyMPtoPDFconversion=\toks40
 ) ("D:\Program Files\MiKTeX 2.9\tex/latex/oberdiek\epstopdf-base.sty"
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
@@ -1625,10 +1644,10 @@ ABD: EveryShipout initializing macros
 Package todonotes Warning: The length marginparwidth is less than 2cm and will 
 most likely cause issues with the appearance of inserted todonotes. The issue c
 an be solved by adding a line like \setlength {\marginparwidth }{2cm} prior to 
-loading the todonotes package. on input line 13.
+loading the todonotes package. on input line 14.
 
 \AtBeginShipoutBox=\box74
-Package hyperref Info: Link coloring OFF on input line 13.
+Package hyperref Info: Link coloring OFF on input line 14.
 ("D:\Program Files\MiKTeX 2.9\tex/latex/hyperref\nameref.sty"
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
 
@@ -1638,11 +1657,11 @@ Package: refcount 2016/05/16 v3.5 Data extraction from label references (HO)
 ("D:\Program Files\MiKTeX 2.9\tex/generic/oberdiek\gettitlestring.sty"
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count301
+\c@section@level=\count303
 )
-LaTeX Info: Redefining \ref on input line 13.
-LaTeX Info: Redefining \pageref on input line 13.
-LaTeX Info: Redefining \nameref on input line 13.
+LaTeX Info: Redefining \ref on input line 14.
+LaTeX Info: Redefining \pageref on input line 14.
+LaTeX Info: Redefining \nameref on input line 14.
 
 (sigplanconf-template.out) (sigplanconf-template.out)
 \@outlinefile=\write4
@@ -1655,7 +1674,7 @@ Class scrreprt Info: loading recommended package `bookmark'.
 (scrreprt)           `bookmarkpackage=false' before \begin{document} and
 (scrreprt)           you can avoid this message adding:
 (scrreprt)             \usepackage{bookmark}
-(scrreprt)           before \begin{document} on input line 13.
+(scrreprt)           before \begin{document} on input line 14.
 
 ("D:\Program Files\MiKTeX 2.9\tex/latex/oberdiek\bookmark.sty"
 Package: bookmark 2019/06/04 v1.27 PDF bookmarks (HO)
@@ -1665,30 +1684,33 @@ File: bkm-pdftex.def 2019/06/04 v1.27 bookmark driver for pdfTeX (HO)
 Package auxhook Info: \AddLineBeginMainAux comes a little late,
 (auxhook)             because the main .aux file is already opened on input lin
 e 164.
-\BKM@id=\count302
+\BKM@id=\count304
 ))
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: End \AtBeginDocument code.
+
 ** ...entering subdued mode...
 LaTeX Font Info:    Encoding `OT1' has changed to `OML' for symbol font
 (Font)              `mtletterfont' in the math version `normal' on input line 1
-3.
+4.
 LaTeX Font Info:    Overwriting symbol font `mtletterfont' in version `normal'
-(Font)                  OT1/cmr/m/n --> OML/cmm/m/it on input line 13.
+(Font)                  OT1/cmr/m/n --> OML/cmm/m/it on input line 14.
 LaTeX Font Info:    Encoding `OT1' has changed to `OML' for symbol font
-(Font)              `mtletterfont' in the math version `bold' on input line 13.
+(Font)              `mtletterfont' in the math version `bold' on input line 14.
 
 LaTeX Font Info:    Overwriting symbol font `mtletterfont' in version `bold'
-(Font)                  OT1/cmr/m/n --> OML/cmm/b/it on input line 13.
+(Font)                  OT1/cmr/m/n --> OML/cmm/b/it on input line 14.
 LaTeX Font Info:    Encoding `OT1' has changed to `T1' for symbol font
 (Font)              `mtoperatorfont' in the math version `normal' on input line
- 13.
+ 14.
 LaTeX Font Info:    Overwriting symbol font `mtoperatorfont' in version `normal
 '
-(Font)                  OT1/cmr/m/n --> T1/cmr/m/n on input line 13.
+(Font)                  OT1/cmr/m/n --> T1/cmr/m/n on input line 14.
 LaTeX Font Info:    Encoding `OT1' has changed to `T1' for symbol font
 (Font)              `mtoperatorfont' in the math version `bold' on input line 1
-3.
+4.
 LaTeX Font Info:    Overwriting symbol font `mtoperatorfont' in version `bold'
-(Font)                  OT1/cmr/m/n --> T1/cmr/bx/n on input line 13.
+(Font)                  OT1/cmr/m/n --> T1/cmr/bx/n on input line 14.
 ** ...done.
 
 Package scrbase Warning: \ifpdftex was redefined
@@ -1705,18 +1727,18 @@ Package scrbase Warning: \ifVTeX was redefined
 (scrbase)                the manual of every package you are using.
 
 LaTeX Font Info:    Trying to load font information for OT1+iwona on input line
- 21.
+ 22.
 ("D:\Program Files\MiKTeX 2.9\tex/latex/iwona\ot1iwona.fd"
 File: ot1iwona.fd 2008/07/22 v0.995 font definition file for OT1/iwona (MW)
 )
 LaTeX Font Info:    Trying to load font information for OMX+iwona on input line
- 21.
+ 22.
 
 ("D:\Program Files\MiKTeX 2.9\tex/latex/iwona\omxiwona.fd"
 File: omxiwona.fd 2008/07/22 v0.995 font definition file for OMX/iwona (MW)
 )
 LaTeX Font Info:    Trying to load font information for LGR+opensans-TLF on inp
-ut line 21.
+ut line 22.
 
 ("D:\Program Files\MiKTeX 2.9\tex/latex/opensans\lgropensans-tlf.fd"
 File: LGRopensans-TLF.fd 2019/06/24 Font definitions for LGR/opensans-TLF.
@@ -1724,47 +1746,47 @@ File: LGRopensans-TLF.fd 2019/06/24 Font definitions for LGR/opensans-TLF.
 <TUD-black.pdf, id=30, 256.15298pt x 74.32167pt>
 File: TUD-black.pdf Graphic file (type pdf)
 <use TUD-black.pdf>
-Package pdftex.def Info: TUD-black.pdf  used on input line 21.
+Package pdftex.def Info: TUD-black.pdf  used on input line 22.
 (pdftex.def)             Requested size: 162.18016pt x 47.05765pt.
 <TUD-blue.pdf, id=31, 256.15298pt x 74.32167pt>
 File: TUD-blue.pdf Graphic file (type pdf)
 <use TUD-blue.pdf>
-Package pdftex.def Info: TUD-blue.pdf  used on input line 21.
+Package pdftex.def Info: TUD-blue.pdf  used on input line 22.
 (pdftex.def)             Requested size: 162.18016pt x 47.05765pt.
 <TUD-white.pdf, id=32, 256.15298pt x 74.32167pt>
 File: TUD-white.pdf Graphic file (type pdf)
 <use TUD-white.pdf>
-Package pdftex.def Info: TUD-white.pdf  used on input line 21.
+Package pdftex.def Info: TUD-white.pdf  used on input line 22.
 (pdftex.def)             Requested size: 162.18016pt x 47.05765pt.
 <DDC-24.pdf, id=33, 144.20576pt x 51.4994pt>
 File: DDC-24.pdf Graphic file (type pdf)
 <use DDC-24.pdf>
-Package pdftex.def Info: DDC-24.pdf  used on input line 21.
+Package pdftex.def Info: DDC-24.pdf  used on input line 22.
 (pdftex.def)             Requested size: 131.77533pt x 47.05765pt.
 <DDC-27.pdf, id=34, 144.20576pt x 51.4994pt>
 File: DDC-27.pdf Graphic file (type pdf)
 <use DDC-27.pdf>
-Package pdftex.def Info: DDC-27.pdf  used on input line 21.
+Package pdftex.def Info: DDC-27.pdf  used on input line 22.
 (pdftex.def)             Requested size: 131.77533pt x 47.05765pt.
 <DDC-30.pdf, id=35, 144.20576pt x 51.4994pt>
 File: DDC-30.pdf Graphic file (type pdf)
 <use DDC-30.pdf>
-Package pdftex.def Info: DDC-30.pdf  used on input line 21.
+Package pdftex.def Info: DDC-30.pdf  used on input line 22.
 (pdftex.def)             Requested size: 131.77533pt x 47.05765pt.
 <DDC-22.pdf, id=36, 34.71169pt x 69.42436pt>
 File: DDC-22.pdf Graphic file (type pdf)
 <use DDC-22.pdf>
-Package pdftex.def Info: DDC-22.pdf  used on input line 21.
+Package pdftex.def Info: DDC-22.pdf  used on input line 22.
 (pdftex.def)             Requested size: 23.52893pt x 47.05765pt.
 <DDC-25.pdf, id=37, 34.71169pt x 69.42436pt>
 File: DDC-25.pdf Graphic file (type pdf)
 <use DDC-25.pdf>
-Package pdftex.def Info: DDC-25.pdf  used on input line 21.
+Package pdftex.def Info: DDC-25.pdf  used on input line 22.
 (pdftex.def)             Requested size: 23.52893pt x 47.05765pt.
 <DDC-28.pdf, id=38, 34.71169pt x 69.42436pt>
 File: DDC-28.pdf Graphic file (type pdf)
 <use DDC-28.pdf>
-Package pdftex.def Info: DDC-28.pdf  used on input line 21.
+Package pdftex.def Info: DDC-28.pdf  used on input line 22.
 (pdftex.def)             Requested size: 23.52893pt x 47.05765pt.
  [1{C:/Users/Sinthu/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
 
@@ -1818,115 +1840,178 @@ ine 25.
 
 ]
 Package hyperref Info: bookmark level for unknown todo defaults to 0 on input l
-ine 35.
+ine 34.
 )
-Underfull \hbox (badness 10000) in paragraph at lines 28--30
+Underfull \hbox (badness 10000) in paragraph at lines 28--31
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 28--30
+Underfull \hbox (badness 10000) in paragraph at lines 28--31
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 28--30
+Underfull \hbox (badness 10000) in paragraph at lines 28--31
 
  []
 
 
-LaTeX Warning: Marginpar on page 4 moved.
+Underfull \hbox (badness 10000) in paragraph at lines 28--31
 
-
-LaTeX Warning: Marginpar on page 4 moved.
+ []
 
 [4]
 \openout2 = `state-of-the-art.aux'.
 
  (state-of-the-art.tex
 chapter 2.
+<screenshots/landing_page.jpg, id=87, 1084.05pt x 2409.0pt>
+File: screenshots/landing_page.jpg Graphic file (type jpg)
+<use screenshots/landing_page.jpg>
+Package pdftex.def Info: screenshots/landing_page.jpg  used on input line 18.
+(pdftex.def)             Requested size: 216.24028pt x 480.50493pt.
 
-Overfull \hbox (17.10243pt too wide) in paragraph at lines 10--10
-[][]\OT1/opensans-TLF/l/n/10.95 Describe 
+Underfull \hbox (badness 2556) in paragraph at lines 20--20
+[][][]|\OT1/opensans-TLF/l/n/10.95 The lan-ding pa-ge of
  []
 
 
-Overfull \hbox (17.10243pt too wide) in paragraph at lines 10--10
-[][]\OT1/opensans-TLF/l/n/10.95 Describe 
+Underfull \hbox (badness 10000) in paragraph at lines 20--20
+\OT1/opensans-TLF/l/n/10.95 AM-CS. This is the
  []
 
 
-LaTeX Warning: Marginpar on page 5 moved.
+Underfull \hbox (badness 7631) in paragraph at lines 20--20
+\OT1/opensans-TLF/l/n/10.95 in-iti-al screen shown
+ []
 
 
-LaTeX Warning: Marginpar on page 5 moved.
+Underfull \hbox (badness 10000) in paragraph at lines 20--20
+\OT1/opensans-TLF/l/n/10.95 when ac-ces-sing \OT1/opensans-TLF/l/it/10.95 htt-
+ []
+
+<screenshots/login_form.jpg, id=88, 1084.05pt x 2409.0pt>
+File: screenshots/login_form.jpg Graphic file (type jpg)
+<use screenshots/login_form.jpg>
+Package pdftex.def Info: screenshots/login_form.jpg  used on input line 25.
+(pdftex.def)             Requested size: 216.24028pt x 480.50493pt.
+<screenshots/main_view_1.jpg, id=90, 1084.05pt x 2409.0pt>
+File: screenshots/main_view_1.jpg Graphic file (type jpg)
+<use screenshots/main_view_1.jpg>
+Package pdftex.def Info: screenshots/main_view_1.jpg  used on input line 41.
+(pdftex.def)             Requested size: 216.24028pt x 480.50493pt.
+
+Underfull \hbox (badness 7415) in paragraph at lines 43--43
+\OT1/opensans-TLF/l/n/10.95 in dif-fe-rent sec-ti-ons
+ []
 
 
-LaTeX Warning: Marginpar on page 5 moved.
+Underfull \hbox (badness 10000) in paragraph at lines 43--43
+\OT1/opensans-TLF/l/n/10.95 for each tem-po-ral
+ []
+
+<screenshots/main_view_course_management.jpg, id=91, 1084.05pt x 2409.0pt>
+File: screenshots/main_view_course_management.jpg Graphic file (type jpg)
+<use screenshots/main_view_course_management.jpg>
+Package pdftex.def Info: screenshots/main_view_course_management.jpg  used on i
+nput line 48.
+(pdftex.def)             Requested size: 216.24028pt x 480.50493pt.
+
+Underfull \hbox (badness 6859) in paragraph at lines 50--50
+[][][]|\OT1/opensans-TLF/l/n/10.95 Cour-se ma-na-ge-ment
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 50--50
+\OT1/opensans-TLF/l/n/10.95 an en-roll-ment form
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 50--50
+\OT1/opensans-TLF/l/n/10.95 con-sis-ting of a PIN
+ []
+
+
+Underfull \hbox (badness 5667) in paragraph at lines 50--50
+\OT1/opensans-TLF/l/n/10.95 in-put and a sub-mit
+ []
 
 [5
 
 
 
-]
-
-LaTeX Warning: Marginpar on page 6 moved.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 51--51
+] [6 <./screenshots/landing_page.jpg> <./screenshots/login_form.jpg>]
+[7 <./screenshots/main_view_1.jpg> <./screenshots/main_view_course_management.j
+pg>]
+Underfull \hbox (badness 10000) in paragraph at lines 90--90
 []\OT1/opensans-TLF/l/n/10.95 Preparation Poll
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 53--53
+Underfull \hbox (badness 10000) in paragraph at lines 92--92
 []\OT1/opensans-TLF/l/n/10.95 Post Pro-ces-sing
  []
 
-[6]
+<screenshots/course_view_1.jpg, id=121, 1084.05pt x 2409.0pt>
+File: screenshots/course_view_1.jpg Graphic file (type jpg)
+<use screenshots/course_view_1.jpg>
+Package pdftex.def Info: screenshots/course_view_1.jpg  used on input line 111.
 
-LaTeX Warning: Marginpar on page 7 moved.
+(pdftex.def)             Requested size: 216.24028pt x 480.50493pt.
 
-[7]) [8]
-\openout2 = `concept-problems.aux'.
-
- (concept-problems.tex
-chapter 3.
-[9
-
-
-
-]
-Overfull \hbox (10.90582pt too wide) in paragraph at lines 49--49
-[][]\OT1/opensans-TLF/l/n/10.95 Provide 
+Underfull \hbox (badness 1024) in paragraph at lines 113--113
+\OT1/opensans-TLF/l/n/10.95 ke the cour-se na-me,
  []
 
 
-Overfull \hbox (15.45993pt too wide) in paragraph at lines 49--49
-\OT1/opensans-TLF/l/n/10.95 screens- 
+Underfull \hbox (badness 8170) in paragraph at lines 113--113
+\OT1/opensans-TLF/l/n/10.95 de-s-crip-ti-on and PIN
  []
 
+<screenshots/course_view_3.jpg, id=122, 1084.05pt x 2409.0pt>
+File: screenshots/course_view_3.jpg Graphic file (type jpg)
+<use screenshots/course_view_3.jpg>
+Package pdftex.def Info: screenshots/course_view_3.jpg  used on input line 118.
 
-Overfull \hbox (10.90582pt too wide) in paragraph at lines 49--49
-[][]\OT1/opensans-TLF/l/n/10.95 Provide 
+(pdftex.def)             Requested size: 216.24028pt x 480.50493pt.
+
+Underfull \hbox (badness 2027) in paragraph at lines 120--120
+[][][]|\OT1/opensans-TLF/l/n/10.95 Lec-tu-res that be-long
  []
 
-
-Overfull \hbox (15.45993pt too wide) in paragraph at lines 49--49
-\OT1/opensans-TLF/l/n/10.95 screens- 
- []
-
+[8] [9 <./screenshots/course_view_1.jpg> <./screenshots/course_view_3.jpg>]
 [10]
 
 LaTeX Warning: Marginpar on page 11 moved.
 
-[11]
 
-LaTeX Warning: Marginpar on page 12 moved.
+LaTeX Warning: Marginpar on page 11 moved.
+
+) [11]
+\openout2 = `concept-problems.aux'.
+
+ (concept-problems.tex
+chapter 3.
+[12
 
 
-LaTeX Warning: Marginpar on page 12 moved.
 
-<diagrams/amcs-click-paths.png, id=163, 718.685pt x 927.465pt>
+] [13]
+
+LaTeX Warning: Marginpar on page 14 moved.
+
+
+LaTeX Warning: Marginpar on page 14 moved.
+
+[14]
+
+LaTeX Warning: Marginpar on page 15 moved.
+
+
+LaTeX Warning: Marginpar on page 15 moved.
+
+<diagrams/amcs-click-paths.png, id=202, 718.685pt x 927.465pt>
 File: diagrams/amcs-click-paths.png Graphic file (type png)
 <use diagrams/amcs-click-paths.png>
 Package pdftex.def Info: diagrams/amcs-click-paths.png  used on input line 81.
@@ -1961,10 +2046,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 97--97
 \OT1/opensans-TLF/l/n/10.95 Poll
  []
 
-) [12] [13 <./diagrams/amcs-click-paths.png>]
+) [15] [16 <./diagrams/amcs-click-paths.png>]
 \openout2 = `concept-proposals.aux'.
 
- (concept-proposals.tex [14
+ (concept-proposals.tex [17
 
 
 ]
@@ -2008,26 +2093,16 @@ Overfull \hbox (1.14172pt too wide) in paragraph at lines 29--29
  []
 
 
-LaTeX Warning: Marginpar on page 15 moved.
+LaTeX Warning: Marginpar on page 18 moved.
 
 
-LaTeX Warning: Marginpar on page 15 moved.
+LaTeX Warning: Marginpar on page 18 moved.
 
 
-LaTeX Warning: Marginpar on page 15 moved.
+LaTeX Warning: Marginpar on page 18 moved.
 
 
-LaTeX Warning: Marginpar on page 15 moved.
-
-
-Overfull \hbox (1.73521pt too wide) in paragraph at lines 33--33
-\OT1/opensans-TLF/l/n/10.95 rence 
- []
-
-
-Overfull \hbox (1.56549pt too wide) in paragraph at lines 33--33
-\OT1/opensans-TLF/l/n/10.95 state- 
- []
+LaTeX Warning: Marginpar on page 18 moved.
 
 
 Overfull \hbox (1.73521pt too wide) in paragraph at lines 33--33
@@ -2040,9 +2115,19 @@ Overfull \hbox (1.56549pt too wide) in paragraph at lines 33--33
  []
 
 
-LaTeX Warning: Marginpar on page 15 moved.
+Overfull \hbox (1.73521pt too wide) in paragraph at lines 33--33
+\OT1/opensans-TLF/l/n/10.95 rence 
+ []
 
-[15]
+
+Overfull \hbox (1.56549pt too wide) in paragraph at lines 33--33
+\OT1/opensans-TLF/l/n/10.95 state- 
+ []
+
+
+LaTeX Warning: Marginpar on page 18 moved.
+
+[18]
 Overfull \hbox (2.65501pt too wide) in paragraph at lines 46--46
 \OT1/opensans-TLF/l/n/10.95 about 
  []
@@ -2063,7 +2148,7 @@ Overfull \hbox (2.65501pt too wide) in paragraph at lines 49--49
  []
 
 
-LaTeX Warning: Marginpar on page 16 moved.
+LaTeX Warning: Marginpar on page 19 moved.
 
 
 Overfull \hbox (1.2972pt too wide) in paragraph at lines 51--51
@@ -2076,56 +2161,67 @@ Overfull \hbox (1.2972pt too wide) in paragraph at lines 51--51
  []
 
 
-LaTeX Warning: Marginpar on page 16 moved.
+LaTeX Warning: Marginpar on page 19 moved.
 
-) [16]
+) [19]
 \openout2 = `implementation.aux'.
 
- (implementation.tex)
-\openout2 = `evaluation.aux'.
-
- (evaluation.tex)
-\openout2 = `conclusion.aux'.
-
- (conclusion.tex) [17
+ (implementation.tex
+chapter 4.
+) [20
 
 
-
-
-
-
-
-] [18
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 57.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 57.
+\openout2 = `evaluation.aux'.
 
-(sigplanconf-template.aux (introduction.aux) (state-of-the-art.aux)
-(concept-problems.aux) (concept-proposals.aux) (implementation.aux)
-(evaluation.aux) (conclusion.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 57.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 57.
+ (evaluation.tex
+chapter 5.
+) [21
+
+
+
+]
+\openout2 = `conclusion.aux'.
+
+ (conclusion.tex
+chapter 6.
+) [22
+
+
+
+] [23
+
+] [24
+
+]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 58.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 58.
+ (sigplanconf-template.aux (introduction.aux)
+(state-of-the-art.aux) (concept-problems.aux) (concept-proposals.aux)
+(implementation.aux) (evaluation.aux) (conclusion.aux))
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 58.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 58.
 Package rerunfilecheck Info: File `sigplanconf-template.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 38019 strings out of 492453
- 772233 string characters out of 3129817
- 1099349 words of memory out of 3000000
- 41727 multiletter control sequences out of 15000+200000
- 594717 words of font info for 130 fonts, out of 3000000 for 9000
+ 39050 strings out of 492453
+ 791111 string characters out of 3129817
+ 1120028 words of memory out of 3000000
+ 42740 multiletter control sequences out of 15000+200000
+ 605899 words of font info for 147 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 73i,19n,91p,10121b,974s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 73i,19n,106p,10121b,974s stack positions out of 5000i,500n,10000p,200000b,50000s
 {D:/Program Files/MiKTeX 2.9/fonts/enc/dvips/opensans/a_iz27ck.enc}{D:/Progra
 m Files/MiKTeX 2.9/fonts/enc/dvips/opensans/a_n3lhbv.enc}<D:/Program Files/MiKT
 eX 2.9/fonts/type1/ascender/opensans/OpenSans-Light.pfb><D:/Program Files/MiKTe
 X 2.9/fonts/type1/ascender/opensans/OpenSans-LightItalic.pfb><D:/Program Files/
 MiKTeX 2.9/fonts/type1/ascender/opensans/OpenSans-Regular.pfb><D:/Program Files
 /MiKTeX 2.9/fonts/type1/ascender/opensans/OpenSans-SemiBold.pfb>
-Output written on sigplanconf-template.pdf (18 pages, 174064 bytes).
+Output written on sigplanconf-template.pdf (24 pages, 2874668 bytes).
 PDF statistics:
- 355 PDF objects out of 1000 (max. 8388607)
- 114 named destinations out of 1000 (max. 500000)
- 391 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 418 PDF objects out of 1000 (max. 8388607)
+ 116 named destinations out of 1000 (max. 500000)
+ 453 words of extra memory for PDF output out of 10000 (max. 10000000)
 

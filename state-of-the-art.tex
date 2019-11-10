@@ -8,8 +8,11 @@ The AMCS web page is written using Angular\footnote{https://angular.io}, a types
 
 \section{Landing Page and Login}
 \label{section:landingpage}
-When accessing the website\footnote{https://amcs.website}, students will be shown the landing page of AMCS (see Figure \ref{fig:landingpage}). A big login button is displayed that when pressed on will reveal a login form (see Figure \ref{fig:loginform}).
-In order to use the system, students have to create an account by providing credentials. Additionally, a subscription to lectures is mandatory in order to reasonably use the service. By typing in an optional PIN code, students will subscribe automatically to the corresponding course. From thereon, students have access to the system. 
+When accessing the website\footnote{https://amcs.website}, students will be shown the landing page of AMCS (see Figure \ref{fig:landingpage}). A big login button is displayed that when pressed will reveal a login form (see Figure \ref{fig:loginform}).
+In order to use the system, students have to create an account by providing credentials.
+\newline
+\newline
+Additionally, a subscription to courses is mandatory in order to reasonably use the service. By typing in an optional PIN code, students will subscribe automatically to the corresponding course. From thereon, students have access to the system. 
  
 \begin{figure}
 	\centering
@@ -31,7 +34,7 @@ In order to use the system, students have to create an account by providing cred
  
 \section{Main View}
 \label{section:soa:mainview}
-After successfully logging in, the user is presented with the main view of the system (see Figure \ref{fig:mainview}).
+After successfully logging in, the user is presented with the Main View of the system (see Figure \ref{fig:mainview}).
 It can be scrolled in the vertical direction and is divided into header and body. On top, the header consists of corporate branding on the left side and a burger menu on the right side. Below it, the view's body organizes information in different sections as follows:
 
 \begin{figure}
@@ -62,7 +65,7 @@ This section lists all lectures that the user subscribed to (see Figure \ref{fig
 
 \paragraph{Rendering of lectures}
 
-Each of the aforementioned subsections is organized in a list that contains all corresponding lectures. For each lecture, a box is rendered that uses all horizontal space available to it. The box consists of a blue header with the lecture's name, a white info/detail area and a light blue footer that contains the course this lecture belongs to.
+Each of the aforementioned subsections is organized in a list that contains all corresponding lectures. For each lecture, a box is rendered that uses all horizontal space available to it. The box consists of a blue header with the lecture's name, a white info/detail area and a light blue footer that contains the course name.
 A color-coded badge on the top right of the boxes serves as an indicator for the temporal context of the lecture.
 
 \todo{add graphic of badges}
@@ -70,27 +73,29 @@ A color-coded badge on the top right of the boxes serves as an indicator for the
 
 \subsection{Course management}
 
-Further down on the page, the section \emph{Enrolled Courses} can be found (see Figure \ref{fig:mainviewcoursemanagement}). It serves two purposes: Primarily, it provides a way to enroll into a course. An enrollment form is shown that consists of a text field to enter the course PIN and a blue button to trigger the enrollment (see Fig.1). When provided with a valid PIN, pressing the button redirects the user to the course view (described in section \ref{section:soa:courseview})  on successful enrollment.
+Further down on the page, the section \emph{Enrolled Courses} can be found (see Figure \ref{fig:mainviewcoursemanagement}). It serves two purposes: Primarily, it provides a way to enroll into a course. An enrollment form is shown that consists of a text field to enter the course PIN and a blue button to trigger the enrollment. When provided with a valid PIN, pressing the button redirects the user to the \emph{Course View} (described in section \ref{section:soa:courseview})  on successful enrollment.
 Secondly, the view shows all courses the student is currently enrolled in. They are rendered as light blue buttons in a vertical list. A trash can icon on each button provides a way to leave the given course.
 
 \section{Poll View}
 \label{section:soa:pollview}
 Answering polls is one of the main functionalities of the system that users will engage with.
-Polls can be reached by clicking on a lecture box from either the Main View or the Course View.
-Each poll consists of a set of questions the user can answer. They are rendered in a view that is reused  by the system depending on the situation and context. This means that the view might only be accessible under certain circumstances, for example when the lecture reaches a specific point in time, making it a slide poll (SP). SPs are shown when a specific slide is on display and can only be answered in this very moment. Other types of polls include “global” course polls (CP) that are always accessible during the semester and lecture polls (LP) that can only be answered during the life time of a lecture. The different types of polls that occur in AMCS are further summarized in Table \ref{tab:pollTypes}.
+Polls can be reached by clicking on a lecture box from either the \emph{Main View} or the \emph{Course View}.
+Each poll consists of a set of questions the user can answer. They are rendered in a view that is reused  by the system depending on the situation and context. This means that the view might only be accessible under certain circumstances, for example when the lecture reaches a specific point in time, making it a slide poll (SP). SPs are shown when a specific slide is on display and can only be answered in this very moment. Other types of polls include “global” course polls (CP) that are always accessible during the semester and lecture polls (LP) which can only be answered during the life time of a lecture.
+Active polls are displayed all at once in sections designated to each poll type.
+The different types of polls that occur in AMCS are further summarized in Table \ref{tab:pollTypes}.
 
 If no polls for a given lecture are available, the user is presented with the hint shown in \todogrf.
 
 \begin{table}[t]
 	{\renewcommand{\arraystretch}{2}
-		\begin{tabular}{ | p{3cm} | p{12cm} |}
+		\begin{tabular}{ | p{5cm} | p{10cm} |}
 			\hline
 			Poll Type & Explanation \\ \hline \hline
 			Slide Poll (SP) & Active when a specific slide is shown. Commonly used for pop quizzes after a difficult section in a lecture to make sure that students understood everything correctly. \\ \hline
-			Preparation Poll (PP) & Active before the lecture takes place. Is commonly used to instruct students to prepare for a certain topic \\ \hline
-			Lecture Poll (LP) & Active during the life time of a lecture. \\ \hline
+			Preparation Poll (PP) & Active before the lecture takes place. Is commonly used to instruct students to prepare for a certain topic. \\ \hline
+			Lecture Poll (LP) & Active during the lifetime of a lecture. \\ \hline
 			Post Processing Poll (PPP) & Active after a lecture has taken place. Commonly used to check gained knowledge. \\ \hline
-			Course Poll (CP) & Active during the whole lifetime of the course (commonly during the whole semester) \\
+			Course Poll (CP) & Active during the whole lifetime of the course (commonly during the whole semester). \\
 			\hline
 		\end{tabular}
 	}
@@ -101,8 +106,8 @@ If no polls for a given lecture are available, the user is presented with the hi
 \section{Course View}
 \label{section:soa:courseview}
 
-The course view is shown when the user selects one of the courses from the course management section (see Figure \ref{fig:courseview} and \ref{fig:courseviewlectures}). Its purpose is essentially to provide a filtered view on the lectures of a single course.
-The course name and PIN, it's description and lists of upcoming, live and past lectures are shown from top to bottom in this order to the user. It reuses the lecture sections component described in section \ref{section:soa:mainview:lectures}.
+The \emph{Course View} is shown when the user selects one of the courses from the course management section (see Figure \ref{fig:courseview} and \ref{fig:courseviewlectures}). Its purpose is essentially to provide a filtered view on the lectures of a single course.
+The course name and PIN, it's description and lists of upcoming, live and past lectures are visible from top to bottom in this order. It reuses the lecture section component described in section \ref{section:soa:mainview:lectures}.
 
 \begin{figure}
 	\centering
@@ -110,25 +115,25 @@ The course name and PIN, it's description and lists of upcoming, live and past l
 		\centering
 		\includegraphics[width=0.95\linewidth]{screenshots/course_view_1.jpg}
 		\captionsetup{width=.8\linewidth}
-		\caption{Course View: Details like the course name, description and PIN are displayed.}
+		\caption{\emph{Course View}: Details like the course name, description and PIN are displayed.}
 		\label{fig:courseview}
 	\end{minipage}%
 	\begin{minipage}[t]{.5\textwidth}
 		\centering
 		\includegraphics[width=0.95\linewidth]{screenshots/course_view_3.jpg}
 		\captionsetup{width=.8\linewidth}
-		\caption{Lectures that belong to a certain course displayed in the Course View.}
+		\caption{Lectures that belong to a certain course displayed in the \emph{Course View}.}
 		\label{fig:courseviewlectures}
 	\end{minipage}
 \end{figure}
 
 
 \section{Menu and Navigation}
-Besides by using the main view, additional functionality can be reached by navigating the burger menu that is shown on the top right of the screen. It reveals a sub menu that expands vertically on the view, offering three additional sub menus. In the following, these sub menus and their functionality are briefly explained.
+Besides using the \emph{Main View}, additional functionality can be reached by navigating the burger menu that is shown in the upper-right corner of the screen. It reveals a sub menu which expands vertically, offering three additional sub menus (see Figure \todosct). In the following, these sub menus and their functionality are briefly explained.
 
 \subsection{Student}
 
-This is one of the most important buttons that offers access to a subset of main functionalities of AMCS. Upon pressing this button, the menu expands again vertically, showing a list of further sub menus. Most of the functionalities shown in this list will be touched by the proposals for improvement that are presented in chapter \ref{chapter:concept}. The functionalities in questions are:
+This is one of the most important buttons that connects a subset of main functionalities of AMCS. Upon pressing this button, the menu expands again vertically, showing a list of further sub menus. Most of the functionalities shown in this list will be touched by the proposals for improvement that are presented in chapter \ref{chapter:concept}. The functionalities in questions are:
 
 \begin{enumerate}
 	\item Question Pool
@@ -145,15 +150,50 @@ This help page is rendered identical on all mobile devices and therefore falls o
 \subsection{Logout}
 
 As the name already states, pressing this button will logout the user and end the session. 
-If logging out was successful, the landing page of AMCS is shown.
+If logging out was successful, the \emph{Landing Page} is displayed.
 
 \subsection{Question Pool}
 
-By selecting this option from the burger menu, the student is offered the possibility to create collections of already answered questions. The intent is to provide a way for students to collect and repeat questions that they had difficulty in answering.
-Similar to \todosct, the student is prompted with a drop down menu to select the course they are interested in. After selection, the student is presented with a list of all lectures and their polls respectively. All questions of each poll are grouped and shown to the student in a vertical list. From this list, the student can select all questions that they might be interested in to create a pool of questions.
-These pools are composed into polls that the student then can answer again. These polls are rendered in the same manner as stated in \todosct.
+By selecting this option from the \emph{Burger Menu}, the student is offered the possibility to create collections of already answered questions. The intent is to provide a way for students to collect and repeat questions that they had difficulty in answering.
+Similar to \todosct, the student is prompted with a drop down menu to select a course they are interested in. After selection, the student is presented with a list of all lectures and their polls respectively. All questions of each poll are grouped and shown to the student in a vertical list. From this list, the student can select all questions that they might be interested in to create a pool of questions.
+These pools are composed into polls that the student then can answer again. These polls are rendered in the same manner as stated in \ref{section:soa:pollview}.
 
-\todo{Add a table that summarizes this section, listing all views and briefly describe the intention of the view}
+\begin{table}[t]
+	{\renewcommand{\arraystretch}{2}
+		\begin{tabular}{ | p{3cm} | p{12cm} |}
+			\hline
+			Component & Description \\ \hline \hline
+			Landing Page & test \\ \hline
+		    Main View & test \\ \hline
+			Poll View & test \\ \hline
+			Course View & test \\ \hline
+			Burger Menu & test \\ \hline
+			Question Pool & test \\ \hline
+			Evaluation of answers & test \\ \hline
+		\end{tabular}
+	}
+	\caption{UI Components of AMCS.}
+	\label{tab:components}
+\end{table}
+
+\begin{figure}
+	\centering
+	\begin{minipage}[t]{.5\textwidth}
+		\centering
+		\includegraphics[width=0.95\linewidth]{screenshots/expanded_burger_menu.jpg}
+		\captionsetup{width=.8\linewidth}
+		\caption{Expanded \emph{Burger Menu}.}
+		\label{fig:menu}
+	\end{minipage}%
+	\begin{minipage}[t]{.5\textwidth}
+		\centering
+		\includegraphics[width=0.95\linewidth]{screenshots/course_view_3.jpg}
+		\captionsetup{width=.8\linewidth}
+		\caption{Lectures that belong to a certain course displayed in the \emph{Course View}.}
+		\label{fig:other}
+	\end{minipage}
+\end{figure}
 
 \section{Related Systems}
+\label{section:soa:related}
 \todo{Add this}

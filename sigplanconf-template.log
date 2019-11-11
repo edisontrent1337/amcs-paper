@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.11.5)  11 NOV 2019 15:16
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.11.5)  11 NOV 2019 15:27
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2493,31 +2493,35 @@ Package babel Info: Redefining ngerman shorthand "|
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 136.
 [24]
+Underfull \hbox (badness 10000) in paragraph at lines 138--143
+
+ []
+
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 144.
+(babel)             in language  on input line 145.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 144.
+(babel)             in language  on input line 145.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 148.
+(babel)             in language  on input line 149.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 148.
+(babel)             in language  on input line 149.
 
-Overfull \hbox (1.2972pt too wide) in paragraph at lines 154--154
+Overfull \hbox (1.2972pt too wide) in paragraph at lines 155--155
 \OT1/opensans-TLF/l/n/10.95 chap- 
  []
 
 
-Overfull \hbox (1.2972pt too wide) in paragraph at lines 154--154
+Overfull \hbox (1.2972pt too wide) in paragraph at lines 155--155
 \OT1/opensans-TLF/l/n/10.95 chap- 
  []
 
 
-Overfull \hbox (1.2972pt too wide) in paragraph at lines 154--154
+Overfull \hbox (1.2972pt too wide) in paragraph at lines 155--155
 \OT1/opensans-TLF/l/n/10.95 chap- 
  []
 
 
-Overfull \hbox (1.2972pt too wide) in paragraph at lines 154--154
+Overfull \hbox (1.2972pt too wide) in paragraph at lines 155--155
 \OT1/opensans-TLF/l/n/10.95 chap- 
  []
 
@@ -2696,9 +2700,9 @@ mf/fonts/pk/modeless/ascender/opensans/OpenSans-SemiBold-OT1-TLF--base.1493pk>
 </home/trent/texmf/fonts/pk/modeless/ascender/opensans/OpenSans-Light-OT1-TLF--
 base.540pk> </home/trent/texmf/fonts/pk/modeless/ascender/opensans/OpenSans-Sem
 iBold-OT1-TLF--base.540pk>
-Output written on sigplanconf-template.pdf (34 pages, 3648775 bytes).
+Output written on sigplanconf-template.pdf (34 pages, 3649353 bytes).
 PDF statistics:
- 886 PDF objects out of 1000 (max. 8388607)
+ 888 PDF objects out of 1000 (max. 8388607)
  449 compressed objects within 5 object streams
  125 named destinations out of 1000 (max. 500000)
  397 words of extra memory for PDF output out of 10000 (max. 10000000)

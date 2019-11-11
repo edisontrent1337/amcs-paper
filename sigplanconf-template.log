@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.11.5)  11 NOV 2019 13:34
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.11.5)  11 NOV 2019 15:16
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2440,79 +2440,84 @@ Package pdftex.def Info: mockups/main_view_enhancement_v3.png  used on input li
 ne 52.
 (pdftex.def)             Requested size: 318.66953pt x 588.33917pt.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 67.
+(babel)             in language  on input line 68.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 67.
+(babel)             in language  on input line 68.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 67.
+(babel)             in language  on input line 68.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 67.
+(babel)             in language  on input line 68.
 [22 <./mockups/main_view_enhancement_v1_annotated.png>]
-<mockups/embedded_drop_down.png, id=263, 457.71pt x 352.31625pt>
+<mockups/embedded_drop_down.png, id=264, 457.71pt x 352.31625pt>
 File: mockups/embedded_drop_down.png Graphic file (type png)
 <use mockups/embedded_drop_down.png>
-Package pdftex.def Info: mockups/embedded_drop_down.png  used on input line 76.
+Package pdftex.def Info: mockups/embedded_drop_down.png  used on input line 78.
 
 (pdftex.def)             Requested size: 318.66953pt x 245.30258pt.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 85.
+(babel)             in language  on input line 87.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 85.
+(babel)             in language  on input line 87.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 91.
+(babel)             in language  on input line 93.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 91.
+(babel)             in language  on input line 93.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 91.
+(babel)             in language  on input line 93.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 91.
+(babel)             in language  on input line 93.
  [23 <./mockups/main_view_enhancement_v2_cropped.png>]
-<mockups/poll_view_enhancement.png, id=275, 512.91624pt x 723.70375pt>
+<mockups/poll_view_enhancement.png, id=276, 512.91624pt x 723.70375pt>
 File: mockups/poll_view_enhancement.png Graphic file (type png)
 <use mockups/poll_view_enhancement.png>
 Package pdftex.def Info: mockups/poll_view_enhancement.png  used on input line 
-98.
+99.
 (pdftex.def)             Requested size: 318.66953pt x 449.63033pt.
-<mockups/poll_view_enhancement_v2.png, id=276, 525.965pt x 873.2625pt>
+<mockups/poll_view_enhancement_v2.png, id=277, 525.965pt x 873.2625pt>
 File: mockups/poll_view_enhancement_v2.png Graphic file (type png)
 <use mockups/poll_view_enhancement_v2.png>
 Package pdftex.def Info: mockups/poll_view_enhancement_v2.png  used on input li
-ne 112.
+ne 113.
 (pdftex.def)             Requested size: 318.66953pt x 529.10495pt.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 137.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 137.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 137.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 137.
- [24]
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 139.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 139.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 143.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 143.
 
-Overfull \hbox (1.2972pt too wide) in paragraph at lines 149--149
+Underfull \hbox (badness 10000) in paragraph at lines 121--129
+
+ []
+
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 136.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 136.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 136.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 136.
+[24]
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 144.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 144.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 148.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 148.
+
+Overfull \hbox (1.2972pt too wide) in paragraph at lines 154--154
 \OT1/opensans-TLF/l/n/10.95 chap- 
  []
 
 
-Overfull \hbox (1.2972pt too wide) in paragraph at lines 149--149
+Overfull \hbox (1.2972pt too wide) in paragraph at lines 154--154
 \OT1/opensans-TLF/l/n/10.95 chap- 
  []
 
 
-Overfull \hbox (1.2972pt too wide) in paragraph at lines 149--149
+Overfull \hbox (1.2972pt too wide) in paragraph at lines 154--154
 \OT1/opensans-TLF/l/n/10.95 chap- 
  []
 
 
-Overfull \hbox (1.2972pt too wide) in paragraph at lines 149--149
+Overfull \hbox (1.2972pt too wide) in paragraph at lines 154--154
 \OT1/opensans-TLF/l/n/10.95 chap- 
  []
 
@@ -2668,10 +2673,10 @@ Package rerunfilecheck Info: File `sigplanconf-template.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 34707 strings out of 494871
- 716656 string characters out of 6178382
+ 34699 strings out of 494871
+ 716503 string characters out of 6178382
  1040778 words of memory out of 5000000
- 37405 multiletter control sequences out of 15000+600000
+ 37398 multiletter control sequences out of 15000+600000
  549025 words of font info for 84 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  73i,19n,106p,10474b,707s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2691,10 +2696,10 @@ mf/fonts/pk/modeless/ascender/opensans/OpenSans-SemiBold-OT1-TLF--base.1493pk>
 </home/trent/texmf/fonts/pk/modeless/ascender/opensans/OpenSans-Light-OT1-TLF--
 base.540pk> </home/trent/texmf/fonts/pk/modeless/ascender/opensans/OpenSans-Sem
 iBold-OT1-TLF--base.540pk>
-Output written on sigplanconf-template.pdf (34 pages, 3647900 bytes).
+Output written on sigplanconf-template.pdf (34 pages, 3648775 bytes).
 PDF statistics:
- 880 PDF objects out of 1000 (max. 8388607)
- 444 compressed objects within 5 object streams
- 126 named destinations out of 1000 (max. 500000)
+ 886 PDF objects out of 1000 (max. 8388607)
+ 449 compressed objects within 5 object streams
+ 125 named destinations out of 1000 (max. 500000)
  397 words of extra memory for PDF output out of 10000 (max. 10000000)
 

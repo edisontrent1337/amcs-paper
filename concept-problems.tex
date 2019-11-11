@@ -1,41 +1,43 @@
 \chapter{Concept}
 \label{chapter:concept}
 This chapter will cover identified problems that occur when using AMCS via a web browser on mobile
-devices. To narrow down the extend of this work, the system is analyzed from the point of view that an audience member like a student has while using AMCS on their smartphone. When doing so, students will interact mostly with the \emph{Main View}, the \emph{Poll View} and the \emph{Navigation / Burger Menu}. Therefore, this work is centered around these components.
+devices. To narrow down the extend of this work, the system is analyzed from the point of view that an audience member like a student has while using AMCS on their smartphone. When doing so, students will interact mostly with the \emph{Main View}, the \emph{Poll View} and the \emph{Navigation / Burger Menu}. Therefore, this work is centered around but not limited to these components (see Table \ref{tab:components}).
 
 \section{Problems of the mobile view}
 \label{section:con:problems}
 The back end of AMCS reacts on requests coming from mobile devices such as smartphones or tablets by providing a responsive mobile view to its clients. However, in some aspects, AMCS struggles to offer a uniform UI experience that guarantees high usability.
-One challenge lays in the fact that the system has to deal with limited screen space to visualize information as effectively as possible. Additionally, users might approach the application with different ways of interaction and navigation in mind that are typical for mobile devices. For example, a smartphone user might expect to be able to use swiping gestures to navigate a menu or that information is organized in views consisting of separate tabs. This section lists key issues that lower usability or might cause confusion to mobile users.
+One challenge lays in the fact that the system has to deal with limited screen space to visualize information as effectively as possible. Additionally, users might approach the application with different ways of interaction and navigation in mind that are typical for mobile devices. For example, a smartphone user might expect to be able to use swiping gestures to navigate a menu or that information is organized in views consisting of separate tabs. This section lists key issues that lower usability or might cause confusion to mobile users. A summary of the findings can be found in Tables \ref{tab:problems} and \ref{tab:problems2} respectively.
 
 \subsection{Main View}
-As already described in section \ref{section:soa:mainview}, the\emph{Main View} relies on a vertically scrolling list view, consisting of different sections. The layout in place causes problems regarding usability aspects of the application.
+As already described in section \ref{section:soa:mainview}, the \emph{Main View} relies on a vertically scrolling list view, consisting of different sections. The layout in place causes problems regarding usability aspects of the application.
 
 \subsubsection{General Visualization Problems}
 \label{section:con:problems:mainview:generalvis}
 Section \ref{section:soa:mainview:lectures} covered the fact, that lectures are rendered by displaying the title of the lecture in the top section of the box using white letters on a solid blue background. It is followed by details about the lecture such as time, duration and a textual description, visualized in gray letters and icons on a white background. Finally, at the bottom of the box, the course name is shown in gray letters on a light blue background. The order \emph{lecture name, details, course name} can cause confusion.
+The most coarse grain piece of information - the course name - is displayed at the bottom of the box rather than at the top. Generally, when seeking information about active lectures, a student will most likely remember the course name rather than the name of a single lecture, as timetables used by students only contain course names. Therefore, displaying the information in this order could lead to students take longer time to find the pieces of information that they are looking for.
 
-The most coarse grain piece of information - the course name - is displayed at the bottom of the box rather than at the top. Generally, when seeking information about active lectures, a student will most likely remember the course name rather than the name of a single lecture, as timetables used by students only contain course names. Therefore, displaying the course information in this order might cause confusion and students take longer time to find the pieces of information that they are looking for.
 In addition to that, inappropriate background colors and font sizes are used to differentiate between course name and lecture name, further increasing the ambiguity described above.
+
+
+To sum it up, the hierarchical and logical relationship between courses and lectures is disregarded. 
 
 \subsubsection{No Notifications For New Or Unread Content}
 \label{section:con:problems:noindicators}
-The \emph{Main View} lacks completely of visual indicators for new or unread content. Typically, not all polls are visible to students at the beginning of a semester - either because the polls do not exist yet or for the reason that polls can be activated by docents at a later point in time. In the current version of AMCS, notifications for new or unread content are completely missing. For example, in order to see whether or not for a given course or lecture new polls exist, students have to tap on the lecture to check. This is unintuitive and adds another layer of indirection to the overall workflow.
+The \emph{Main View} lacks completely of visual indicators for new or unread content. Typically, not all polls are visible to students at the beginning of a semester - either because the polls do not exist yet or for the reason that polls can be activated by lecturers at a later point in time. In the current version of AMCS, notifications for new or unread content are completely missing. For example, in order to see whether or not for a given course or lecture new polls exist, students have to tap on the lecture to check. This is unintuitive and adds another layer of indirection to the overall workflow.
 
 \subsubsection{Indirection Problems}
 
 The boxes that represent each lecture claim a lot of screen space in relation to the information that is displayed to the student (see Figure \ref{fig:mainview}). The layout causes a lot of indirection, because per default, the sections for upcoming and active lectures are expanded fully. This might be handy when quickly gathering information about lectures that are or soon will be active, but in every other case it slows navigation and overall interaction, because the course management section is pushed down to the bottom of the page.
 A list of only four boxes causes a scroll bar to appear on the very common screen resolution of 1920x1080 pixels. A student that navigates to the \emph{Main View} to enroll into a new course therefore always has to scroll to the bottom of the page before they reach the enrollment form. The same problem likewise occurs when simply seeking information about what courses a student is already enrolled in or when trying to leave a course altogether. 
 
-Further more, if a student looks for information regarding a specific course, no filter or search functionality is offered by the lecture list. Instead, they have to scroll down to the bottom of the lecture list, scan the course list manually with their eyeballs, find the course and click on the corresponding item. Finally, they are redirected to the \emph{Course View}. This level of indirection is only further increased the more courses the student is enrolled in. 
-To sum it up, the hierarchical and logical relationship between courses and lectures is disregarded. 
+Further more, if a student looks for information regarding a specific course, no filter or search functionality is offered by the lecture list. Instead, they have to scroll down to the bottom of the lecture list, scan the course list manually with their eyeballs, find the course and click on the corresponding item. Finally, they are redirected to the \emph{Course View}, which then displays a filtered list of lectures belonging to the course. This level of indirection is only further increased the more courses the student is enrolled in. 
+
 
 \subsubsection{Redundancy}
 
 Some visual redundancy is added by the badges that are displayed on the upper-right corner of each lecture. These badges are used to visualize the temporal context of the lecture for each item in the corresponding section. It seems that the badge's intention is to help conveying the temporal context of the lecture, because sorting the lectures in their respective section alone fails to do so. Furthermore, the badge's names do not match the section's names, e.g. an upcoming lecture's badge reads \emph{BEFORE} instead of \emph{UPCOMING}. 
 
-In the course management section below, each course is represented by a box with the course's name along with an unsubscribe button, represented by a trash can icon.
-\todogrf
+In the course management section below, each course is represented by a box with the course's name along with an unsubscribe button, represented by a trash can icon(see Figure \ref{fig:mainviewcoursemanagement}).
 This is a redundant way of rendering the courses which adds noise to the overall look
 and uses a lot of the vertical screen estate.
 
@@ -46,18 +48,19 @@ The \emph{Course View} has a very important function in terms of usability as it
 
 \subsection{Poll View}
 
-\subsubsection{Rendering}
+\subsubsection{Visualization}
+\label{section:con:problems:pollview}
 
 Section \ref{section:soa:pollview} describes the rendering of questions as boxes that are aligned in a vertical scrolling list. Namely the extensive use of vertical space on the screen is one problem introduced by this layout. Bigger polls that consist of multiple questions unnecessarily take a lot of vertical screen estate. The view also lacks of basic information such as total number of questions or number of remaining questions. This information might be useful in bigger polls if students want to gain an idea on how many questions are left.
-Answering one question usually does not require to see the neighboring questions, but most of the time, two to three questions are in view simultaneously (see Figure \todosct). This might be distracting to some students.
-\todogrf
+Answering one question usually does not require to see the neighboring questions, but most of the time, two to three questions are in view simultaneously (see Figure \ref{figure:pollview}). This might be distracting to some students.
+
 Additionally, the layout lacks of separation and distinction between types of polls.
-Different types of polls are simply appended to the bottom of the list, s its length even further.
+Different types of polls are simply appended to the bottom of the list, increasing its length even further.
 \todogrf
 \subsubsection{Local navigation}
 
 The vertical list is difficult to navigate as it requires scrolling between questions. If a student wants to jump from the first to the last question,  or vice versa, several swiping gestures are needed to reach the top or the bottom of the list.
-Similar to the lecture list described in \ref{section:soa:mainview:lectures}, the question list is also segmented into different sections. Lecture and course questions are similarly appended to the bottom of a \emph{Slide Poll}. This means again, that a student who wants to view these questions has to scroll all the way to the bottom of the list. Again, this layout introduces a lot of indirection and is unintuitive.
+Similar to the lecture list described in \ref{section:soa:mainview:lectures}, the question list is also segmented into different sections. Lecture and course questions are similarly appended to the bottom of a \emph{Slide Poll}. This layout requires that a student who wants to view these questions has to scroll all the way to the bottom of the list, further increasing indirection and slowing interaction down.
 
 
 
@@ -79,8 +82,8 @@ In addition, the menu can confuse students because the first menu entry is label
 \subsubsection{Evaluation of answers}
 
 Clicking on the option \emph{Evaluation of answers} in the expanded \emph{Burger Menu} leads to a view with a drop down menu from which students can choose a course that they are interested in. Afterwards, a list of expandable items is shown, where each item represents a lecture. Clicking on one or multiple of these items will expand a vertical list of questions similar to  the regular question list described in section \ref{section:con:problems}. Likewise, answers given by the student are shown as well (see Fig. \todogrf).
-Multiple problems occur on this view: First of all, the navigation path to reach this view contains unnecessary indirection and might not be intuitive enough, which is again illustrated by Figure \ref{figure:clickpathproblems}. Students might expect this functionality to be located at the \emph{Main View} attached to the elements of the course list or inside the \emph{Course View} itself. Instead, every time evaluation of given answers is attempted, this functionality can only be accessed by using the \emph{Burger Menu}, choosing the appropriate item from the sub menu, selecting the course in question and afterwards expand the lecture and the corresponding question list.
-Moreover, the question list suffers from the same rendering and navigation problems already described in \todosct. Questions are poorly navigable and a lot of scrolling is required to jump between questions.
+Multiple problems occur on this view: First of all, the navigation path to reach this view contains unnecessary indirection and might not be intuitive enough, which is illustrated by Figure \ref{figure:clickpathproblems}. Students might expect this functionality to be located at the \emph{Main View} attached to the elements of the course list or inside the \emph{Course View} itself. Instead, every time evaluation of given answers is attempted, this functionality can only be accessed by using the \emph{Burger Menu}, choosing the appropriate item from the sub menu, selecting the course in question and afterwards expand the lecture and the corresponding question list.
+Moreover, the question list suffers from the same rendering and navigation problems already described in \ref{section:con:problems:pollview}. Questions are poorly navigable and a lot of scrolling is required to jump between questions.
 
 
 
@@ -90,23 +93,53 @@ Moreover, the question list suffers from the same rendering and navigation probl
 	\caption{Navigation concept of AMCS: Every arrow represents a tap / click the user has to do to reach the desired destination.}
 	\label{figure:clickpathproblems}
 \end{figure}
+
+\begin{figure}[ht]
+	\centering
+	\includegraphics[width=0.5\textwidth]{screenshots/poll_view_2.png}
+	\caption{\emph{Poll View}: Multiple questions are displayed at the same time.}
+	\label{figure:pollview}
+\end{figure}
 \subsubsection{Question Pool}
 
 The question pool suffers from the same navigation problems described in the preceding section. Again, a drop down menu for selecting a course is shown before students can see the overview of the \emph{Question Pool}. Once more, students might think that access to this functionality is located near the \emph{Main View} or the \emph{Course View}, which is not the case.
 
-\todo{Add a table that names and describes all analyzed weaknesses so that the proposals chapter can refer to this}
-
-
 \begin{table}[t]
-	{\renewcommand{\arraystretch}{2}
-		\begin{tabular}{ | p{1cm} | p{2.5cm} |  p{2.5cm} |  p{6cm} |}
+	\resizebox{\textwidth}{!}{
+	{\renewcommand{\arraystretch}{1.5}
+		\begin{tabular}{ | p{1.2cm} | p{2cm} | p{2cm} |  p{2.5cm} |  p{5.5cm} |}
 			\hline
-			ID & Name & Category & Summary \\ \hline \hline
-			MV1 & Test & Test & test \\ \hline
-			MV2 & Test & Test & test \\ \hline
-		\end{tabular}
+			ID & Name & Categories & Components & Summary \\ \hline \hline
+			GV 1 & Visualization of Lectures & Visualization & Main View & The hierarchical order of courses containing lectures is disregarded. \\ \hline
+			GV 2 & Missing Notifications & Visualization & Main View \newline Course View &  No notifications for new or unread content are given. \\ \hline
+			GV 3 & Lecture Badges & Visualization \newline Redundancy & Main View \newline Course View & Lecture badges that indicate temporal context are redundant and do not match their respective section in the lecture list. \\ \hline
+			GV 4 & Course List & Visualization \ Redundancy & Main View & Courses are each rendered in a box as a list on the bottom of the \emph{Main View}. \\ \hline
+			IN 1 & Course Management & Layout & Main View & The section \emph{Enrollment} and the course list are located too far to the bottom of the view. \\ \hline
+			IN 2 & Course Filter & Functional & Main View & The view lacks of a filtering mechanism. \\ \hline
+			PV 1 & Poll View Layout & Visualization \newline Layout & \emph{Poll View} & Polls use too much vertical space. \\ \hline
+			PV 2 & Missing Poll Information & Visualization & \emph{Poll View} & Number of total and remaining questions is missing. \\ \hline
+			PV 3 & Missing Poll Separation & Layout \newline Navigation & \emph{Poll View} & The view lacks of separation between different poll types. Navigation between different poll types requires too much scrolling. \\ \hline
+			NAV 1 & Switching Courses & Navigation & Main View \newline Course View & Quickly switching between courses requires unnecessary navigation between \emph{Course View} and \emph{Main View}. \\ \hline	
+			NAV 2 & Confusing Click Paths & Navigation & \emph{Main View \newline Course View \newline Poll View} & Under certain circumstances, returning to an earlier view can yield unexpected results. \\ \hline
+			NAV 3 & Weak View Interconnectedness & Navigation & \emph{Main View \newline Question Pool View \newline Answer Evaluation View} & Some views miss proper back buttons to return to an earlier view. \\ \hline
+			NAV 4 & Menu Size & Visualization \newline Layout & \emph{Burger Menu} & Fully expanding the \emph{Burger Menu} uses too much screen space. \\ \hline											
+		\end{tabular}}
 	}
 	\caption{Classification of issues identified in the usability analysis of AMCS.}
 	\label{tab:problems}
+\end{table}
+\begin{table}[t]
+	\resizebox{\textwidth}{!}{
+		{\renewcommand{\arraystretch}{1.5}
+			\begin{tabular}{ | p{1.2cm} | p{2cm} | p{2cm} |  p{2.5cm} |  p{5.5cm} |}
+				\hline
+				ID & Name & Categories & Components & Summary \\ \hline \hline
+				NAV 5 & Menu Labeling & Visualization & \emph{Burger Menu} & Some menu entries are labeled inadequately. \\ \hline			
+				NAV 6 & Evaluation of Answers & Navigation \newline Layout & \emph{Answer Evaluation View} & Several drop down menus must be operated to evaluate answers for a given lecture. \\ \hline	
+				NAV 7 & Question Pool & Navigation & \emph{Question Pool View} & The \emph{Question Pool View} is not reachable easy enough, as expanding the \emph{Burger Menu} is required. \\ \hline \hline											
+		\end{tabular}}
+	}
+	\caption{Classification of issues identified in the usability analysis of AMCS.}
+	\label{tab:problems2}
 \end{table}
 

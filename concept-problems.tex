@@ -18,6 +18,10 @@ Section \ref{section:soa:mainview:lectures} covered the fact, that lectures are 
 The most coarse grain piece of information - the course name - is displayed at the bottom of the box rather than at the top. Generally, when seeking information about active lectures, a student will most likely remember the course name rather than the name of a single lecture, as timetables used by students only contain course names. Therefore, displaying the course information in this order might cause confusion and students take longer time to find the pieces of information that they are looking for.
 In addition to that, inappropriate background colors and font sizes are used to differentiate between course name and lecture name, further increasing the ambiguity described above.
 
+\subsubsection{No Notifications For New Or Unread Content}
+\label{section:con:problems:noindicators}
+The \emph{Main View} lacks completely of visual indicators for new or unread content. Typically, not all polls are visible to students at the beginning of a semester - either because the polls do not exist yet or for the reason that polls can be activated by docents at a later point in time. In the current version of AMCS, notifications for new or unread content are completely missing. For example, in order to see whether or not for a given course or lecture new polls exist, students have to tap on the lecture to check. This is unintuitive and adds another layer of indirection to the overall workflow.
+
 \subsubsection{Indirection Problems}
 
 The boxes that represent each lecture claim a lot of screen space in relation to the information that is displayed to the student (see Figure \ref{fig:mainview}). The layout causes a lot of indirection, because per default, the sections for upcoming and active lectures are expanded fully. This might be handy when quickly gathering information about lectures that are or soon will be active, but in every other case it slows navigation and overall interaction, because the course management section is pushed down to the bottom of the page.
@@ -30,7 +34,7 @@ To sum it up, the hierarchical and logical relationship between courses and lect
 
 Some visual redundancy is added by the badges that are displayed on the upper-right corner of each lecture. These badges are used to visualize the temporal context of the lecture for each item in the corresponding section. It seems that the badge's intention is to help conveying the temporal context of the lecture, because sorting the lectures in their respective section alone fails to do so. Furthermore, the badge's names do not match the section's names, e.g. an upcoming lecture's badge reads \emph{BEFORE} instead of \emph{UPCOMING}. 
 
-In the course management section below, for each course the student is enrolled in, a box is shown with the course's name along with an unsubscribe button, represented by a trash can icon.
+In the course management section below, each course is represented by a box with the course's name along with an unsubscribe button, represented by a trash can icon.
 \todogrf
 This is a redundant way of rendering the courses which adds noise to the overall look
 and uses a lot of the vertical screen estate.
@@ -54,6 +58,7 @@ Different types of polls are simply appended to the bottom of the list, s its le
 
 The vertical list is difficult to navigate as it requires scrolling between questions. If a student wants to jump from the first to the last question,  or vice versa, several swiping gestures are needed to reach the top or the bottom of the list.
 Similar to the lecture list described in \ref{section:soa:mainview:lectures}, the question list is also segmented into different sections. Lecture and course questions are similarly appended to the bottom of a \emph{Slide Poll}. This means again, that a student who wants to view these questions has to scroll all the way to the bottom of the list. Again, this layout introduces a lot of indirection and is unintuitive.
+
 
 
 \subsection{Burger Menu and Navigation}
@@ -97,7 +102,8 @@ The question pool suffers from the same navigation problems described in the pre
 		\begin{tabular}{ | p{1cm} | p{2.5cm} |  p{2.5cm} |  p{6cm} |}
 			\hline
 			ID & Name & Category & Summary \\ \hline \hline
-			Slide Poll (SP) & Test & Test & test \\ \hline
+			MV1 & Test & Test & test \\ \hline
+			MV2 & Test & Test & test \\ \hline
 		\end{tabular}
 	}
 	\caption{Classification of issues identified in the usability analysis of AMCS.}

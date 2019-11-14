@@ -1,12 +1,12 @@
-\section{Redesign Strategy}
-\label{section:con:proposals}
-Several weaknesses and flaws of the web view of AMCS have been identified and analyzed in the previous section. They range from issues regarding visualization, layout and space usage or user navigation.
-A set of proposals that aims at solving these problems is introduced in the subsequent section. Mainly, the focus will lay on using the available screen space more efficiently, improving local navigation inside polls and global navigation between different views and reducing indirection to a minimum.
+\chapter{Redesign Strategy}
+\label{chapter:redesignstrategy}
+Several weaknesses and flaws of the web view of AMCS have been identified and analyzed in the previous chapter. They range from issues regarding visualization, layout and space usage or user navigation.
+A set of proposals that aims at solving these problems is introduced in the subsequent chapter. Mainly, the focus will lay on using the available screen space more efficiently, improving local navigation inside polls and global navigation between different views and reducing indirection to a minimum. Each proposal for itself is centered around improving usability of the application while all proposals as a whole aim at keeping the interface consistent and recognizable across all supported platforms.
 
-\subsection{Main View}
+\section{Main View}
 
 Several improvements for the layout and visualization of the \emph{Main View} follow in this section. \autoref{figure:mainviewenhancement}, \autoref{figure:mainviewenhancement2} and \autoref{figure:mainviewenhancement3} respectively show an evolution of mock-ups for the \emph{Main View}.
-\subsubsection{Layout}
+\subsection{Layout}
 \label{section:con:proposals:mainview:layout}
 \paragraph{Iteration 1}
 As mentioned in \autoref{section:con:problems:mainview:generalvis}, the \emph{Main View} suffers from using the vertical space available inefficiently. Most noticeably, the course overview and enrollment form are placed below the list of lectures. In order to find information about relevant courses or to enroll / leave a course, students are required to scroll all the way to the bottom. 
@@ -60,13 +60,13 @@ Therefore, the next iteration expanded the layout again to display 3 lectures at
 	\end{minipage}
 \end{figure}
 
-\subsubsection{Navigation}
+\subsection{Navigation}
 \label{section:con:proposals:mainview:navigation}
 Tabs (2) should separate lectures by their temporal context. Selecting a tab will only display lectures that share the respective temporal context, meaning that it should be easier to switch between \emph{past}, \emph{upcoming} and \emph{live} lectures.
 The \emph{Navigation Bar} (3) in \autoref{figure:mainviewenhancement3} is used to ease navigation between lectures that share the same temporal context. A student can use the bar for example to switch quickly between the oldest and newest past lecture by selecting the corresponding button from the bar. This should improve navigation within the \emph{Main View} as well as within a lecture context. 
 Additionally, this proposal aims at removing indirection as much as possible on a global scale by providing certain buttons that serve as shortcuts for the functionality that is currently found in the \emph{Burger Menu}. Button (6) serves as a shortcut to the \emph{Question Pool} for the selected course. On click of button (7), the student will be removed from the selected course. Both of these buttons are placed in the header of the layout next to the course’s name to indicate that both referenced functionalities operate on a course scale, whereas the “Evaluate” button (5) operates on a lecture scale. The \emph{Evaluate Button} eliminates the need to select a course from a drop down menu and even choosing from a list of lectures is not necessary anymore, as all of these information needed to send the request to the backend are present. Therefore, multiple layers of indirection are removed from the established workflow. All three buttons try to remove the indirection introduced by the \emph{Burger Menu}ch as possible. Functionality that is associated with a course or lecture is triggered from a view that deals with courses or lectures respectively. The \emph{Burger Menu} would then only have to deal with the profile editing and logout functionalities.
 
-\subsubsection{Embedded Drop down menu}
+\subsection{Embedded Drop down menu}
 \label{section:con:proposals:dropdown}
 The drop down menu is introduced to help reducing usage of vertical space even more (see \autoref{figure:embeddeddropdown}). Clicking on it reveals its two functions: Besides the now embedded enrollment form, a list of courses a student is already enrolled to is shown below. The enrollment still consists of a text field and a button. Both elements are shown next to the text \emph{Enroll...}. The close proximity to the list of enrolled courses could make this functionality potentially more traceable to users. The enrollment form will only be embedded in the drop down menu when the student is enrolled in at least one course beforehand. Otherwise, in place of the \emph{Main View}, only the enrollment form should be shown.
 When selecting an item from list of courses below, corresponding lectures will be brought up in the \emph{Main View}.
@@ -86,7 +86,7 @@ In summary, the \emph{Drop Down Menu} acts as a filter to the \emph{Main View} a
 
 \subsection{Poll View}
 
-\subsubsection{Layout and Visualization}
+\subsection{Layout and Visualization}
 Several issues have been identified regarding layout and visualization of polls in section \autoref{section:con:problems:pollview}. Main problems include the ineffective use of vertical space in this view and a lack of separation between types of polls. Different types of polls are simply appended to the bottom of the list, making it even longer.
 In order to solve these issues, a tab-based layout is used once more. 
  \autoref{figure:pollviewenhanvement1} shows the first mock-up iteration for the redesign of the \emph{Poll View}.
@@ -133,7 +133,7 @@ The tabs at the top now use textual descriptions and iconography simultaneously 
 The \emph{Navigation Bar} is further enhanced by using icons that represent the state of a specific question. Green arrows and red crosses are used to visualize correctly or wrongly answered questions respectively to improve accessibility, especially for colorblind students.
 The buttons that allow to jump between questions are moved to the \emph{Navigation Bar}, as they resided previously next to the topic and question in order to separate navigation from content.
 The indicator for the current slide number is modified slightly and pushed to the left. On the right side, icons that differentiate between question types are reintroduced. 
-\subsubsection{Navigation between questions}
+\subsection{Navigation between questions}
 
 Navigation between questions should be made easier for students and focus on one question at a time. Therefore, an improvement would be to introduce two buttons in the \emph{Navigation Bar} that can be used to navigate one question forward or backwards. Pressing the respective button will cause to show the next or previous question, regardless of whether the current question has already been answered. This leads to the same level of freedom when navigating polls that the current state of the application allows.
 \newline
@@ -142,7 +142,7 @@ Swiping is a widely spread way of interacting with a user interface on smartphon
 In addition to that, the student can use the indicators inside the \emph{Navigation Bar} to freely select a question they wish to answer or review. This eases navigation within a poll, no scrolling is required anymore.
 
 
-\subsection{Course View}
+\section{Course View}
 The \emph{Course View} has an important function in terms of usability since it acts as a filter for lectures belonging to a certain course. Users must be given the opportunity to sort and filter a list of elements, which is why this function has to be preserved in the redesign. However, as described in \autoref{section:con:problems:courseview}, the \emph{Course View} has a redundant nature as it looks and feels nearly identical to the \emph{Main View}.
 Furthermore, some potentially confusing click paths lead to the \emph{Course View} as elaborated in section \autoref{section:con:problems:navigation}.
 As outlined in segment \autoref{section:con:proposals:dropdown}, the \emph{Drop Down Menu} serves as a filter for courses, rendering the \emph{Course View} obsolete. It is therefore dropped by the redesign. This results in an additional side effect in form of reduced amounts of click paths and stronger interconnectedness between all the views (see \todosct).

@@ -1,8 +1,7 @@
 
 \chapter{Introduction}
 
-\section{Motivation}
-
+\section{Background}
 
 AMCS (Auditorium Mobile Classroom Service) is an Audience Response System (ARS) currently under development at the TU Dresden. Several members of the Faculty of Computer Science initialized the project in 2012 and since then, the system and its community have grown continuously and countless features were added over the years.
 \newline
@@ -17,29 +16,24 @@ On the other hand, AMCS provides a set of features that try to increase engageme
 One of the system's goals is to support a student's learning process by providing interactive polls, question pools and self-evaluation mechanisms that work on saved answers. While the polls are often used during lectures, the latter two tools can be used afterwards to identify and repeat difficult questions, to prepare for the next lesson or to study for the examination. 
 \newline
 \newline
-Several standalone front end applications for different platforms such as iOS, Android and web are provided to the audience. However AMCS is used by the majority of students via its web page across different mobile devices such as laptops, tablets and smartphones, likely because it is very easy to access.
+\section{Motivation}
+Several standalone front end applications for different platforms such as iOS, Android and web are provided to the audience. However, an analysis of user counts has shown that AMCS is used by the majority of students via its web page across different mobile devices such as laptops, tablets and smartphones.
+The reason for this is likely how easy it is to access, as web browsers are preinstalled on most devices, rendering the installation of the AMCS standalone app as an avoidable extra step.
 \newline
 \newline 
-Regarding the web page being the most common way AMCS is used, 
-the challenge lays in providing a unified and responsive web-based user interface across all aforementioned device types. The motivation of this work is to analyze the application's state in terms of usability, design and consistency, identify weaknesses in each category and provide a set of proposals that hope to improve the design currently in place.
-
-\section{Objective}
+Regarding the web page being the most common way AMCS is used, more of an effort should be made to provide a unified and responsive web-based user interface across all aforementioned device types.
+\newline
+\newline 
+Therefore, the motivation of this work is to create a more user friendly experience by improving the application in terms of usability, design and consistency.
+\section{Outline}
 \label{section:intro:objective}
-The main objective of this work is to provide a redesign strategy that - when implemented - improves the web view of AMCS on mobile devices in order to create a more user friendly experience. AMCS does offer a variety of features to the audience and to speakers. They were designed and developed by different people over the years and therefore all differ  variously in terms of UI design and layout.
-To keep the scope of this work manageable, this work will mostly focus on all features that audience members will come in contact with when using AMCS.
-Each proposal for itself is centered around improving usability of the application while all proposals as a whole aim at keeping a consistent and recognizable interface across all supported platforms.  Therefore, the rest of this work is structured as follows:
-\newline
-\newline
-Chapter \ref{chapter:stateoftheart} describes the current state of the application and briefly covers all features of AMCS that fall in the redesign strategy scope.
-Additionally, in section \ref{section:soa:related}, relevant existing applications and work are analyzed to identify strategies that can be transferred and applied to AMCS.
-\newline
-\newline
-Following up is chapter \ref{chapter:concept} that is divided in two main sections. In section \ref{section:con:problems}, an analysis of the current state of the application is conducted, identifying weaknesses and inconsistencies that the design can be improved on.
-In Section \ref{section:con:proposals} these weaknesses are subject of discussion in a redesign strategy that is described in detail.
-\newline
-\newline
-Finally, in chapter \ref{chapter:implementation} the redesign strategy it is implemented as a prototype that uses the existing back end system.
-Chapter \ref{chapter:evaluation} evaluates the prototype and compares it to the current state of AMCS.
-\newline
-\newline
-Chapter \ref{chapter:conclusion} concludes this work by giving a short outlook on future work.
+This work's central goal is to formulate a redesign strategy that when implemented accordingly will improve the experience of users that access AMCS with the browsers on their mobile devices. In order to reach this objective, the work is organized in the following manner:
+\\
+\\
+In the opening  \cref{chapter:stateoftheart}, the scope of this work is defined by showcasing different components of AMCS that users interact with. A short introduction is given to the look and feel of the central elements of AMCS.
+In  \cref{chapter:concept}, an usability analysis of the components is conducted. The chapter centers around identifying, listing and categorizing design flaws and issues of AMCS. 
+\Cref{chapter:relatedsystems} analyses solutions to the identified problems of AMCS that other relevant ARS came up with.
+\Cref{chapter:redesignstrategy} then proceeds by mapping out the redesign strategy. For each component, several improvement proposals are developed and enhanced iteratively. 
+\Cref{chapter:implementation} describes how the strategy is concretely implemented in the form of a prototype. The chapter covers necessary adaptions, changes and differences to the initial proposals.
+In \cref{chapter:evaluation}, the prototype is used to evaluate the redesign strategy. A comparison to the current state of AMCS is drawn.
+Finally, this work is concluded in \cref{chapter:conclusion} with open questions and a short outlook on future work.

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.11.5)  14 NOV 2019 10:59
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.11.5)  14 NOV 2019 13:30
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1424,6 +1424,20 @@ Package: rotating 2016/08/11 v2.16d rotated objects in LaTeX
 \rot@float@box=\box68
 \rot@mess@toks=\toks35
 )
+(/usr/share/texlive/texmf-dist/tex/latex/cleveref/cleveref.sty
+Package: cleveref 2018/02/08 v0.21.1 Intelligent cross-referencing
+Package cleveref Info: `hyperref' support loaded on input line 2301.
+LaTeX Info: Redefining \cref on input line 2301.
+LaTeX Info: Redefining \Cref on input line 2301.
+LaTeX Info: Redefining \crefrange on input line 2301.
+LaTeX Info: Redefining \Crefrange on input line 2301.
+LaTeX Info: Redefining \cpageref on input line 2301.
+LaTeX Info: Redefining \Cpageref on input line 2301.
+LaTeX Info: Redefining \cpagerefrange on input line 2301.
+LaTeX Info: Redefining \Cpagerefrange on input line 2301.
+LaTeX Info: Redefining \labelcref on input line 2301.
+LaTeX Info: Redefining \labelcpageref on input line 2301.
+)
 (/home/trent/texmf/tex/latex/tudscr/tudscrcolor.sty
 
 LaTeX Warning: You have requested release `2019/10/01' of LaTeX,
@@ -1437,16 +1451,16 @@ File: omliwona.fd 2008/07/22 v0.995 font definition file for OML/iwona (MW)
 (/home/trent/texmf/tex/latex/iwona/omsiwona.fd
 File: omsiwona.fd 2008/07/22 v0.995 font definition file for OMS/iwona (MW)
 )
-LaTeX Info: Redefining \textcdln on input line 17.
-LaTeX Info: Redefining \textcdrn on input line 17.
-LaTeX Info: Redefining \textcdsn on input line 17.
-LaTeX Info: Redefining \textcdbn on input line 17.
-LaTeX Info: Redefining \textcdxn on input line 17.
-LaTeX Info: Redefining \textcdli on input line 17.
-LaTeX Info: Redefining \textcdri on input line 17.
-LaTeX Info: Redefining \textcdsi on input line 17.
-LaTeX Info: Redefining \textcdbi on input line 17.
-LaTeX Info: Redefining \textcdxi on input line 17.
+LaTeX Info: Redefining \textcdln on input line 18.
+LaTeX Info: Redefining \textcdrn on input line 18.
+LaTeX Info: Redefining \textcdsn on input line 18.
+LaTeX Info: Redefining \textcdbn on input line 18.
+LaTeX Info: Redefining \textcdxn on input line 18.
+LaTeX Info: Redefining \textcdli on input line 18.
+LaTeX Info: Redefining \textcdri on input line 18.
+LaTeX Info: Redefining \textcdsi on input line 18.
+LaTeX Info: Redefining \textcdbi on input line 18.
+LaTeX Info: Redefining \textcdxi on input line 18.
 
 
 Class tudscrreprt Warning: The packages `cbfonts/cbgreek' and
@@ -1455,7 +1469,7 @@ Class tudscrreprt Warning: The packages `cbfonts/cbgreek' and
 (tudscrreprt)              are not, standard math versions are applied.
 
 LaTeX Font Info:    Try loading font information for OT1+opensans-TLF on input 
-line 17.
+line 18.
 (/home/trent/texmf/tex/latex/opensans/OT1opensans-TLF.fd
 File: OT1opensans-TLF.fd 2019/06/24 Font definitions for OT1/opensans-TLF.
 )
@@ -1494,73 +1508,73 @@ Package typearea Info: These are the values describing the layout:
 (typearea)              \topskip        = 11.0pt
 (typearea)              \footskip       = 47.6pt
 (typearea)              \baselineskip   = 13.6pt
-(typearea)              on input line 17.
+(typearea)              on input line 18.
 
 (./sigplanconf-template.aux (./introduction.aux) (./state-of-the-art.aux)
-(./concept-problems.aux) (./concept-proposals.aux) (./implementation.aux)
-(./evaluation.aux) (./conclusion.aux))
+(./concept-problems.aux) (./related-work.aux) (./concept-proposals.aux)
+(./implementation.aux) (./evaluation.aux) (./conclusion.aux))
 \openout1 = `sigplanconf-template.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-Package scrbase Info: activating english \contentsname on input line 17.
-Package scrbase Info: activating english \listfigurename on input line 17.
-Package scrbase Info: activating english \listtablename on input line 17.
-Package scrbase Info: activating english \graduationtext on input line 17.
-Package scrbase Info: activating english \refereename on input line 17.
-Package scrbase Info: activating english \refereeothername on input line 17.
-Package scrbase Info: activating english \advisorname on input line 17.
-Package scrbase Info: activating english \advisorothername on input line 17.
-Package scrbase Info: activating english \supervisorname on input line 17.
-Package scrbase Info: activating english \supervisorothername on input line 17.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+Package scrbase Info: activating english \contentsname on input line 18.
+Package scrbase Info: activating english \listfigurename on input line 18.
+Package scrbase Info: activating english \listtablename on input line 18.
+Package scrbase Info: activating english \graduationtext on input line 18.
+Package scrbase Info: activating english \refereename on input line 18.
+Package scrbase Info: activating english \refereeothername on input line 18.
+Package scrbase Info: activating english \advisorname on input line 18.
+Package scrbase Info: activating english \advisorothername on input line 18.
+Package scrbase Info: activating english \supervisorname on input line 18.
+Package scrbase Info: activating english \supervisorothername on input line 18.
 
-Package scrbase Info: activating english \professorname on input line 17.
-Package scrbase Info: activating english \professorothername on input line 17.
-Package scrbase Info: activating english \datetext on input line 17.
-Package scrbase Info: activating english \dateofbirthtext on input line 17.
-Package scrbase Info: activating english \placeofbirthtext on input line 17.
-Package scrbase Info: activating english \defensedatetext on input line 17.
+Package scrbase Info: activating english \professorname on input line 18.
+Package scrbase Info: activating english \professorothername on input line 18.
+Package scrbase Info: activating english \datetext on input line 18.
+Package scrbase Info: activating english \dateofbirthtext on input line 18.
+Package scrbase Info: activating english \placeofbirthtext on input line 18.
+Package scrbase Info: activating english \defensedatetext on input line 18.
 Package scrbase Info: activating english \matriculationyearname on input line 1
-7.
+8.
 Package scrbase Info: activating english \matriculationnumbername on input line
- 17.
-Package scrbase Info: activating english \coverpagename on input line 17.
-Package scrbase Info: activating english \titlepagename on input line 17.
-Package scrbase Info: activating english \titlename on input line 17.
-Package scrbase Info: activating english \confirmationname on input line 17.
-Package scrbase Info: activating english \confirmationtext on input line 17.
-Package scrbase Info: activating english \blockingname on input line 17.
-Package scrbase Info: activating english \blockingtext on input line 17.
-Package scrbase Info: activating english \coursename on input line 17.
-Package scrbase Info: activating english \disciplinename on input line 17.
-Package scrbase Info: activating english \listingname on input line 17.
-Package scrbase Info: activating english \listlistingname on input line 17.
-Package scrbase Info: activating english \dissertationname on input line 17.
-Package scrbase Info: activating english \diplomathesisname on input line 17.
-Package scrbase Info: activating english \masterthesisname on input line 17.
-Package scrbase Info: activating english \bachelorthesisname on input line 17.
-Package scrbase Info: activating english \studentthesisname on input line 17.
-Package scrbase Info: activating english \studentresearchname on input line 17.
+ 18.
+Package scrbase Info: activating english \coverpagename on input line 18.
+Package scrbase Info: activating english \titlepagename on input line 18.
+Package scrbase Info: activating english \titlename on input line 18.
+Package scrbase Info: activating english \confirmationname on input line 18.
+Package scrbase Info: activating english \confirmationtext on input line 18.
+Package scrbase Info: activating english \blockingname on input line 18.
+Package scrbase Info: activating english \blockingtext on input line 18.
+Package scrbase Info: activating english \coursename on input line 18.
+Package scrbase Info: activating english \disciplinename on input line 18.
+Package scrbase Info: activating english \listingname on input line 18.
+Package scrbase Info: activating english \listlistingname on input line 18.
+Package scrbase Info: activating english \dissertationname on input line 18.
+Package scrbase Info: activating english \diplomathesisname on input line 18.
+Package scrbase Info: activating english \masterthesisname on input line 18.
+Package scrbase Info: activating english \bachelorthesisname on input line 18.
+Package scrbase Info: activating english \studentthesisname on input line 18.
+Package scrbase Info: activating english \studentresearchname on input line 18.
 
-Package scrbase Info: activating english \projectpapername on input line 17.
-Package scrbase Info: activating english \seminarpapername on input line 17.
-Package scrbase Info: activating english \termpapername on input line 17.
-Package scrbase Info: activating english \researchname on input line 17.
-Package scrbase Info: activating english \logname on input line 17.
-Package scrbase Info: activating english \internshipname on input line 17.
-Package scrbase Info: activating english \reportname on input line 17.
+Package scrbase Info: activating english \projectpapername on input line 18.
+Package scrbase Info: activating english \seminarpapername on input line 18.
+Package scrbase Info: activating english \termpapername on input line 18.
+Package scrbase Info: activating english \researchname on input line 18.
+Package scrbase Info: activating english \logname on input line 18.
+Package scrbase Info: activating english \internshipname on input line 18.
+Package scrbase Info: activating english \reportname on input line 18.
 
 *geometry* detected driver: <none>
 *geometry* verbose mode - [ preamble ] result:
@@ -1627,7 +1641,7 @@ e
 ))
 ABD: EveryShipout initializing macros
 \AtBeginShipoutBox=\box70
-Package hyperref Info: Link coloring OFF on input line 17.
+Package hyperref Info: Link coloring OFF on input line 18.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -1637,9 +1651,9 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count295
 )
-LaTeX Info: Redefining \ref on input line 17.
-LaTeX Info: Redefining \pageref on input line 17.
-LaTeX Info: Redefining \nameref on input line 17.
+LaTeX Info: Redefining \ref on input line 18.
+LaTeX Info: Redefining \pageref on input line 18.
+LaTeX Info: Redefining \nameref on input line 18.
 
 (./sigplanconf-template.out) (./sigplanconf-template.out)
 \@outlinefile=\write4
@@ -1652,7 +1666,7 @@ Class scrreprt Info: loading recommended package `bookmark'.
 (scrreprt)           `bookmarkpackage=false' before \begin{document} and
 (scrreprt)           you can avoid this message adding:
 (scrreprt)             \usepackage{bookmark}
-(scrreprt)           before \begin{document} on input line 17.
+(scrreprt)           before \begin{document} on input line 18.
 
 (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/bookmark.sty
 Package: bookmark 2016/05/17 v1.26 PDF bookmarks (HO)
@@ -1668,59 +1682,59 @@ Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: rotating package is loaded.
 Package caption Info: End \AtBeginDocument code.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <20.74> on input line 25.
+(Font)              <20.74> on input line 26.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <14.4> on input line 25.
+(Font)              <14.4> on input line 26.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 25.
+(Font)              <12> on input line 26.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <24.88> on input line 25.
+(Font)              <24.88> on input line 26.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <17.28> on input line 25.
+(Font)              <17.28> on input line 26.
 <TUD-black.pdf, id=7, 256.15298pt x 74.32167pt>
 File: TUD-black.pdf Graphic file (type pdf)
 <use TUD-black.pdf>
-Package pdftex.def Info: TUD-black.pdf  used on input line 25.
+Package pdftex.def Info: TUD-black.pdf  used on input line 26.
 (pdftex.def)             Requested size: 162.18016pt x 47.05765pt.
 <TUD-blue.pdf, id=8, 256.15298pt x 74.32167pt>
 File: TUD-blue.pdf Graphic file (type pdf)
 <use TUD-blue.pdf>
-Package pdftex.def Info: TUD-blue.pdf  used on input line 25.
+Package pdftex.def Info: TUD-blue.pdf  used on input line 26.
 (pdftex.def)             Requested size: 162.18016pt x 47.05765pt.
 <TUD-white.pdf, id=9, 256.15298pt x 74.32167pt>
 File: TUD-white.pdf Graphic file (type pdf)
 <use TUD-white.pdf>
-Package pdftex.def Info: TUD-white.pdf  used on input line 25.
+Package pdftex.def Info: TUD-white.pdf  used on input line 26.
 (pdftex.def)             Requested size: 162.18016pt x 47.05765pt.
 <DDC-24.pdf, id=10, 144.20576pt x 51.4994pt>
 File: DDC-24.pdf Graphic file (type pdf)
 <use DDC-24.pdf>
-Package pdftex.def Info: DDC-24.pdf  used on input line 25.
+Package pdftex.def Info: DDC-24.pdf  used on input line 26.
 (pdftex.def)             Requested size: 131.77533pt x 47.05765pt.
 <DDC-27.pdf, id=11, 144.20576pt x 51.4994pt>
 File: DDC-27.pdf Graphic file (type pdf)
 <use DDC-27.pdf>
-Package pdftex.def Info: DDC-27.pdf  used on input line 25.
+Package pdftex.def Info: DDC-27.pdf  used on input line 26.
 (pdftex.def)             Requested size: 131.77533pt x 47.05765pt.
 <DDC-30.pdf, id=12, 144.20576pt x 51.4994pt>
 File: DDC-30.pdf Graphic file (type pdf)
 <use DDC-30.pdf>
-Package pdftex.def Info: DDC-30.pdf  used on input line 25.
+Package pdftex.def Info: DDC-30.pdf  used on input line 26.
 (pdftex.def)             Requested size: 131.77533pt x 47.05765pt.
 <DDC-22.pdf, id=13, 34.71169pt x 69.42436pt>
 File: DDC-22.pdf Graphic file (type pdf)
 <use DDC-22.pdf>
-Package pdftex.def Info: DDC-22.pdf  used on input line 25.
+Package pdftex.def Info: DDC-22.pdf  used on input line 26.
 (pdftex.def)             Requested size: 23.52893pt x 47.05765pt.
 <DDC-25.pdf, id=14, 34.71169pt x 69.42436pt>
 File: DDC-25.pdf Graphic file (type pdf)
 <use DDC-25.pdf>
-Package pdftex.def Info: DDC-25.pdf  used on input line 25.
+Package pdftex.def Info: DDC-25.pdf  used on input line 26.
 (pdftex.def)             Requested size: 23.52893pt x 47.05765pt.
 <DDC-28.pdf, id=15, 34.71169pt x 69.42436pt>
 File: DDC-28.pdf Graphic file (type pdf)
 <use DDC-28.pdf>
-Package pdftex.def Info: DDC-28.pdf  used on input line 25.
+Package pdftex.def Info: DDC-28.pdf  used on input line 26.
 (pdftex.def)             Requested size: 23.52893pt x 47.05765pt.
  [1{/home/trent/.texlive2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
@@ -1732,14 +1746,14 @@ Package pdftex.def Info: DDC-28.pdf  used on input line 25.
 
 
  </home/trent/texmf/tex/latex/tudscr/logo/TUD-black.pdf>]
-Overfull \hbox (1.17531pt too wide) in paragraph at lines 32--32
+Overfull \hbox (1.17531pt too wide) in paragraph at lines 33--33
 [] []\OT1/opensans-TLF/m/n/10.95 Abstract[][] \OT1/opensans-TLF/l/n/10.95 Au-di
 -to-rium Mo-bile Class-room Ser-vice (AMCS) is an Au-di-ence Re-sponse Sys-tem 
 (ARS)
  []
 
 
-Overfull \hbox (1.17531pt too wide) in paragraph at lines 32--32
+Overfull \hbox (1.17531pt too wide) in paragraph at lines 33--33
 [] []\OT1/opensans-TLF/m/n/10.95 Abstract[][] \OT1/opensans-TLF/l/n/10.95 Au-di
 -to-rium Mo-bile Class-room Ser-vice (AMCS) is an Au-di-ence Re-sponse Sys-tem 
 (ARS)
@@ -1756,61 +1770,56 @@ chapter 1.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 4.
 
-Underfull \hbox (badness 10000) in paragraph at lines 7--25
+Underfull \hbox (badness 10000) in paragraph at lines 6--19
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 7--25
+Underfull \hbox (badness 10000) in paragraph at lines 6--19
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 7--25
+Underfull \hbox (badness 10000) in paragraph at lines 6--19
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 7--25
+Underfull \hbox (badness 10000) in paragraph at lines 6--19
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 7--25
+Underfull \hbox (badness 10000) in paragraph at lines 6--19
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 20--28
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 20--28
 
  []
 
 LaTeX Font Info:    Font shape `OT1/opensans-TLF/l/sl' in size <10.95> not avai
 lable
 (Font)              Font shape `OT1/opensans-TLF/l/it' tried instead on input l
-ine 25.
+ine 28.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.95> on input line 25.
+(Font)              <10.95> on input line 28.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 25.
+(Font)              <8> on input line 28.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 25.
+(Font)              <6> on input line 28.
 [3
 
 
 
 ])
-Underfull \hbox (badness 10000) in paragraph at lines 28--34
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 28--34
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 28--34
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 28--34
+Underfull \hbox (badness 10000) in paragraph at lines 30--35
 
  []
 
@@ -1820,77 +1829,77 @@ Underfull \hbox (badness 10000) in paragraph at lines 28--34
  (./state-of-the-art.tex
 chapter 2.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <9> on input line 7.
+(Font)              <9> on input line 8.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 7.
+(Font)              <5> on input line 8.
 
-Underfull \hbox (badness 10000) in paragraph at lines 11--16
+Underfull \hbox (badness 10000) in paragraph at lines 12--17
 
  []
 
-<screenshots/landing_page.jpg, id=71, 1084.05pt x 2409.0pt>
+<screenshots/landing_page.jpg, id=69, 1084.05pt x 2409.0pt>
 File: screenshots/landing_page.jpg Graphic file (type jpg)
 <use screenshots/landing_page.jpg>
-Package pdftex.def Info: screenshots/landing_page.jpg  used on input line 21.
+Package pdftex.def Info: screenshots/landing_page.jpg  used on input line 22.
 (pdftex.def)             Requested size: 216.24028pt x 480.50493pt.
 
-Underfull \hbox (badness 1661) in paragraph at lines 23--23
+Underfull \hbox (badness 1661) in paragraph at lines 24--24
 \OT1/opensans-TLF/l/n/10.95 This is the ini-tial screen
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 23--23
+Underfull \hbox (badness 10000) in paragraph at lines 24--24
 \OT1/opensans-TLF/l/n/10.95 shown when ac-cess-ing
  []
 
-<screenshots/login_form.jpg, id=72, 1084.05pt x 2409.0pt>
+<screenshots/login_form.jpg, id=70, 1084.05pt x 2409.0pt>
 File: screenshots/login_form.jpg Graphic file (type jpg)
 <use screenshots/login_form.jpg>
-Package pdftex.def Info: screenshots/login_form.jpg  used on input line 28.
+Package pdftex.def Info: screenshots/login_form.jpg  used on input line 29.
 (pdftex.def)             Requested size: 216.24028pt x 480.50493pt.
-<screenshots/main_view_1.jpg, id=74, 1084.05pt x 2409.0pt>
+<screenshots/main_view_1.jpg, id=72, 1084.05pt x 2409.0pt>
 File: screenshots/main_view_1.jpg Graphic file (type jpg)
 <use screenshots/main_view_1.jpg>
-Package pdftex.def Info: screenshots/main_view_1.jpg  used on input line 44.
+Package pdftex.def Info: screenshots/main_view_1.jpg  used on input line 45.
 (pdftex.def)             Requested size: 216.24028pt x 480.50493pt.
 
-Underfull \hbox (badness 4378) in paragraph at lines 46--46
+Underfull \hbox (badness 4378) in paragraph at lines 47--47
 [][][]|\OT1/opensans-TLF/l/n/10.95 Main View: Lec-ture in-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 46--46
+Underfull \hbox (badness 10000) in paragraph at lines 47--47
 \OT1/opensans-TLF/l/n/10.95 for-ma-tion is pro-vided
  []
 
 
-Underfull \hbox (badness 3872) in paragraph at lines 46--46
+Underfull \hbox (badness 3872) in paragraph at lines 47--47
 \OT1/opensans-TLF/l/n/10.95 in dif-fer-ent sec-tions for
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 46--46
+Underfull \hbox (badness 10000) in paragraph at lines 47--47
 \OT1/opensans-TLF/l/n/10.95 each tem-po-ral con-text.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 46--46
+Underfull \hbox (badness 10000) in paragraph at lines 47--47
 \OT1/opensans-TLF/l/n/10.95 Per de-fault, a sec-tion
  []
 
-<screenshots/main_view_course_management.jpg, id=75, 1084.05pt x 2409.0pt>
+<screenshots/main_view_course_management.jpg, id=73, 1084.05pt x 2409.0pt>
 File: screenshots/main_view_course_management.jpg Graphic file (type jpg)
 <use screenshots/main_view_course_management.jpg>
 Package pdftex.def Info: screenshots/main_view_course_management.jpg  used on i
-nput line 51.
+nput line 52.
 (pdftex.def)             Requested size: 216.24028pt x 480.50493pt.
 
-Underfull \hbox (badness 1043) in paragraph at lines 53--53
+Underfull \hbox (badness 1043) in paragraph at lines 54--54
 [][][]|\OT1/opensans-TLF/l/n/10.95 Course man-age-ment be-
  []
 
 
-Underfull \hbox (badness 1968) in paragraph at lines 53--53
+Underfull \hbox (badness 1968) in paragraph at lines 54--54
 \OT1/opensans-TLF/l/n/10.95 ment form con-sist-ing of
  []
 
@@ -1902,105 +1911,105 @@ Underfull \hbox (badness 1968) in paragraph at lines 53--53
 [7 <./screenshots/main_view_1.jpg> <./screenshots/main_view_course_management.j
 pg>]
 Package hyperref Info: bookmark level for unknown todo defaults to 0 on input l
-ine 71.
+ine 72.
 
-Overfull \hbox (10.23676pt too wide) in paragraph at lines 71--71
+Overfull \hbox (10.23676pt too wide) in paragraph at lines 72--72
 \OT1/opensans-TLF/l/n/10.95 graphic 
  []
 
 
-Overfull \hbox (9.4659pt too wide) in paragraph at lines 71--71
+Overfull \hbox (9.4659pt too wide) in paragraph at lines 72--72
 \OT1/opensans-TLF/l/n/10.95 badges  
  []
 
 
-Overfull \hbox (10.23676pt too wide) in paragraph at lines 71--71
+Overfull \hbox (10.23676pt too wide) in paragraph at lines 72--72
 \OT1/opensans-TLF/l/n/10.95 graphic 
  []
 
 
-Overfull \hbox (9.4659pt too wide) in paragraph at lines 71--71
+Overfull \hbox (9.4659pt too wide) in paragraph at lines 72--72
 \OT1/opensans-TLF/l/n/10.95 badges  
  []
 
 
-Overfull \hbox (10.23676pt too wide) in paragraph at lines 71--71
+Overfull \hbox (10.23676pt too wide) in paragraph at lines 72--72
 \OT1/opensans-TLF/l/n/10.95 graphic 
  []
 
 
-Overfull \hbox (9.4659pt too wide) in paragraph at lines 71--71
+Overfull \hbox (9.4659pt too wide) in paragraph at lines 72--72
 \OT1/opensans-TLF/l/n/10.95 badges  
  []
 
 
-Overfull \hbox (10.23676pt too wide) in paragraph at lines 71--71
+Overfull \hbox (10.23676pt too wide) in paragraph at lines 72--72
 \OT1/opensans-TLF/l/n/10.95 graphic 
  []
 
 
-Overfull \hbox (9.4659pt too wide) in paragraph at lines 71--71
+Overfull \hbox (9.4659pt too wide) in paragraph at lines 72--72
 \OT1/opensans-TLF/l/n/10.95 badges  
  []
 
 
-Overfull \hbox (10.23676pt too wide) in paragraph at lines 87--87
+Overfull \hbox (10.23676pt too wide) in paragraph at lines 88--88
 \OT1/opensans-TLF/l/n/10.95 graphic 
  []
 
 
-Overfull \hbox (10.23676pt too wide) in paragraph at lines 87--87
+Overfull \hbox (10.23676pt too wide) in paragraph at lines 88--88
 \OT1/opensans-TLF/l/n/10.95 graphic 
  []
 
 
-Overfull \hbox (10.23676pt too wide) in paragraph at lines 87--87
+Overfull \hbox (10.23676pt too wide) in paragraph at lines 88--88
 \OT1/opensans-TLF/l/n/10.95 graphic 
  []
 
 
-Overfull \hbox (10.23676pt too wide) in paragraph at lines 87--87
+Overfull \hbox (10.23676pt too wide) in paragraph at lines 88--88
 \OT1/opensans-TLF/l/n/10.95 graphic 
  []
 
-<screenshots/course_view_1.jpg, id=107, 1084.05pt x 2409.0pt>
+<screenshots/course_view_1.jpg, id=105, 1084.05pt x 2409.0pt>
 File: screenshots/course_view_1.jpg Graphic file (type jpg)
 <use screenshots/course_view_1.jpg>
-Package pdftex.def Info: screenshots/course_view_1.jpg  used on input line 116.
+Package pdftex.def Info: screenshots/course_view_1.jpg  used on input line 117.
 
 (pdftex.def)             Requested size: 216.24028pt x 480.50493pt.
 
-Underfull \hbox (badness 1590) in paragraph at lines 118--118
+Underfull \hbox (badness 1590) in paragraph at lines 119--119
 [][][]|\OT1/opensans-TLF/l/it/10.95 Course View\OT1/opensans-TLF/l/n/10.95 : De
 -tails like
  []
 
-<screenshots/course_view_3.jpg, id=108, 1084.05pt x 2409.0pt>
+<screenshots/course_view_3.jpg, id=106, 1084.05pt x 2409.0pt>
 File: screenshots/course_view_3.jpg Graphic file (type jpg)
 <use screenshots/course_view_3.jpg>
-Package pdftex.def Info: screenshots/course_view_3.jpg  used on input line 123.
+Package pdftex.def Info: screenshots/course_view_3.jpg  used on input line 124.
 
 (pdftex.def)             Requested size: 216.24028pt x 480.50493pt.
 
-Underfull \hbox (badness 2970) in paragraph at lines 125--125
+Underfull \hbox (badness 2970) in paragraph at lines 126--126
 \OT1/opensans-TLF/l/n/10.95 cer-tain course dis-played
  []
 
 [8] [9] [10 <./screenshots/course_view_1.jpg> <./screenshots/course_view_3.jpg>
 ]
-<screenshots/expanded_burger_menu.jpg, id=143, 1084.05pt x 2409.0pt>
+<screenshots/expanded_burger_menu.jpg, id=141, 1084.05pt x 2409.0pt>
 File: screenshots/expanded_burger_menu.jpg Graphic file (type jpg)
 <use screenshots/expanded_burger_menu.jpg>
 Package pdftex.def Info: screenshots/expanded_burger_menu.jpg  used on input li
-ne 183.
+ne 184.
 (pdftex.def)             Requested size: 216.24028pt x 480.50493pt.
 File: screenshots/course_view_3.jpg Graphic file (type jpg)
 <use screenshots/course_view_3.jpg>
-Package pdftex.def Info: screenshots/course_view_3.jpg  used on input line 190.
+Package pdftex.def Info: screenshots/course_view_3.jpg  used on input line 191.
 
 (pdftex.def)             Requested size: 216.24028pt x 480.50493pt.
 
-Underfull \hbox (badness 2970) in paragraph at lines 192--192
+Underfull \hbox (badness 2970) in paragraph at lines 193--193
 \OT1/opensans-TLF/l/n/10.95 cer-tain course dis-played
  []
 
@@ -2279,47 +2288,59 @@ iew \OT1/opensans-TLF/l/n/10.95 is not
 
 ) [16] [17 <./diagrams/amcs-click-paths.png>] [18 <./screenshots/poll_view_2.pn
 g>] [19] [20]
-\openout2 = `concept-proposals.aux'.
+\openout2 = `related-work.aux'.
 
- (./concept-proposals.tex [21
+ (./related-work.tex
+chapter 4.
+) [21
+
 
 
 ]
-<mockups/main_view_enhancement_v1_annotated.png, id=257, 477.785pt x 325.215pt>
+\openout2 = `concept-proposals.aux'.
+
+ (./concept-proposals.tex
+chapter 5.
+[22
+
+
+
+]
+<mockups/main_view_enhancement_v1_annotated.png, id=259, 477.785pt x 325.215pt>
 
 File: mockups/main_view_enhancement_v1_annotated.png Graphic file (type png)
 <use mockups/main_view_enhancement_v1_annotated.png>
 Package pdftex.def Info: mockups/main_view_enhancement_v1_annotated.png  used o
 n input line 28.
 (pdftex.def)             Requested size: 318.66953pt x 216.91037pt.
-<mockups/main_view_enhancement_v2_cropped.png, id=258, 499.8675pt x 436.63126pt
+<mockups/main_view_enhancement_v2_cropped.png, id=260, 499.8675pt x 436.63126pt
 >
 File: mockups/main_view_enhancement_v2_cropped.png Graphic file (type png)
 <use mockups/main_view_enhancement_v2_cropped.png>
 Package pdftex.def Info: mockups/main_view_enhancement_v2_cropped.png  used on 
 input line 40.
 (pdftex.def)             Requested size: 318.66953pt x 278.36372pt.
-<mockups/main_view_enhancement_v3.png, id=259, 508.90125pt x 939.51pt>
+<mockups/main_view_enhancement_v3.png, id=261, 508.90125pt x 939.51pt>
 File: mockups/main_view_enhancement_v3.png Graphic file (type png)
 <use mockups/main_view_enhancement_v3.png>
 Package pdftex.def Info: mockups/main_view_enhancement_v3.png  used on input li
 ne 52.
 (pdftex.def)             Requested size: 318.66953pt x 588.33917pt.
- [22 <./mockups/main_view_enhancement_v1_annotated.png>]
-<mockups/embedded_drop_down.png, id=268, 457.71pt x 352.31625pt>
+ [23 <./mockups/main_view_enhancement_v1_annotated.png>] [24 <./mockups/main_vi
+ew_enhancement_v2_cropped.png>]
+<mockups/embedded_drop_down.png, id=280, 457.71pt x 352.31625pt>
 File: mockups/embedded_drop_down.png Graphic file (type png)
 <use mockups/embedded_drop_down.png>
 Package pdftex.def Info: mockups/embedded_drop_down.png  used on input line 78.
 
 (pdftex.def)             Requested size: 318.66953pt x 245.30258pt.
- [23 <./mockups/main_view_enhancement_v2_cropped.png>]
-<mockups/poll_view_enhancement.png, id=282, 512.91624pt x 723.70375pt>
+<mockups/poll_view_enhancement.png, id=283, 512.91624pt x 723.70375pt>
 File: mockups/poll_view_enhancement.png Graphic file (type png)
 <use mockups/poll_view_enhancement.png>
 Package pdftex.def Info: mockups/poll_view_enhancement.png  used on input line 
 99.
 (pdftex.def)             Requested size: 318.66953pt x 449.63033pt.
-<mockups/poll_view_enhancement_v2.png, id=283, 525.965pt x 873.2625pt>
+<mockups/poll_view_enhancement_v2.png, id=284, 525.965pt x 873.2625pt>
 File: mockups/poll_view_enhancement_v2.png Graphic file (type png)
 <use mockups/poll_view_enhancement_v2.png>
 Package pdftex.def Info: mockups/poll_view_enhancement_v2.png  used on input li
@@ -2330,7 +2351,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 121--129
 
  []
 
-[24]
+[25]
 Underfull \hbox (badness 10000) in paragraph at lines 138--143
 
  []
@@ -2355,7 +2376,7 @@ Overfull \hbox (10.23676pt too wide) in paragraph at lines 152--152
 \OT1/opensans-TLF/l/n/10.95 graphic 
  []
 
-
+[26]
 Overfull \hbox (6.83026pt too wide) in paragraph at lines 155--155
 \OT1/opensans-TLF/l/n/10.95 names 
  []
@@ -2417,16 +2438,16 @@ Overfull \hbox (1.2972pt too wide) in paragraph at lines 155--155
 
 )
 
-LaTeX Warning: Marginpar on page 25 moved.
+LaTeX Warning: Marginpar on page 27 moved.
 
-[25] [26 <./mockups/main_view_enhancement_v3.png>] [27 <./mockups/embedded_drop
-_down.png>] [28 <./mockups/poll_view_enhancement.png>] [29 <./mockups/poll_view
+[27] [28 <./mockups/main_view_enhancement_v3.png>] [29 <./mockups/embedded_drop
+_down.png>] [30 <./mockups/poll_view_enhancement.png>] [31 <./mockups/poll_view
 _enhancement_v2.png>]
 \openout2 = `implementation.aux'.
 
  (./implementation.tex
-chapter 4.
-) [30
+chapter 6.
+) [32
 
 
 
@@ -2434,8 +2455,8 @@ chapter 4.
 \openout2 = `evaluation.aux'.
 
  (./evaluation.tex
-chapter 5.
-) [31
+chapter 7.
+) [33
 
 
 
@@ -2443,54 +2464,59 @@ chapter 5.
 \openout2 = `conclusion.aux'.
 
  (./conclusion.tex
-chapter 6.
-) [32
+chapter 8.
+) [34
 
 
 
-] [33
+] [35
 
-] [34
+] [36
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 61.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 61.
- (./sigplanconf-template.aux (./introduction.aux)
-(./state-of-the-art.aux) (./concept-problems.aux) (./concept-proposals.aux)
-(./implementation.aux) (./evaluation.aux) (./conclusion.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 61.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 61.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 63.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 63.
+ (./sigplanconf-template.aux
+Package cleveref Info: loaded `english' language definitions on input line 24.
+Package cleveref Info: loaded `english' language definitions on input line 25.
+ (./introduction.aux)
+(./state-of-the-art.aux) (./concept-problems.aux) (./related-work.aux)
+(./concept-proposals.aux) (./implementation.aux) (./evaluation.aux)
+(./conclusion.aux))
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 63.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 63.
 Package rerunfilecheck Info: File `sigplanconf-template.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 34724 strings out of 494871
- 717004 string characters out of 6178382
- 1040291 words of memory out of 5000000
- 37418 multiletter control sequences out of 15000+600000
- 549025 words of font info for 84 fonts, out of 8000000 for 9000
+ 36504 strings out of 494871
+ 757410 string characters out of 6178382
+ 1096680 words of memory out of 5000000
+ 39182 multiletter control sequences out of 15000+600000
+ 549711 words of font info for 86 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  73i,19n,106p,10474b,707s stack positions out of 5000i,500n,10000p,200000b,80000s
  </home/trent/texmf/fonts/pk/modeless/ascender/opensans/OpenSans-SemiBold-OT1
 -TLF--base.657pk> </home/trent/texmf/fonts/pk/modeless/ascender/opensans/OpenSa
 ns-SemiBold-OT1-TLF--base.720pk> </home/trent/texmf/fonts/pk/modeless/ascender/
 opensans/OpenSans-LightItalic-OT1-TLF--base.657pk> </home/trent/texmf/fonts/pk/
-modeless/ascender/opensans/OpenSans-Light-OT1-TLF--base.360pk> </home/trent/tex
-mf/fonts/pk/modeless/ascender/opensans/OpenSans-Light-OT1-TLF--base.480pk> </ho
-me/trent/texmf/fonts/pk/modeless/ascender/opensans/OpenSans-SemiBold-OT1-TLF--b
-ase.864pk> </home/trent/texmf/fonts/pk/modeless/ascender/opensans/OpenSans-Ligh
-t-OT1-TLF--base.657pk> </home/trent/texmf/fonts/pk/modeless/ascender/opensans/O
-penSans-Regular-OT1-TLF--base.657pk> </home/trent/texmf/fonts/pk/modeless/ascen
-der/opensans/OpenSans-Light-OT1-TLF--base.720pk> </home/trent/texmf/fonts/pk/mo
-deless/ascender/opensans/OpenSans-Regular-OT1-TLF--base.864pk> </home/trent/tex
-mf/fonts/pk/modeless/ascender/opensans/OpenSans-SemiBold-OT1-TLF--base.1493pk> 
-</home/trent/texmf/fonts/pk/modeless/ascender/opensans/OpenSans-Light-OT1-TLF--
-base.540pk> </home/trent/texmf/fonts/pk/modeless/ascender/opensans/OpenSans-Sem
-iBold-OT1-TLF--base.540pk>
-Output written on sigplanconf-template.pdf (34 pages, 3651045 bytes).
+modeless/ascender/opensans/OpenSans-LightItalic-OT1-TLF--base.540pk> </home/tre
+nt/texmf/fonts/pk/modeless/ascender/opensans/OpenSans-Light-OT1-TLF--base.360pk
+> </home/trent/texmf/fonts/pk/modeless/ascender/opensans/OpenSans-Light-OT1-TLF
+--base.480pk> </home/trent/texmf/fonts/pk/modeless/ascender/opensans/OpenSans-S
+emiBold-OT1-TLF--base.864pk> </home/trent/texmf/fonts/pk/modeless/ascender/open
+sans/OpenSans-Light-OT1-TLF--base.657pk> </home/trent/texmf/fonts/pk/modeless/a
+scender/opensans/OpenSans-Regular-OT1-TLF--base.657pk> </home/trent/texmf/fonts
+/pk/modeless/ascender/opensans/OpenSans-Light-OT1-TLF--base.720pk> </home/trent
+/texmf/fonts/pk/modeless/ascender/opensans/OpenSans-Regular-OT1-TLF--base.864pk
+> </home/trent/texmf/fonts/pk/modeless/ascender/opensans/OpenSans-SemiBold-OT1-
+TLF--base.1493pk> </home/trent/texmf/fonts/pk/modeless/ascender/opensans/OpenSa
+ns-Light-OT1-TLF--base.540pk> </home/trent/texmf/fonts/pk/modeless/ascender/ope
+nsans/OpenSans-SemiBold-OT1-TLF--base.540pk>
+Output written on sigplanconf-template.pdf (36 pages, 3660469 bytes).
 PDF statistics:
- 894 PDF objects out of 1000 (max. 8388607)
- 454 compressed objects within 5 object streams
- 126 named destinations out of 1000 (max. 500000)
- 397 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 952 PDF objects out of 1000 (max. 8388607)
+ 486 compressed objects within 5 object streams
+ 130 named destinations out of 1000 (max. 500000)
+ 453 words of extra memory for PDF output out of 10000 (max. 10000000)
 

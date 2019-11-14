@@ -1,14 +1,15 @@
-\chapter{State of the art}
+\chapter{Current State of AMCS}
 \label{chapter:stateoftheart}
-At the time of writing, AMCS offers front end applications for iOS, Android and web that students can use. As already mentioned in \autoref{section:intro:objective} this work will focus on the web view / web page of AMCS.
+At the time of writing, AMCS offers front end applications for iOS, Android and web that students can use.  AMCS does offer a variety of features to the audience and to speakers. They were designed and developed by different people over the years and therefore all differ  variously in terms of UI design and layout.
+To keep the scope of this work manageable, this work will mostly focus on all features that audience members will come in contact with when using AMCS.
 This section elaborates on the current state of the system by identifying and analyzing all views that allow for access to the different functionalities of AMCS from a student's point of view. 
 
 \section{Web Technology}
-The AMCS web page is written using Angular\footnote{https://angular.io}, a typescript-based front end framework for building mobile and desktop web applications.
+The AMCS web page is written using Angular\footnote{https://angular.io (\emph{last access: 01.11.2019})}, a typescript-based front end framework for building mobile and desktop web applications.
 
 \section{Landing Page and Login}
 \label{section:landingpage}
-When accessing the website\footnote{https://amcs.website}, students will be shown the landing page of AMCS (see \autoref{fig:landingpage}). A big login button is displayed that when pressed will reveal a login form (see \autoref{fig:loginform}).
+When accessing the website\footnote{https://amcs.website (\emph{last access: 01.11.2019})}, students will be shown the landing page of AMCS (see  \cref{fig:landingpage}). A big login button is displayed that when pressed will reveal a login form (see  \cref{fig:loginform}).
 In order to use the system, students have to create an account by providing credentials.
 \newline
 \newline
@@ -34,7 +35,7 @@ Additionally, a subscription to courses is mandatory in order to reasonably use 
  
 \section{Main View}
 \label{section:soa:mainview}
-After successfully logging in, the user is presented with the Main View of the system (see \autoref{fig:mainview}).
+After successfully logging in, the user is presented with the Main View of the system (see  \cref{fig:mainview}).
 It can be scrolled in the vertical direction and is divided into header and body. On top, the header consists of corporate branding on the left side and a burger menu on the right side. Below it, the view's body organizes information in different sections as follows:
 
 \begin{figure}
@@ -57,7 +58,7 @@ It can be scrolled in the vertical direction and is divided into header and body
 
 \subsection{Lectures}
 \label{section:soa:mainview:lectures}
-This section lists all lectures that the user subscribed to (see \autoref{fig:mainview}). It is organized in subsections that indicate the temporal context of each lecture. These include:
+This section lists all lectures that the user subscribed to (see  \cref{fig:mainview}). It is organized in subsections that indicate the temporal context of each lecture. These include:
 
 \paragraph{Upcoming lectures} - Lectures that will take place in the future are shown here.
 \paragraph{Active lectures} - Lectures that take place right now are shown here.
@@ -73,7 +74,7 @@ A color-coded badge on the top right of the boxes serves as an indicator for the
 
 \subsection{Course management}
 
-Further down on the page, the section \emph{Enrolled Courses} can be found (see \autoref{fig:mainviewcoursemanagement}). It serves two purposes: Primarily, it provides a way to enroll into a course. An enrollment form is shown that consists of a text field to enter the course PIN and a blue button to trigger the enrollment. When provided with a valid PIN, pressing the button redirects the user to the \emph{Course View} (described in \autoref{section:soa:courseview})  on successful enrollment.
+Further down on the page, the section \emph{Enrolled Courses} can be found (see  \cref{fig:mainviewcoursemanagement}). It serves two purposes: Primarily, it provides a way to enroll into a course. An enrollment form is shown that consists of a text field to enter the course PIN and a blue button to trigger the enrollment. When provided with a valid PIN, pressing the button redirects the user to the \emph{Course View} (described in  \cref{section:soa:courseview})  on successful enrollment.
 Secondly, the view shows all courses the student is currently enrolled in. They are rendered as light blue buttons in a vertical list. A trash can icon on each button provides a way to leave the given course.
 
 \section{Poll View}
@@ -82,7 +83,7 @@ Answering polls is one of the main functionalities of the system that users will
 Polls can be reached by clicking on a lecture box from either the \emph{Main View} or the \emph{Course View}.
 Each poll consists of a set of questions the user can answer. They are rendered in a view that is reused  by the system depending on the situation and context. This means that the view might only be accessible under certain circumstances, for example when the lecture reaches a specific point in time, making it a slide poll (SP). SPs are shown when a specific slide is on display and can only be answered in this very moment. Other types of polls include “global” course polls (CP) that are always accessible during the semester and lecture polls (LP) which can only be answered during the life time of a lecture.
 Active polls are displayed all at once in sections designated to each poll type.
-The different types of polls that occur in AMCS are further summarized in \autoref{tab:pollTypes}.
+The different types of polls that occur in AMCS are further summarized in  \cref{tab:pollTypes}.
 
 If no polls for a given lecture are available, the user is presented with the hint shown in \todogrf.
 
@@ -106,8 +107,8 @@ If no polls for a given lecture are available, the user is presented with the hi
 \section{Course View}
 \label{section:soa:courseview}
 
-The \emph{Course View} is shown when the user selects one of the courses from the course management section (see \autoref{fig:courseview} and \autoref{fig:courseviewlectures}). Its purpose is essentially to provide a filtered view on the lectures of a single course.
-The course name and PIN, it's description and lists of upcoming, live and past lectures are visible from top to bottom in this order. It reuses the lecture section component described in \autoref{section:soa:mainview:lectures}.
+The \emph{Course View} is shown when the user selects one of the courses from the course management section (see  \cref{fig:courseview} and  \cref{fig:courseviewlectures}). Its purpose is essentially to provide a filtered view on the lectures of a single course.
+The course name and PIN, it's description and lists of upcoming, live and past lectures are visible from top to bottom in this order. It reuses the lecture section component described in  \cref{section:soa:mainview:lectures}.
 
 \begin{figure}
 	\centering
@@ -133,7 +134,7 @@ Besides using the \emph{Main View}, additional functionality can be reached by n
 
 \subsection{Student}
 
-This is one of the most important buttons that connects a subset of main functionalities of AMCS. Upon pressing this button, the menu expands again vertically, showing a list of further sub menus. Most of the functionalities shown in this list will be touched by the proposals for improvement that are presented in \autoref{chapter:concept}. The functionalities in questions are:
+This is one of the most important buttons that connects a subset of main functionalities of AMCS. Upon pressing this button, the menu expands again vertically, showing a list of further sub menus. Most of the functionalities shown in this list will be touched by the proposals for improvement that are presented in  \cref{chapter:concept}. The functionalities in questions are:
 
 \begin{enumerate}
 	\item Question Pool
@@ -156,7 +157,7 @@ If logging out was successful, the \emph{Landing Page} is displayed.
 
 By selecting this option from the \emph{Burger Menu}, the student is offered the possibility to create collections of already answered questions. The intent is to provide a way for students to collect and repeat questions that they had difficulty in answering.
 Similar to \todosct, the student is prompted with a drop down menu to select a course they are interested in. After selection, the student is presented with a list of all lectures and their polls respectively. All questions of each poll are grouped and shown to the student in a vertical list. From this list, the student can select all questions that they might be interested in to create a pool of questions.
-These pools are composed into polls that the student then can answer again. These polls are rendered in the same manner as stated in \autoref{section:soa:pollview}.
+These pools are composed into polls that the student then can answer again. These polls are rendered in the same manner as stated in  \cref{section:soa:pollview}.
 
 \begin{table}[t]
 	{\renewcommand{\arraystretch}{2}

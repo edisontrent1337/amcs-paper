@@ -1,12 +1,12 @@
 \chapter{Problem Analysis}
 \label{chapter:concept}
-This chapter will analyze and identify problems that occur when using AMCS via a web browser on mobile
-devices. To narrow down the extend of this work, the system is analyzed from the point of view that an audience member like a student has while using AMCS on their smartphone. When doing so, students will interact mostly with the \emph{Main View}, the \emph{Poll View} and the \emph{Navigation / Burger Menu}. Therefore, this work is centered around but not limited to these components (see \Cref{tab:components}).
+This chapter analyzes and identifies problems that occur when using AMCS via a web browser on mobile
+devices. To narrow down the extend of this work, the system is analyzed from the point of view that an audience member like a student has while using AMCS on their smartphone. While doing so, students will interact mostly with the \emph{Main View}, the \emph{Poll View} and the \emph{Navigation / Burger Menu}. Therefore, this work is centered around but not limited to these components (see \Cref{tab:components}).
 
 \section{Problems Of The Mobile View}
 \label{section:con:problems}
-The back end of AMCS reacts on requests coming from mobile devices such as smartphones or tablets by providing a responsive mobile view to its clients. However, in some aspects, AMCS struggles to offer a uniform UI experience that guarantees high usability.
-One challenge lies in the fact that the system has to deal with limited screen space to visualize information as effectively as possible. Additionally, users might approach the application with different ways of interaction and navigation in mind that are typical for mobile devices. For example, a smartphone user might expect to be able to use swiping gestures to navigate a menu or that information is organized in views consisting of separate tabs. This section lists key issues that lower usability or might cause confusion to mobile users. A summary of the findings can be found in \Cref{tab:problems} and \Cref{tab:problems2} respectively.
+The back end of AMCS reacts on requests coming from mobile devices such as smartphones or tablets by providing a responsive mobile view to its clients. However, in some aspects, AMCS struggles to offer a uniform UI experience that guarantees the best usability possible.
+One challenge lies in the fact that the system has to deal with limited screen space to visualize information with maximum effectiveness. Additionally, some users might approach the application with different ways of interaction and navigation that are characteristic for mobile devices. For example, a smartphone user might expect to be able to use swiping gestures to navigate a menu. The user could also expect that information is organized in views consisting of separate tabs. This section lists key issues that lower usability or might cause confusion to mobile users. A summary of the findings can be found in \Cref{tab:problems} and \Cref{tab:problems2} respectively.
 
 \subsection{Main View}
 As already described in \Cref{section:soa:mainview}, the \emph{Main View} relies on a vertically scrolling list view, consisting of different sections. The layout in place causes problems regarding usability aspects of the application.
@@ -17,27 +17,25 @@ The most coarse grain piece of information - the course name - is displayed at t
 
 In addition to that, inappropriate background colors and font sizes are used to differentiate between course name and lecture name, further increasing the ambiguity described above.
 
-
-To sum it up, the hierarchical and logical relationship between courses and lectures is disregarded. 
+To sum it up, the hierarchical and logical relationship between courses and lectures is disregarded in the way this information is visualized. 
 
 \subsubsection{No Notifications For New Or Unread Content}
 \label{section:con:problems:noindicators}
-The \emph{Main View} lacks completely of visual indicators for new or unread content. Typically, not all polls are visible to students at the beginning of a semester - either because the polls do not exist yet or for the reason that polls can be activated by lecturers at a later point in time. In the current version of AMCS, notifications for new or unread content are completely missing. For example, in order to see whether or not for a given course or lecture new polls exist, students have to tap on the lecture to check. This is unintuitive and adds another layer of indirection to the overall workflow.
+The \emph{Main View} lacks completely of visual indicators for new or unread content. Typically, not all polls are visible to students at the beginning of a semester - either because the polls do not exist yet or for the reason that polls can be activated by lecturers at a preferred point in time. In the current version of AMCS, notifications for new or unread content are missing. For example, in order to see whether or not for a given course or lecture new polls exist, students have to tap on the lecture to check. This is unintuitive and adds another layer of indirection to the overall workflow.
 
 \subsubsection{Indirection Problems}
 
 The boxes that represent each lecture claim a lot of screen space in relation to the information that is displayed to the student (see \Cref{fig:mainview}). The layout causes a lot of indirection, because per default, the sections for upcoming and active lectures are expanded fully. This might be handy when quickly gathering information about lectures that are or soon will be active, but in every other case it slows navigation and overall interaction, because the course management section is pushed down to the bottom of the page.
-A list of only four boxes causes a scroll bar to appear on the very common screen resolution of 1920x1080 pixels. A student that navigates to the \emph{Main View} to enroll into a new course therefore always has to scroll to the bottom of the page before they reach the enrollment form. The same problem likewise occurs when simply seeking information about what courses a student is already enrolled in or when trying to leave a course altogether. 
+A list of only four boxes causes a scroll bar to appear on the very common screen resolution of 1920x1080 pixels. A student that navigates to the \emph{Main View} to enroll into a new course therefore always has to scroll to the bottom of the page before they reach the enrollment form. The same problem  occurs when simply seeking information about what courses a student is already enrolled in or when trying to leave a course altogether. 
 
-Furthermore, if a student looks for information regarding a specific course, no filter or search functionality is offered by the lecture list. Instead, they have to scroll down to the bottom of the lecture list, scan the course list manually with their eyeballs, find the course and click on the corresponding item. Finally, they are redirected to the \emph{Course View}, which then displays a filtered list of lectures belonging to the course. This level of indirection is only further increased the more courses the student is enrolled in. 
+Furthermore, if a student looks for information regarding a specific course, no filter or search functionality is offered by the lecture list. Instead, they have to scroll down to the bottom of the lecture list, scan the course list manually with their eyeballs, find the course and click on the corresponding item. After that, they are redirected to the \emph{Course View}, which then displays a filtered list of lectures belonging to the course. This level of indirection is further increased the more courses the student is enrolled in. 
 
 
 \subsubsection{Redundancy}
 
 Some visual redundancy is added by the badges that are displayed on the upper-right corner of each lecture. These badges are used to visualize the temporal context of the lecture for each item in the corresponding section. It seems that the badge's intention is to help conveying the temporal context of the lecture, because sorting the lectures in their respective section alone fails to do so. Furthermore, the badge's names do not match the section's names, e.g. an upcoming lecture's badge reads \emph{BEFORE} instead of \emph{UPCOMING}. 
 
-In the course management section below, each course is represented by a box with the course's name along with an unsubscribe button, represented by a trash can icon (see\Cref{fig:mainviewcoursemanagement}). This is a redundant way of rendering the courses which adds noise to the overall look
-and uses a lot of the vertical screen estate.
+Some visual redundancy can also be found in the course management section below. Each course is represented by a box with the course's name along with an unsubscribe button, represented by a trash can icon (see\Cref{fig:mainviewcoursemanagement}). This is a redundant way of rendering the courses which adds noise to the overall look and uses a lot of the vertical screen estate.
 
 \subsection{Course View}
 \label{section:con:problems:courseview}
@@ -49,11 +47,13 @@ The \emph{Course View} has a very important function in terms of usability as it
 \subsubsection{Visualization}
 \label{section:con:problems:pollview}
 
-\Cref{section:soa:pollview} describes the rendering of questions as boxes that are aligned in a vertical scrolling list. Namely the extensive use of vertical space on the screen is one problem introduced by this layout. Bigger polls that consist of multiple questions unnecessarily take a lot of vertical screen estate. The view also lacks of basic information such as total number of questions or number of remaining questions. This information might be useful in bigger polls if students want to gain an idea on how many questions are left.
+\Cref{section:soa:pollview} describes the rendering of questions as boxes that are aligned in a vertical scrolling list. Namely the extensive use of vertical space on the screen is one problem introduced by this layout. Bigger polls that consist of multiple questions unnecessarily take a lot of vertical screen estate. 
 Answering one question usually does not require to see the neighboring questions, but most of the time, two to three questions are in view simultaneously (see \Cref{figure:pollview}). This might be distracting to some students.
 
-Additionally, the layout lacks of separation and distinction between types of polls.
-Different types of polls are simply appended to the bottom of the list, increasing its length even further.
+The view also lacks of basic but potentially interesting information such as the number of total and remaining questions. This information might be useful in bigger polls if students want to gain an idea on how many questions are left.
+
+In general, the layout lacks of separation and distinction between individual types of polls.
+Polls of the same type are separated by a heading that denotes the poll type. simply appended to the bottom of the list, increasing its length even further.
 \todogrf
 \subsubsection{Local Navigation}
 

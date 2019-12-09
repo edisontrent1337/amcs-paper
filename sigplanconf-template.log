@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.11.5)  9 DEC 2019 12:50
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.11.5)  9 DEC 2019 14:25
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1806,58 +1806,58 @@ Class scrreprt Warning: \float@addtolists detected!
 (scrreprt)              deprecated \float@addtolist interface .
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 6--20
+Underfull \hbox (badness 10000) in paragraph at lines 6--14
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 6--20
+Underfull \hbox (badness 10000) in paragraph at lines 6--14
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 6--20
+Underfull \hbox (badness 10000) in paragraph at lines 15--22
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 6--20
+Underfull \hbox (badness 10000) in paragraph at lines 15--22
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 6--20
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 21--29
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 21--29
+Underfull \hbox (badness 10000) in paragraph at lines 15--22
 
  []
 
 LaTeX Font Info:    Font shape `OT1/opensans-TLF/l/sl' in size <10.95> not avai
 lable
 (Font)              Font shape `OT1/opensans-TLF/l/it' tried instead on input l
-ine 29.
+ine 22.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.95> on input line 29.
+(Font)              <10.95> on input line 22.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 29.
+(Font)              <8> on input line 22.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 29.
+(Font)              <6> on input line 22.
 [3
 
 
 
 
 
-])
-Underfull \hbox (badness 10000) in paragraph at lines 31--38
+]
+Underfull \hbox (badness 10000) in paragraph at lines 23--32
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 23--32
+
+ []
+
+)
+Underfull \hbox (badness 10000) in paragraph at lines 34--38
 
  []
 
@@ -2397,19 +2397,19 @@ ne 52.
 (pdftex.def)             Requested size: 318.66953pt x 588.33917pt.
  [26 <./mockups/main_view_enhancement_v1_annotated.png>] [27 <./mockups/main_vi
 ew_enhancement_v2_cropped.png>]
-<mockups/embedded_drop_down.png, id=334, 457.71pt x 352.31625pt>
+<mockups/embedded_drop_down.png, id=333, 457.71pt x 352.31625pt>
 File: mockups/embedded_drop_down.png Graphic file (type png)
 <use mockups/embedded_drop_down.png>
 Package pdftex.def Info: mockups/embedded_drop_down.png  used on input line 78.
 
 (pdftex.def)             Requested size: 318.66953pt x 245.30258pt.
-<mockups/poll_view_enhancement.png, id=337, 512.91624pt x 723.70375pt>
+<mockups/poll_view_enhancement.png, id=336, 512.91624pt x 723.70375pt>
 File: mockups/poll_view_enhancement.png Graphic file (type png)
 <use mockups/poll_view_enhancement.png>
 Package pdftex.def Info: mockups/poll_view_enhancement.png  used on input line 
 99.
 (pdftex.def)             Requested size: 318.66953pt x 449.63033pt.
-<mockups/poll_view_enhancement_v2.png, id=338, 525.965pt x 873.2625pt>
+<mockups/poll_view_enhancement_v2.png, id=337, 525.965pt x 873.2625pt>
 File: mockups/poll_view_enhancement_v2.png Graphic file (type png)
 <use mockups/poll_view_enhancement_v2.png>
 Package pdftex.def Info: mockups/poll_view_enhancement_v2.png  used on input li
@@ -2425,27 +2425,27 @@ Underfull \hbox (badness 10000) in paragraph at lines 138--143
 
  []
 
-
-Overfull \hbox (10.23676pt too wide) in paragraph at lines 152--152
-\OT1/opensans-TLF/l/n/10.95 graphic 
- []
-
-
-Overfull \hbox (10.23676pt too wide) in paragraph at lines 152--152
-\OT1/opensans-TLF/l/n/10.95 graphic 
- []
-
-
-Overfull \hbox (10.23676pt too wide) in paragraph at lines 152--152
-\OT1/opensans-TLF/l/n/10.95 graphic 
- []
-
-
-Overfull \hbox (10.23676pt too wide) in paragraph at lines 152--152
-\OT1/opensans-TLF/l/n/10.95 graphic 
- []
-
 [29]
+Overfull \hbox (10.23676pt too wide) in paragraph at lines 152--152
+\OT1/opensans-TLF/l/n/10.95 graphic 
+ []
+
+
+Overfull \hbox (10.23676pt too wide) in paragraph at lines 152--152
+\OT1/opensans-TLF/l/n/10.95 graphic 
+ []
+
+
+Overfull \hbox (10.23676pt too wide) in paragraph at lines 152--152
+\OT1/opensans-TLF/l/n/10.95 graphic 
+ []
+
+
+Overfull \hbox (10.23676pt too wide) in paragraph at lines 152--152
+\OT1/opensans-TLF/l/n/10.95 graphic 
+ []
+
+
 Overfull \hbox (6.83026pt too wide) in paragraph at lines 155--155
 \OT1/opensans-TLF/l/n/10.95 names 
  []
@@ -2586,7 +2586,7 @@ cender/opensans/OpenSans-SemiBold-OT1-TLF--base.864pk> </home/trent/texmf/fonts
 TLF--base.1493pk> </home/trent/texmf/fonts/pk/modeless/ascender/opensans/OpenSa
 ns-Light-OT1-TLF--base.540pk> </home/trent/texmf/fonts/pk/modeless/ascender/ope
 nsans/OpenSans-SemiBold-OT1-TLF--base.540pk>
-Output written on sigplanconf-template.pdf (39 pages, 3667192 bytes).
+Output written on sigplanconf-template.pdf (39 pages, 3667334 bytes).
 PDF statistics:
  1005 PDF objects out of 1200 (max. 8388607)
  526 compressed objects within 6 object streams

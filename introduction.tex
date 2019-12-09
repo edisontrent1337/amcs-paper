@@ -4,31 +4,34 @@
 \section{Background}
 
 AMCS (Auditorium Mobile Classroom Service) is an Audience Response System (ARS) currently under development at the TU Dresden.
-It represents a practical solution that was initialized and managed in an cooperation between members of both the Chair of Computer Networks of the Faculty of Computer Science and members of the Chair of Psychology of Learning and Instruction from the Faculty of Psychology back in 2012. Since then, the system serves as a research prototype used to study and evaluate new technologies in the context of ARS. Countless features were researched, implemented and evaluated by students and the AMCS group over the years.
+It represents a practical solution that was initialized and developed in cooperation between members of both the Chair of Computer Networks of the Faculty of Computer Science and the Chair of Psychology of Learning and Instruction from the Faculty of Psychology back in 2012. Ever since it's inception the system serves as a research prototype used to study and evaluate new technologies in the context of ARS. Numerous features were researched, implemented and evaluated by students and the AMCS group over the years.
 \newline
 \newline
-In general, the system's main objective is to leverage technology in order to increase interactivity and adaptability of lectures. By providing interactive polls and evaluation mechanisms, AMCS aims at increasing the audience's engagement before, during and after a lecture takes place, overall strengthening the interaction between speaker and audience.
+In general, the system's main objective is to leverage technology in order to increase interactivity and adaptability of lectures. By providing interactive polls and evaluation mechanisms, AMCS aims at increasing the audience's engagement before, during and after a lecture takes place. Overall, several technologies intended to support the interaction between speakers and audience were developed and tested with the help of AMCS.
 \newline
 \newline
-On the one hand, several features of AMCS are designed to support speakers in their role. Regarding the educational context, lecturers at university use it not only during their lectures to get immediate feedback from participating students. Furthermore, it is used during the whole semester to prepare and manage lectures, to analyze learning progress and to evaluate feedback given by students. More specifically, a speaker can gain insight on the understanding of their audience by evaluating answers to their polls. For example, poor results to a poll covering a certain topic might suggest that the topic was misunderstood or badly explained. AMCS enables the speaker to precisely use this information, helping to identify parts of their lectures that students might struggle with. Speakers can focus more easily on repeating and emphasizing these topics in the future.
+In general, the system is built for and aimed at different individual groups of users in the educational context.
+
+On the one hand, AMCS provides a set of features that increase engagement in the audience and try to close the gap between lecturer and listener. One of the system's goals is to support a student's learning process by providing interactive polls, question pools and self-evaluation mechanisms that work on saved answers. While the polls are often used during lectures to collect immediate feedback from the audience, the latter two tools can be used afterwards to identify and repeat difficult questions, to prepare for the next lesson or to study for the examination.
 \newline
 \newline
-On the other hand, AMCS provides a set of features that try to increase engagement and to close the gap between speaker and listener.
-One of the system's goals is to support a student's learning process by providing interactive polls, question pools and self-evaluation mechanisms that work on saved answers. While the polls are often used during lectures, the latter two tools can be used afterwards to identify and repeat difficult questions, to prepare for the next lesson or to study for the examination. 
+On the other hand, several features of AMCS are designed to support lecturers and instructors in their role. Professors and docents at university use it during lectures to get immediate feedback from participating students. More specifically, lecturers are provided with insights on the understanding of their audience in the form of poll evaluation. For example, poor results to a poll covering a certain topic might suggest that the topic was misunderstood or insufficiently explained. AMCS enables the speaker to precisely identify segments of their lectures that students might struggle with and helps them to focus more easily on repeating and emphasizing these topics in the future. 
+Consequently, AMCS is used during the whole semester to prepare and manage lectures and polls, to analyze learning progress and to evaluate feedback given by students.
 \newline
 \newline
 \section{Motivation}
-Several standalone front end applications for different platforms such as iOS, Android and web are provided to the audience. However, an analysis of user counts has shown that AMCS is used by the majority of students via its web page across different mobile devices such as laptops, tablets and smartphones.
+AMCS is being used actively at lectures that take place in the Faculty of Computer Science at the TU Dresden.
+While several standalone front end applications for different platforms such as iOS, Android and web are provided to the audience, an analysis of user counts has shown that AMCS is used by the majority of students via its web page across different mobile devices such as laptops, tablets and smartphones.
 The reason for this is likely how easy it is to access, as web browsers are preinstalled on most devices, rendering the installation of the AMCS standalone app as an avoidable extra step.
 \newline
 \newline 
-Regarding the web page being the most common way AMCS is used, more of an effort should be made to provide a unified and responsive web-based user interface across all aforementioned device types.
+Regarding the fact that AMCS sees most of its use via the web page, more of an effort should be made to provide a unified and responsive web-based user interface across all aforementioned device types.
 \newline
 \newline 
 Therefore, the motivation of this work is to create a more user friendly experience by improving the application in terms of usability, design and consistency.
 \section{Outline}
 \label{section:intro:objective}
-This work's central goal is to conceptualize a redesign strategy that when implemented accordingly will improve the experience of users that access AMCS with the browsers on their mobile devices. In order to reach this objective, the work is organized in the following manner:
+This work's central goal is to conceptualize a redesign strategy that once correctly implemented will improve the experience of users that access AMCS with the browsers on their mobile devices. In order to reach this objective, the work is organized in the following manner:
 \\
 \\
 In the opening \Cref{chapter:stateoftheart}, the scope of this work is defined by showcasing different components of AMCS that users interact with. A short introduction is given to the look and feel of the central elements of AMCS.
@@ -37,4 +40,4 @@ In \Cref{chapter:concept}, an usability analysis of the components is conducted.
 In \Cref{chapter:redesignstrategy} the concept of this work is presented in form of a redesign strategy. For each component, several improvement proposals are developed and enhanced iteratively. 
 \Cref{chapter:implementation} describes how the strategy is concretely implemented in the form of a prototype. The chapter covers issues that occurred during the implementation and necessary adaptions, changes and differences to the initial proposals.
 In \Cref{chapter:evaluation}, the prototype is used to evaluate the effectiveness of redesign strategy. A comparison to the current state of AMCS is drawn.
-Finally, this work is summarized in \Cref{chapter:conclusion}, concluding on open questions and an outlook on future work.
+Finally, this work is summarized in \Cref{chapter:conclusion}, concluding with a look at open questions and an outlook on future work.

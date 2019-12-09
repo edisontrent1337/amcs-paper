@@ -1,6 +1,6 @@
 \chapter{Current State of AMCS}
 \label{chapter:stateoftheart}
-At the time of writing, AMCS offers front end applications for iOS, Android and web that students can use. AMCS does offer a variety of features to the audience and to speakers. They were designed and developed by different people over the years and therefore all differ variously in terms of UI design and layout.
+At the time of writing, AMCS provides front end applications for iOS, Android and web that students can use. AMCS does offer a variety of features to the audience and to speakers. They were designed and developed by different people over the years and therefore all differ variously in terms of UI design and layout.
 To keep the scope of this work manageable, this work will mostly focus on all features that audience members will come in contact with when using AMCS.
 This section elaborates on the current state of the system by identifying and analyzing all views that allow for access to the different functionalities of AMCS from a student's point of view. 
 
@@ -60,6 +60,7 @@ It can be scrolled in the vertical direction and is divided into header and body
 \label{section:soa:mainview:lectures}
 This section lists all lectures that the user subscribed to (see \Cref{fig:mainview}). It is organized in subsections that indicate the temporal context of each lecture. These include:
 
+\paragraph{Proposed lectures} - Lectures that the system proposes to the user. These lectures either will take place in the next 24 hours or already occurred in the last 24 hours.
 \paragraph{Upcoming lectures} - Lectures that will take place in the future are shown here.
 \paragraph{Active lectures} - Lectures that take place right now are shown here.
 \paragraph{Past lectures} - Lectures that have already taken place are shown here.
@@ -68,6 +69,7 @@ This section lists all lectures that the user subscribed to (see \Cref{fig:mainv
 
 Each of the aforementioned subsections is organized in a list that contains all corresponding lectures. For each lecture, a box is rendered that uses all horizontal space available to it. The box consists of a blue header with the lecture's name, a white info/detail area and a light blue footer that contains the course name.
 A color-coded badge on the top right of the boxes serves as an indicator for the temporal context of the lecture.
+The subsections can be collapsed or expanded by clicking on the sections heading.
 
 \todo{add graphic of badges}
 
@@ -92,7 +94,7 @@ The different types of polls that occur in AMCS are further summarized in \Cref{
 		\begin{tabular}{ | p{5cm} | p{10cm} |}
 			\hline
 			Poll Type & Explanation \\ \hline \hline
-			Slide Poll (SP) & Active when a specific slide is shown. Commonly used for pop quizzes after a difficult section in a lecture to make sure that students understood everything correctly. \\ \hline
+			Slide Poll (SP) & Active when a specific slide is shown. Commonly used for quizzes after a difficult section in a lecture to make sure that students understood everything correctly. \\ \hline
 			Preparation Poll (PP) & Active before the lecture takes place. Is commonly used to instruct students to prepare for a certain topic. \\ \hline
 			Lecture Poll (LP) & Active during the lifetime of a lecture. \\ \hline
 			Post Processing Poll (PPP) & Active after a lecture has taken place. Commonly used to check gained knowledge. \\ \hline
@@ -134,15 +136,27 @@ The course name and PIN, it's description and lists of upcoming, live and past l
 \section{Menu and Navigation}
 Besides using the \emph{Main View}, additional functionality can be reached by navigating the burger menu that is shown in the upper-right corner of the screen. It reveals a sub menu which expands vertically, offering three additional sub menus (see Figure \todosct). In the following, these sub menus and their functionality are briefly explained.
 
-\subsubsection{Student}
+\subsection{Student}
 
 This is one of the most important buttons that connects a subset of main functionalities of AMCS. Upon pressing this button, the menu expands again vertically, showing a list of further sub menus. Most of the functionalities shown in this list will be touched by the proposals for improvement that are presented in \Cref{chapter:concept}. The functionalities in questions are:
 
 \begin{enumerate}
-	\item Question Pool
 	\item Evaluation of answers
+	\item Question Pool
 	\item Edit account
 \end{enumerate}
+
+\subsubsection{Evaluation of Answers}
+
+Once students have participated in a poll and answered a few questions, they can evaluate their answers by selecting this option. Two drop down menus are shown prompting the student to select the course and lecture they are interested in. 
+After choosing an item from the list, a vertical list of all questions that occurred during this lecture is shown to the student, together with indicators for the given answers.
+If the student used two attempts to answer the question, a toggle button is provided to switch between the first and the second answer. \todogrf
+
+\subsubsection{Question Pool}
+
+By selecting this option from the \emph{Burger Menu}, the student is offered the possibility to create collections of already answered questions. The intent is to provide a way for students to collect and repeat questions that they had difficulty in answering.
+Similar to \todosct, the student is prompted with a drop down menu to select a course they are interested in. After selection, the student is presented with a list of all lectures and their polls respectively. All questions of each poll are grouped and shown to the student in a vertical list. From this list, the student can select all questions that they might be interested in to create a pool of questions.
+These pools are composed into polls that the student then can answer again. These polls are rendered in the same manner as stated in \Cref{section:soa:pollview}.
 
 
 \subsubsection{How It Works}
@@ -155,11 +169,7 @@ This help page is rendered identical on all mobile devices and therefore falls o
 As the name already states, pressing this button will logout the user and end the session. 
 If logging out was successful, the \emph{Landing Page} is displayed.
 
-\subsubsection{Question Pool}
 
-By selecting this option from the \emph{Burger Menu}, the student is offered the possibility to create collections of already answered questions. The intent is to provide a way for students to collect and repeat questions that they had difficulty in answering.
-Similar to \todosct, the student is prompted with a drop down menu to select a course they are interested in. After selection, the student is presented with a list of all lectures and their polls respectively. All questions of each poll are grouped and shown to the student in a vertical list. From this list, the student can select all questions that they might be interested in to create a pool of questions.
-These pools are composed into polls that the student then can answer again. These polls are rendered in the same manner as stated in \Cref{section:soa:pollview}.
 
 
 \begin{figure}

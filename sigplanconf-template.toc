@@ -30,12 +30,12 @@
 \contentsline {subsubsection}{\nonumberline General Visualization Problems}{17}{section*.27}
 \contentsline {subsubsection}{\nonumberline No Notifications For New Or Unread Content}{17}{section*.28}
 \contentsline {subsubsection}{\nonumberline Indirection Problems}{17}{section*.30}
-\contentsline {subsubsection}{\nonumberline Redundancy}{18}{section*.31}
+\contentsline {subsubsection}{\nonumberline Redundancy}{17}{section*.31}
 \contentsline {subsection}{\numberline {3.1.2}Course View}{18}{subsection.3.1.2}
 \contentsline {subsection}{\numberline {3.1.3}Poll View}{18}{subsection.3.1.3}
 \contentsline {subsubsection}{\nonumberline Visualization}{18}{section*.32}
 \contentsline {subsubsection}{\nonumberline Local Navigation}{18}{section*.34}
-\contentsline {subsection}{\numberline {3.1.4}Burger Menu and Navigation}{19}{subsection.3.1.4}
+\contentsline {subsection}{\numberline {3.1.4}Burger Menu and Navigation}{18}{subsection.3.1.4}
 \contentsline {subsubsection}{\nonumberline Evaluation of answers}{19}{section*.35}
 \contentsline {subsubsection}{\nonumberline Question Pool}{20}{section*.39}
 \contentsline {chapter}{\numberline {4}Related Systems}{25}{chapter.4}
@@ -45,10 +45,10 @@
 \contentsline {paragraph}{\nonumberline Iteration 1}{26}{section*.40}
 \contentsline {paragraph}{\nonumberline Iteration 2}{27}{section*.41}
 \contentsline {paragraph}{\nonumberline Iteration 3}{27}{section*.42}
-\contentsline {subsection}{\numberline {5.1.2}Navigation}{28}{subsection.5.1.2}
-\contentsline {subsection}{\numberline {5.1.3}Embedded Drop Down Menu}{29}{subsection.5.1.3}
-\contentsline {subsection}{\numberline {5.1.4}Poll View}{29}{subsection.5.1.4}
-\contentsline {subsection}{\numberline {5.1.5}Layout and Visualization}{29}{subsection.5.1.5}
+\contentsline {subsection}{\numberline {5.1.2}Navigation}{27}{subsection.5.1.2}
+\contentsline {subsection}{\numberline {5.1.3}Embedded Drop Down Menu}{28}{subsection.5.1.3}
+\contentsline {subsection}{\numberline {5.1.4}Poll View}{28}{subsection.5.1.4}
+\contentsline {subsection}{\numberline {5.1.5}Layout and Visualization}{28}{subsection.5.1.5}
 \contentsline {paragraph}{\nonumberline Iteration 1}{29}{section*.47}
 \contentsline {paragraph}{\nonumberline Iteration 2}{30}{section*.50}
 \contentsline {subsection}{\numberline {5.1.6}Navigation between questions}{30}{subsection.5.1.6}

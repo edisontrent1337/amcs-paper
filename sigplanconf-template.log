@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.11.5)  2 JAN 2020 16:09
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.11.5)  4 JAN 2020 12:29
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2085,236 +2085,115 @@ Underfull \hbox (badness 2970) in paragraph at lines 189--189
 (./concept-problems.tex
 chapter 3.
 
-LaTeX Warning: Reference `tab:problems' on page 1 undefined on input line 9.
+Underfull \hbox (badness 10000) in paragraph at lines 8--16
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 8--16
+
+ []
 
 [16
 
 
 
-] [17]
-Overfull \hbox (10.23676pt too wide) in paragraph at lines 57--57
+]
+Overfull \hbox (10.23676pt too wide) in paragraph at lines 30--30
 \OT1/opensans-TLF/l/n/10.95 graphic 
  []
 
 
-Overfull \hbox (10.23676pt too wide) in paragraph at lines 57--57
+Overfull \hbox (10.23676pt too wide) in paragraph at lines 30--30
 \OT1/opensans-TLF/l/n/10.95 graphic 
  []
 
 
-Overfull \hbox (10.23676pt too wide) in paragraph at lines 57--57
+Overfull \hbox (10.23676pt too wide) in paragraph at lines 30--30
 \OT1/opensans-TLF/l/n/10.95 graphic 
  []
 
 
-Overfull \hbox (10.23676pt too wide) in paragraph at lines 57--57
+Overfull \hbox (10.23676pt too wide) in paragraph at lines 30--30
 \OT1/opensans-TLF/l/n/10.95 graphic 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 68--79
+Underfull \hbox (badness 10000) in paragraph at lines 35--40
 
  []
 
+[17]
+Overfull \hbox (10.23676pt too wide) in paragraph at lines 65--65
+\OT1/opensans-TLF/l/n/10.95 graphic 
+ []
 
-Underfull \hbox (badness 10000) in paragraph at lines 68--79
+
+Overfull \hbox (10.23676pt too wide) in paragraph at lines 65--65
+\OT1/opensans-TLF/l/n/10.95 graphic 
+ []
+
+
+Overfull \hbox (10.23676pt too wide) in paragraph at lines 65--65
+\OT1/opensans-TLF/l/n/10.95 graphic 
+ []
+
+
+Overfull \hbox (10.23676pt too wide) in paragraph at lines 65--65
+\OT1/opensans-TLF/l/n/10.95 graphic 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 76--83
 
  []
 
 [18]
-Overfull \hbox (10.23676pt too wide) in paragraph at lines 82--82
+Underfull \hbox (badness 10000) in paragraph at lines 84--93
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 84--93
+
+ []
+
+
+Overfull \hbox (10.23676pt too wide) in paragraph at lines 96--96
 \OT1/opensans-TLF/l/n/10.95 graphic 
  []
 
 
-Overfull \hbox (10.23676pt too wide) in paragraph at lines 82--82
+Overfull \hbox (10.23676pt too wide) in paragraph at lines 96--96
 \OT1/opensans-TLF/l/n/10.95 graphic 
  []
 
 
-Overfull \hbox (10.23676pt too wide) in paragraph at lines 82--82
+Overfull \hbox (10.23676pt too wide) in paragraph at lines 96--96
 \OT1/opensans-TLF/l/n/10.95 graphic 
  []
 
 
-Overfull \hbox (10.23676pt too wide) in paragraph at lines 82--82
+Overfull \hbox (10.23676pt too wide) in paragraph at lines 96--96
 \OT1/opensans-TLF/l/n/10.95 graphic 
  []
 
-<diagrams/amcs-click-paths.png, id=280, 718.685pt x 927.465pt>
+[19]
+<diagrams/amcs-click-paths.png, id=289, 718.685pt x 927.465pt>
 File: diagrams/amcs-click-paths.png Graphic file (type png)
 <use diagrams/amcs-click-paths.png>
-Package pdftex.def Info: diagrams/amcs-click-paths.png  used on input line 90.
+Package pdftex.def Info: diagrams/amcs-click-paths.png  used on input line 103.
+
 (pdftex.def)             Requested size: 455.24417pt x 587.5044pt.
-<screenshots/poll_view_2.png, id=282, 620.3175pt x 877.2775pt>
+<screenshots/poll_view_2.png, id=291, 620.3175pt x 877.2775pt>
 File: screenshots/poll_view_2.png Graphic file (type png)
 <use screenshots/poll_view_2.png>
-Package pdftex.def Info: screenshots/poll_view_2.png  used on input line 97.
+Package pdftex.def Info: screenshots/poll_view_2.png  used on input line 110.
 (pdftex.def)             Requested size: 227.62209pt x 321.91035pt.
-[19] [20 <./diagrams/amcs-click-paths.png>] [21 <./screenshots/poll_view_2.png>
-]
-Overfull \hbox (4.06726pt too wide) in paragraph at lines 109--109
+ [20] [21 <./diagrams/amcs-click-paths.png>] [22 <./screenshots/poll_view_2.png
+>]
+Overfull \hbox (4.06726pt too wide) in paragraph at lines 122--122
 []|\OT1/opensans-TLF/l/n/10.95 Visualization
- []
-
-
-Overfull \hbox (4.06726pt too wide) in paragraph at lines 109--109
-[]|\OT1/opensans-TLF/l/n/10.95 Visualization| 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 109--109
-[]|\OT1/opensans-TLF/l/n/10.95 The hi-er-ar-chi-cal or-der of
- []
-
-
-Underfull \hbox (badness 1953) in paragraph at lines 109--109
-\OT1/opensans-TLF/l/n/10.95 courses con-tain-ing lec-tures is
- []
-
-
-Overfull \hbox (4.06726pt too wide) in paragraph at lines 110--110
-[]|\OT1/opensans-TLF/l/n/10.95 Visualization| 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 111--111
-[]|\OT1/opensans-TLF/l/n/10.95 Lecture
- []
-
-
-Overfull \hbox (6.41931pt too wide) in paragraph at lines 111--111
-[]|\OT1/opensans-TLF/l/n/10.95 Visualization, 
- []
-
-
-Overfull \hbox (4.04974pt too wide) in paragraph at lines 111--111
-\OT1/opensans-TLF/l/n/10.95 Redundancy| 
- []
-
-
-Underfull \hbox (badness 6141) in paragraph at lines 111--111
-[]|\OT1/opensans-TLF/l/n/10.95 Lecture badges that in-di-cate
- []
-
-
-Overfull \hbox (6.41931pt too wide) in paragraph at lines 112--112
-[]|\OT1/opensans-TLF/l/n/10.95 Visualization,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 112--112
-\OT1/opensans-TLF/l/n/10.95 Re-dun-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 113--113
-[]|\OT1/opensans-TLF/l/n/10.95 Course
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 113--113
-\OT1/opensans-TLF/l/n/10.95 Man-age-
- []
-
-
-Underfull \hbox (badness 4441) in paragraph at lines 114--114
-[]|\OT1/opensans-TLF/l/n/10.95 Course Fil-
- []
-
-
-Underfull \hbox (badness 5119) in paragraph at lines 114--114
-[]|\OT1/opensans-TLF/l/n/10.95 The view lacks of a fil-ter-ing
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 115--115
-[]|\OT1/opensans-TLF/l/n/10.95 Poll View
- []
-
-
-Overfull \hbox (4.06726pt too wide) in paragraph at lines 115--115
-[]|\OT1/opensans-TLF/l/n/10.95 Visualization 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 116--116
-\OT1/opensans-TLF/l/n/10.95 In-for-ma-
- []
-
-
-Overfull \hbox (4.06726pt too wide) in paragraph at lines 116--116
-[]|\OT1/opensans-TLF/l/n/10.95 Visualization| 
- []
-
-
-Underfull \hbox (badness 3954) in paragraph at lines 117--117
-[]|\OT1/opensans-TLF/l/n/10.95 The view lacks of sep-a-ra-tion
- []
-
-
-Underfull \hbox (badness 5862) in paragraph at lines 117--117
-\OT1/opensans-TLF/l/n/10.95 be-tween dif-fer-ent poll types.
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 117--117
-\OT1/opensans-TLF/l/n/10.95 Nav-i-ga-tion be-tween dif-fer-ent
- []
-
-
-Underfull \hbox (badness 2027) in paragraph at lines 117--117
-\OT1/opensans-TLF/l/n/10.95 poll types re-quires too much
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 118--118
-[]|\OT1/opensans-TLF/l/n/10.95 Switching
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 118--118
-[]|\OT1/opensans-TLF/l/n/10.95 Quickly switch-ing be-tween
- []
-
-
-Underfull \hbox (badness 3460) in paragraph at lines 118--118
-\OT1/opensans-TLF/l/n/10.95 courses re-quires un-nec-es-sary
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 119--119
-[]|\OT1/opensans-TLF/l/n/10.95 Confusing
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 119--119
-[]|\OT1/opensans-TLF/l/n/10.95 Under cer-tain cir-cum-stances,
- []
-
-
-Underfull \hbox (badness 3078) in paragraph at lines 120--120
-[]|\OT1/opensans-TLF/l/n/10.95 Weak View
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 120--120
-\OT1/opensans-TLF/l/n/10.95 In-ter-con-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 120--120
-\OT1/opensans-TLF/l/it/10.95 Question Pool
- []
-
-
-Overfull \hbox (4.06726pt too wide) in paragraph at lines 121--121
-[]|\OT1/opensans-TLF/l/n/10.95 Visualization 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 122--122
-[]|\OT1/opensans-TLF/l/n/10.95 Menu
  []
 
 
@@ -2323,44 +2202,204 @@ Overfull \hbox (4.06726pt too wide) in paragraph at lines 122--122
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 123--123
+Underfull \hbox (badness 10000) in paragraph at lines 122--122
+[]|\OT1/opensans-TLF/l/n/10.95 The hi-er-ar-chi-cal or-der of
+ []
+
+
+Underfull \hbox (badness 1953) in paragraph at lines 122--122
+\OT1/opensans-TLF/l/n/10.95 courses con-tain-ing lec-tures is
+ []
+
+
+Overfull \hbox (4.06726pt too wide) in paragraph at lines 123--123
+[]|\OT1/opensans-TLF/l/n/10.95 Visualization| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 124--124
+[]|\OT1/opensans-TLF/l/n/10.95 Lecture
+ []
+
+
+Overfull \hbox (6.41931pt too wide) in paragraph at lines 124--124
+[]|\OT1/opensans-TLF/l/n/10.95 Visualization, 
+ []
+
+
+Overfull \hbox (4.04974pt too wide) in paragraph at lines 124--124
+\OT1/opensans-TLF/l/n/10.95 Redundancy| 
+ []
+
+
+Underfull \hbox (badness 6141) in paragraph at lines 124--124
+[]|\OT1/opensans-TLF/l/n/10.95 Lecture badges that in-di-cate
+ []
+
+
+Overfull \hbox (6.41931pt too wide) in paragraph at lines 125--125
+[]|\OT1/opensans-TLF/l/n/10.95 Visualization,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 125--125
+\OT1/opensans-TLF/l/n/10.95 Re-dun-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 126--126
+[]|\OT1/opensans-TLF/l/n/10.95 Course
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 126--126
+\OT1/opensans-TLF/l/n/10.95 Man-age-
+ []
+
+
+Underfull \hbox (badness 4441) in paragraph at lines 127--127
+[]|\OT1/opensans-TLF/l/n/10.95 Course Fil-
+ []
+
+
+Underfull \hbox (badness 5119) in paragraph at lines 127--127
+[]|\OT1/opensans-TLF/l/n/10.95 The view lacks of a fil-ter-ing
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 128--128
+[]|\OT1/opensans-TLF/l/n/10.95 Poll View
+ []
+
+
+Overfull \hbox (4.06726pt too wide) in paragraph at lines 128--128
+[]|\OT1/opensans-TLF/l/n/10.95 Visualization 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 129--129
+\OT1/opensans-TLF/l/n/10.95 In-for-ma-
+ []
+
+
+Overfull \hbox (4.06726pt too wide) in paragraph at lines 129--129
+[]|\OT1/opensans-TLF/l/n/10.95 Visualization| 
+ []
+
+
+Underfull \hbox (badness 3954) in paragraph at lines 130--130
+[]|\OT1/opensans-TLF/l/n/10.95 The view lacks of sep-a-ra-tion
+ []
+
+
+Underfull \hbox (badness 5862) in paragraph at lines 130--130
+\OT1/opensans-TLF/l/n/10.95 be-tween dif-fer-ent poll types.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 130--130
+\OT1/opensans-TLF/l/n/10.95 Nav-i-ga-tion be-tween dif-fer-ent
+ []
+
+
+Underfull \hbox (badness 2027) in paragraph at lines 130--130
+\OT1/opensans-TLF/l/n/10.95 poll types re-quires too much
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 131--131
+[]|\OT1/opensans-TLF/l/n/10.95 Switching
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 131--131
+[]|\OT1/opensans-TLF/l/n/10.95 Quickly switch-ing be-tween
+ []
+
+
+Underfull \hbox (badness 3460) in paragraph at lines 131--131
+\OT1/opensans-TLF/l/n/10.95 courses re-quires un-nec-es-sary
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 132--132
+[]|\OT1/opensans-TLF/l/n/10.95 Confusing
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 132--132
+[]|\OT1/opensans-TLF/l/n/10.95 Under cer-tain cir-cum-stances,
+ []
+
+
+Underfull \hbox (badness 3078) in paragraph at lines 133--133
+[]|\OT1/opensans-TLF/l/n/10.95 Weak View
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 133--133
+\OT1/opensans-TLF/l/n/10.95 In-ter-con-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 133--133
+\OT1/opensans-TLF/l/it/10.95 Question Pool
+ []
+
+
+Overfull \hbox (4.06726pt too wide) in paragraph at lines 134--134
+[]|\OT1/opensans-TLF/l/n/10.95 Visualization 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 135--135
+[]|\OT1/opensans-TLF/l/n/10.95 Menu
+ []
+
+
+Overfull \hbox (4.06726pt too wide) in paragraph at lines 135--135
+[]|\OT1/opensans-TLF/l/n/10.95 Visualization| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 136--136
 []|\OT1/opensans-TLF/l/n/10.95 Evaluation
  []
 
 
-Underfull \hbox (badness 4505) in paragraph at lines 123--123
+Underfull \hbox (badness 4505) in paragraph at lines 136--136
 \OT1/opensans-TLF/l/n/10.95 be op-er-ated to eval-u-ate an-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 124--124
+Underfull \hbox (badness 10000) in paragraph at lines 137--137
 []|\OT1/opensans-TLF/l/n/10.95 Question
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 124--124
+Underfull \hbox (badness 10000) in paragraph at lines 137--137
 []|\OT1/opensans-TLF/l/it/10.95 Question Pool
  []
 
 
-Underfull \hbox (badness 1348) in paragraph at lines 124--124
+Underfull \hbox (badness 1348) in paragraph at lines 137--137
 []|\OT1/opensans-TLF/l/n/10.95 The \OT1/opensans-TLF/l/it/10.95 Ques-tion Pool 
 View \OT1/opensans-TLF/l/n/10.95 is not
  []
 
 
-Underfull \vbox (badness 10000) detected at line 128
+Underfull \vbox (badness 10000) detected at line 141
  []
 
-[22
+[23
 
 
-]) [23]
+]) [24]
 \openout2 = `related-work.aux'.
 
  (./related-work.tex
 chapter 4.
-) [24
+) [25
 
 
 
@@ -2369,46 +2408,46 @@ chapter 4.
 
  (./concept-proposals.tex
 chapter 5.
-[25
+[26
 
 
 
 ]
-<mockups/main_view_enhancement_v1_annotated.png, id=332, 477.785pt x 325.215pt>
+<mockups/main_view_enhancement_v1_annotated.png, id=337, 477.785pt x 325.215pt>
 
 File: mockups/main_view_enhancement_v1_annotated.png Graphic file (type png)
 <use mockups/main_view_enhancement_v1_annotated.png>
 Package pdftex.def Info: mockups/main_view_enhancement_v1_annotated.png  used o
 n input line 28.
 (pdftex.def)             Requested size: 318.66953pt x 216.91037pt.
-<mockups/main_view_enhancement_v2_cropped.png, id=333, 499.8675pt x 436.63126pt
+<mockups/main_view_enhancement_v2_cropped.png, id=338, 499.8675pt x 436.63126pt
 >
 File: mockups/main_view_enhancement_v2_cropped.png Graphic file (type png)
 <use mockups/main_view_enhancement_v2_cropped.png>
 Package pdftex.def Info: mockups/main_view_enhancement_v2_cropped.png  used on 
 input line 40.
 (pdftex.def)             Requested size: 318.66953pt x 278.36372pt.
-<mockups/main_view_enhancement_v3.png, id=334, 508.90125pt x 939.51pt>
+<mockups/main_view_enhancement_v3.png, id=339, 508.90125pt x 939.51pt>
 File: mockups/main_view_enhancement_v3.png Graphic file (type png)
 <use mockups/main_view_enhancement_v3.png>
 Package pdftex.def Info: mockups/main_view_enhancement_v3.png  used on input li
 ne 52.
 (pdftex.def)             Requested size: 318.66953pt x 588.33917pt.
- [26 <./mockups/main_view_enhancement_v1_annotated.png>] [27 <./mockups/main_vi
+ [27 <./mockups/main_view_enhancement_v1_annotated.png>] [28 <./mockups/main_vi
 ew_enhancement_v2_cropped.png>]
-<mockups/embedded_drop_down.png, id=349, 457.71pt x 352.31625pt>
+<mockups/embedded_drop_down.png, id=354, 457.71pt x 352.31625pt>
 File: mockups/embedded_drop_down.png Graphic file (type png)
 <use mockups/embedded_drop_down.png>
 Package pdftex.def Info: mockups/embedded_drop_down.png  used on input line 78.
 
 (pdftex.def)             Requested size: 318.66953pt x 245.30258pt.
-<mockups/poll_view_enhancement.png, id=352, 512.91624pt x 723.70375pt>
+<mockups/poll_view_enhancement.png, id=357, 512.91624pt x 723.70375pt>
 File: mockups/poll_view_enhancement.png Graphic file (type png)
 <use mockups/poll_view_enhancement.png>
 Package pdftex.def Info: mockups/poll_view_enhancement.png  used on input line 
 99.
 (pdftex.def)             Requested size: 318.66953pt x 449.63033pt.
-<mockups/poll_view_enhancement_v2.png, id=353, 525.965pt x 873.2625pt>
+<mockups/poll_view_enhancement_v2.png, id=358, 525.965pt x 873.2625pt>
 File: mockups/poll_view_enhancement_v2.png Graphic file (type png)
 <use mockups/poll_view_enhancement_v2.png>
 Package pdftex.def Info: mockups/poll_view_enhancement_v2.png  used on input li
@@ -2419,12 +2458,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 121--129
 
  []
 
-[28]
+[29]
 Underfull \hbox (badness 10000) in paragraph at lines 138--143
 
  []
 
-[29]
+[30]
 Overfull \hbox (10.23676pt too wide) in paragraph at lines 152--152
 \OT1/opensans-TLF/l/n/10.95 graphic 
  []
@@ -2506,32 +2545,69 @@ Overfull \hbox (1.2972pt too wide) in paragraph at lines 155--155
 
 )
 
-LaTeX Warning: Marginpar on page 30 moved.
+LaTeX Warning: Marginpar on page 31 moved.
 
-[30] [31 <./mockups/main_view_enhancement_v3.png>] [32 <./mockups/embedded_drop
-_down.png>] [33 <./mockups/poll_view_enhancement.png>] [34 <./mockups/poll_view
+[31] [32 <./mockups/main_view_enhancement_v3.png>] [33 <./mockups/embedded_drop
+_down.png>] [34 <./mockups/poll_view_enhancement.png>] [35 <./mockups/poll_view
 _enhancement_v2.png>]
 \openout2 = `implementation.aux'.
 
  (./implementation.tex
 chapter 6.
-[35
+
+Overfull \hbox (10.23676pt too wide) in paragraph at lines 16--16
+\OT1/opensans-TLF/l/n/10.95 graphic 
+ []
+
+
+Overfull \hbox (10.23676pt too wide) in paragraph at lines 16--16
+\OT1/opensans-TLF/l/n/10.95 graphic 
+ []
+
+
+Overfull \hbox (10.23676pt too wide) in paragraph at lines 16--16
+\OT1/opensans-TLF/l/n/10.95 graphic 
+ []
+
+
+Overfull \hbox (10.23676pt too wide) in paragraph at lines 16--16
+\OT1/opensans-TLF/l/n/10.95 graphic 
+ []
+
+[36
 
 
 
 ]
 
-LaTeX Warning: Marginpar on page 36 moved.
+LaTeX Warning: Marginpar on page 37 moved.
 
 
-LaTeX Warning: Marginpar on page 36 moved.
+Overfull \hbox (10.23676pt too wide) in paragraph at lines 39--39
+\OT1/opensans-TLF/l/n/10.95 graphic 
+ []
 
-[36]) [37]
+
+Overfull \hbox (10.23676pt too wide) in paragraph at lines 39--39
+\OT1/opensans-TLF/l/n/10.95 graphic 
+ []
+
+
+Overfull \hbox (10.23676pt too wide) in paragraph at lines 39--39
+\OT1/opensans-TLF/l/n/10.95 graphic 
+ []
+
+
+Overfull \hbox (10.23676pt too wide) in paragraph at lines 39--39
+\OT1/opensans-TLF/l/n/10.95 graphic 
+ []
+
+[37]) [38]
 \openout2 = `evaluation.aux'.
 
  (./evaluation.tex
 chapter 7.
-) [38
+) [39
 
 
 
@@ -2540,13 +2616,13 @@ chapter 7.
 
  (./conclusion.tex
 chapter 8.
-) [39
+) [40
 
 
-
-] [40
 
 ] [41
+
+] [42
 
 ]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 67.
@@ -2562,16 +2638,12 @@ Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 67.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 67.
 Package rerunfilecheck Info: File `sigplanconf-template.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
-
-
-LaTeX Warning: There were undefined references.
-
  ) 
 Here is how much of TeX's memory you used:
- 36744 strings out of 494871
- 760995 string characters out of 6178382
- 1105573 words of memory out of 5000000
- 39388 multiletter control sequences out of 15000+600000
+ 36771 strings out of 494871
+ 761571 string characters out of 6178382
+ 1107573 words of memory out of 5000000
+ 39411 multiletter control sequences out of 15000+600000
  549711 words of font info for 86 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  73i,19n,106p,10474b,1025s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2592,10 +2664,10 @@ cender/opensans/OpenSans-SemiBold-OT1-TLF--base.864pk> </home/trent/texmf/fonts
 TLF--base.1493pk> </home/trent/texmf/fonts/pk/modeless/ascender/opensans/OpenSa
 ns-Light-OT1-TLF--base.540pk> </home/trent/texmf/fonts/pk/modeless/ascender/ope
 nsans/OpenSans-SemiBold-OT1-TLF--base.540pk>
-Output written on sigplanconf-template.pdf (41 pages, 3676816 bytes).
+Output written on sigplanconf-template.pdf (42 pages, 3680695 bytes).
 PDF statistics:
- 1073 PDF objects out of 1200 (max. 8388607)
- 585 compressed objects within 6 object streams
- 151 named destinations out of 1000 (max. 500000)
+ 1081 PDF objects out of 1200 (max. 8388607)
+ 591 compressed objects within 6 object streams
+ 155 named destinations out of 1000 (max. 500000)
  501 words of extra memory for PDF output out of 10000 (max. 10000000)
 

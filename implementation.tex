@@ -7,46 +7,52 @@ In the following, the implementation process and the required changes to the con
 
 \section{Main View}
 
-The \emph{Main View} has undergone several changes and does not exactly resemble the mock-ups that were shown in the previous chapter (see \Cref{figure:mainviewenhancement3}). The layout stayed roughly the same, but a lack of consideration for the different \emph{Rules} users can have when using AMCS caused several changes.
+The \emph{Main View} has undergone several changes and does not exactly resemble the mock-ups that were shown in the previous chapter (see \Cref{figure:mainviewenhancement3}). The general layout stayed roughly the same, keeping the idea of a \emph{Drop Down Menu} and \emph{Lecture Tabs} below. But a lack of consideration for the different \emph{Roles} users can play when using AMCS made several changes and considerations necessary.
 \\
-The view consists of a \emph{Drop Down Menu} on the top and a \emph{Lecture Tabs} on the bottom that displays lectures sorted by their temporal context. Between the two of them, a context-sensitive \emph{Actions Menu} is displayed.
+The view consists of the \emph{Drop Down Menu} on the top that allows for course selection and \emph{Lecture Tabs} on the bottom that displays lectures sorted by their temporal context. Between the two of them, a context-sensitive \emph{Actions Menu} is displayed.
 
 \subsection{Drop Down Menu}
-The \emph{Drop Down Menu} has several functions. It provides a coarse grain filter by allowing the user to select a specific course. Doing so causes the \emph{Lecture Tabs} to change accordingly. The \emph{Drop Down Menu} contains the new \emph{Enrollment Form}. From here, students can join a course.
-Furthermore, a third element is displayed additionally: the \emph{Actions Menu}.
+Generally speaking, the \emph{Drop Down Menu} provides a coarse grain filter that allows the user to select a specific course. Doing so causes the \emph{Lecture Tabs} and their content to change accordingly.
+\todogrf
+More specifically, the \emph{Drop Down Menu} acts in a slightly different manner depending on the current user role. When using it as a \emph{Student}, it contains all courses that said student is enrolled to. On top of that, the \emph{Enrollment Form} is embedded inside the menu, allowing the \emph{Student} to join other courses.
+\\
+In contrast, when logged in as a \emph{Lecturer}, the \emph{Drop Down Menu} contains all courses that he owns and manages. Naturally, the \emph{Enrollment Form} is omitted as the \emph{Lecturer} role does not need it.
+
+Selecting a course from the list causes an additional component to be displayed: the \emph{Actions Menu}.
 \subsection{Actions Menu}
-An oversight not covered by the proposals is the fact that the functionality offered by the \emph{Main View} has to change depending on the role of the user that is currently logged in. To address this issue, the \emph{Actions Menu} is introduced.
-The \emph{Actions Menu} offers several buttons with different functionality.
-The number of buttons displayed in the \emph{Actions Menu} depends on the role of the user that is currently logged in. \emph{Students} are given the buttons to do... \todosct are displayed. In contrast, if a lecturer is logged in, the buttons \todoedit are displayed instead.
-The \emph{Actions Menu} is completely hidden if the entry \emph{All courses} is selected from the \emph{Drop Down Menu}. This design hopes to remove unnecessary clutter by displaying these buttons only when needed.
+An oversight not covered by the proposals is the fact that the functionality offered by the \emph{Main View} has to change depending on the role of the user that is currently logged in. To address this issue more effectively, the \emph{Actions Menu} is introduced.
+The \emph{Actions Menu} offers several buttons with different functionality derived from user roles and privileges.
+The number and kind of buttons displayed in the \emph{Actions Menu} varies depending on role of the user that is currently logged in. \emph{Students} are given the buttons to do... \todosct are displayed. In contrast, if a lecturer is logged in, the buttons \todoedit are displayed instead.
+The \emph{Actions Menu} is completely hidden if the entry \emph{All courses} is selected from the \emph{Drop Down Menu}. This design removes unnecessary clutter by displaying these buttons only when needed.
 \subsection{Lecture Tabs}
 Lastly, the \emph{Lecture Tabs} are displayed at the bottom. Each temporal context is associated with a color, label and icon to allow for easier differentiation between them. Similar to the \emph{Actions Menu}, the concept for displaying lectures had to be adapted to cover different user roles.
-If a \emph{Student} is logged in, the tabs \emph{Live}, \emph{Upcoming} and \emph{Past} are shown. An additional tab labeled \emph{Offline} is displayed when logged in as a \emph{Lecturer}.
-For each tab, an indicator for the number of elements is provided.
+If a \emph{Student} is logged in, the tabs \emph{Live}, \emph{Upcoming} and \emph{Past} are shown. An additional tab labeled \emph{Offline} is displayed when logged in as a \emph{Lecturer}, as \emph{Lecturers} are able to create lectures in advance and restrict access to them by changing their status to \emph{Offline}.
+For each tab, an indicator for the number of lectures belonging to it is provided.
 Tapping on one of the tabs displays the lectures in a vertical list. Instead of using paging to divide the content in shorter lists as proposed in \Cref{figure:mainviewenhancement3}, the whole list of lectures is displayed at once.
+This decision was made partly because the existing code base was difficult to adapt to these criteria.
 
 \subsection{Lecture List}
-The visualization of lectures underwent several different iterations before it was fixed for the evaluation. Each iteration introduced small but significant changes to the overall look and feel of the user interface.
-Each lecture is displayed in a box colored according to the temporal context of the lecture. The course name is displayed in a smaller font. Below that, the full title of the lecture is shown.
+The visualization of lectures underwent several different iterations before it was finalized for the evaluation. Each iteration introduced small but significant changes to the overall look and feel of the user interface.
+In general, each lecture is displayed in a box colored according to the temporal context of the lecture. The course name is displayed in a smaller font. Below that, the full title of the lecture is shown in a slightly bigger and bold font. Reading this information from top to bottom conveys the hierarchical structure of courses consisting of lectures. 
 
 \subsubsection{Iteration 1}
-Lectures are grouped by date and a divider between dates is introduced in hopes to ease navigation of the list. Each lecture is displayed in a color coded box. At first, only the course name and the lecture title are shown. The description of the lecture below is retracted and can be expanded by pressing the button on the top right.
+Lectures are grouped by date and a visual divider between dates is introduced to emphasize and visualize this grouping \todogrf. Each lecture is displayed in a color coded box. At first, only the course name and the lecture title are shown along the date and duration. The description of the lecture below is retracted and can be expanded by pressing the button on the top right.
 \paragraph{Problems}
-The date divider does not eliminate the redundancy introduced by displaying the date of each lecture individually. Furthermore, the buttons on the top right are missing a label and therefore, the meaning of the buttons might not be clear to the user.
-
+The date divider does not eliminate the redundancy introduced by displaying the date of each lecture individually.
+Furthermore, the design of the buttons on the top right might be problematic. For once, it can be difficult to identify these two elements as pressable buttons. While collecting feedback from the AMCS group, people tended to struggle with the meaning iconography used. 
 
 \subsubsection{Iteration 2}
-The second iteration addresses the problems described above. Most notably, the \emph{Lecture List} resembles more a calendar in its overall design. The layout is divided into two columns: The left column displays the current date, where as the right column contains the list of courses associated to the date. Instead of displaying the date for each lecture, this information is extracted to the left column. Now, only the time and duration of each lecture is displayed at the top. The description remains retractable. The buttons at the top of 
+The second iteration addresses the problems described above. Most notably, the \emph{Lecture List} resembles more a calendar in its overall design. The layout is divided into two columns: The left column displays the current date, whereas the right column contains the list of courses associated to the date. Essentially, instead of displaying the date for each lecture, this information is extracted to the left column. Now, only the time and duration is displayed at the top for each lecture separately. The description remains retractable. The buttons at the top of 
 
 
-\subsubsection{Iteration 1}
+\subsubsection{Iteration 3}
 Each lecture has
 
 
 \section{Navigation}
-As proposed earlier in \Cref{chapter:concept}, the navigation was slimmed down considerably. A logged in user can only find the menu entries \emph{Profile}
+As proposed earlier in \Cref{chapter:concept}, the \emph{Burger Menu} was slimmed down considerably. A logged in user can only find the menu entries \emph{Profile}
 , \emph{How it works} and \emph{Logout}.
-The \emph{Question Pool} and \emph{Evaluation of Answers} is moved to the respective lectures in the \emph{Main View}.
+The \emph{Question Pool} and \emph{Evaluation of Answers} is moved to the respective lectures in the \emph{Main View}. Apart from these changes, the \emph{Burger Menu} stayed the same.
 
 \section{Poll View}
 

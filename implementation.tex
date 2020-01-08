@@ -3,11 +3,11 @@
 
 The previous chapter elaborated on a redesign strategy addressing all of the identified issues that impair the usability of AMCS on mobile devices.
 This chapter covers the realization of said changes in the form of a prototypical application. However, not all proposals were implemented as specified. One reason for this is that several problems arose during development such as legacy code that could not be changed easily without requiring a complete rewrite. The existing code base is complicated and hard to understand, as several different individuals worked on it over the years. Another reason are some of the proposals themselves, as they were not thought through to the end or even deemed impractical without necessary improvements. Nevertheless, parts of the concept were adapted and a prototype was successfully implemented.
-In the following, the implementation process and the required changes to the concept will be elaborated.
+In the following, the implementation process and the required adjustments to the concept will be elaborated by describing different design iterations and the decisions behind each change.
 
 \section{Main View}
 
-The \emph{Main View} has undergone several changes and does not exactly resemble the mock-ups that were shown in the previous chapter (see \Cref{figure:mainviewenhancement3}). The general layout stayed roughly the same, keeping the idea of a \emph{Drop Down Menu} and \emph{Lecture Tabs} below. But a lack of consideration for the different \emph{Roles} users can play when using AMCS made several changes and considerations necessary.
+The \emph{Main View} has undergone several revisions and does not exactly resemble the mock-ups that were shown in the previous chapter (see \Cref{figure:mainviewenhancement3}). The general layout stayed roughly the same, keeping the idea of a \emph{Drop Down Menu} and \emph{Lecture Tabs} below. But a lack of consideration for the different \emph{Roles} users can play when using AMCS made a small number of changes and considerations necessary.
 \\
 The view consists of the \emph{Drop Down Menu} on the top that allows for course selection and \emph{Lecture Tabs} on the bottom that displays lectures sorted by their temporal context. Between the two of them, a context-sensitive \emph{Actions Menu} is displayed.
 
@@ -24,6 +24,13 @@ An oversight not covered by the proposals is the fact that the functionality off
 The \emph{Actions Menu} offers several buttons with different functionality derived from user roles and privileges.
 The number and kind of buttons displayed in the \emph{Actions Menu} varies depending on role of the user that is currently logged in. \emph{Students} are given the buttons to do... \todosct are displayed. In contrast, if a lecturer is logged in, the buttons \todoedit are displayed instead.
 The \emph{Actions Menu} is completely hidden if the entry \emph{All courses} is selected from the \emph{Drop Down Menu}. This design removes unnecessary clutter by displaying these buttons only when needed.
+\begin{wrapfigure}{r}{0.5\textwidth}
+	\begin{center}
+		\includegraphics[width=0.48\textwidth]{screenshots/redesign/main_view_iteration_1.jpg}
+	\end{center}
+	\caption{Birds}
+\end{wrapfigure}
+
 \subsection{Lecture Tabs}
 Lastly, the \emph{Lecture Tabs} are displayed at the bottom. Each temporal context is associated with a color, label and icon to allow for easier differentiation between them. Similar to the \emph{Actions Menu}, the concept for displaying lectures had to be adapted to comply with the semantics of different user roles.
 If a \emph{Student} is logged in, the tabs \emph{Live}, \emph{Upcoming} and \emph{Past} are shown. An additional tab labeled \emph{Offline} is displayed when logged in as a \emph{Lecturer}, as \emph{Lecturers} are able to create lectures in advance and restrict access to them by changing their status to \emph{Offline}.
@@ -31,22 +38,28 @@ For each tab, an indicator for the number of lectures belonging to it is provide
 Tapping on one of the tabs displays the lectures in a vertical list. Instead of using paging to divide the content in shorter lists as proposed in \Cref{figure:mainviewenhancement3}, the whole list of lectures is displayed at once.
 This decision was made partly because the existing code base was difficult to adapt to these criteria.
 
+
 \subsection{Lecture List}
 The visualization of lectures underwent several different iterations before it was finalized for the evaluation. Each iteration introduced small but significant changes to the overall look and feel of the user interface.
-In general, each lecture is displayed in a box colored according to the temporal context of the lecture. The course name is displayed in a smaller font. Below that, the full title of the lecture is shown in a slightly bigger and bold font. Reading this information from top to bottom conveys the hierarchical structure of courses consisting of lectures. 
+In general, each lecture is displayed in a box colored according to the temporal context of the lecture.
+The course name is displayed in a smaller font. Below that, the full title of the lecture is shown in a slightly bigger and bold font. Reading this information from top to bottom conveys the hierarchical structure of courses consisting of lectures. 
 
 \subsubsection{Iteration 1}
-Lectures are grouped by date and a visual divider between dates is introduced to emphasize and visualize this grouping \todogrf. Each lecture is displayed in a color coded box. At first, only the course name and the lecture title are shown along the date and duration. The description of the lecture below is retracted and can be expanded by pressing the button on the top right.
+Lectures are grouped by date and a visual divider between dates is introduced to emphasize and visualize this grouping \todogrf. Each lecture is displayed in a color coded box. On the top, the date of the lecture is displayed along with two buttons. The first button on the left will redirect to the \emph{Evaluation of Answers} functionality. 
+At first, in order to save space, only the course name and the lecture title are shown. The description of the lecture below is deemed not as important and is therefore retracted per default. The second button on the top right can be used to unveil the lecture description.
 \paragraph{Problems}
 The date divider does not eliminate the redundancy introduced by displaying the date of each lecture individually.
-Furthermore, the design of the buttons on the top right might be problematic. For once, it can be difficult to identify these two elements as pressable buttons. While collecting feedback from the AMCS group, people tended to struggle with the meaning iconography used. 
+Furthermore, the design of the two buttons on the top right might be problematic. For once, it can be difficult to identify these two elements with their placement and lack of textual label as pressable buttons. While collecting intermediate feedback from the AMCS group, people tended to say that they struggle with identifying the meaning of the iconography used. 
 
 \subsubsection{Iteration 2}
-The second iteration addresses the problems described above. Most notably, the \emph{Lecture List} resembles more a calendar in its overall design. The layout is divided into two columns: The left column displays the current date, whereas the right column contains the list of courses associated to the date. Essentially, instead of displaying the date for each lecture, this information is extracted to the left column. Now, only the time and duration is displayed at the top for each lecture separately. The description remains retractable. The buttons at the top of 
+The second iteration addresses the problems described above partly. Most notably, the \emph{Lecture List} resembles more a calendar or a student schedule in its overall design. The layout is divided into two columns: The left column displays the current date, whereas the right column contains the list of courses associated to the date. Essentially, instead of displaying the date for each lecture, this information is extracted to the left column. Now, only the time and duration is displayed at the top for each lecture separately. The description remains retractable. The buttons on the top of each lecture have the colors of their background and icon inverted, but they essentially remained the same.
+Furthermore, each lecture box is given a drop shadow to indicate that the area is pressable. Pressing anywhere on this \emph{card-like} box will redirect students to the \emph{Poll View}, whereas lecturers will arrive at the \emph{Course Dashboard}.
 
+\paragraph{Problems}
+Besides the ambiguity of the buttons at the top of each lecture, each \emph{tab} is suffering from the same problem. According to feedback from the AMCS group, the used iconography alone fails to convey which temporal context each tab is representing.
 
 \subsubsection{Iteration 3}
-Each lecture has
+This is the final iteration for the \emph{Lecture List}. To clarify the meaning of each \emph{tab}, a textual label is added. The colors of each tab are adjusted slightly to be more easy on the eyes. Time and duration of each lecture is displayed in one line next to each other. The two buttons previously discussed are moved to the bottom. They are expanded to take most of the width of the lecture box. The icons remain the same but they are reduced in size and pushed to the left. A textual label in the center of each button now describes its purpose.
 
 
 \section{Navigation}

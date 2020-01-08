@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.11.5)  4 JAN 2020 16:02
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.11.5)  8 JAN 2020 17:15
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1446,25 +1446,33 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \@float@everytoks=\toks37
 \@floatcapt=\box70
 )
+(/usr/share/texlive/texmf-dist/tex/latex/wrapfig/wrapfig.sty
+\wrapoverhang=\dimen260
+\WF@size=\dimen261
+\c@WF@wrappedlines=\count290
+\WF@box=\box71
+\WF@everypar=\toks38
+Package: wrapfig 2003/01/31  v 3.6
+)
 (/usr/share/texlive/texmf-dist/tex/latex/tools/longtable.sty
 Package: longtable 2014/10/28 v4.11 Multi-page Table package (DPC)
 \LTleft=\skip95
 \LTright=\skip96
 \LTpre=\skip97
 \LTpost=\skip98
-\LTchunksize=\count290
-\LTcapwidth=\dimen260
-\LT@head=\box71
-\LT@firsthead=\box72
-\LT@foot=\box73
-\LT@lastfoot=\box74
-\LT@cols=\count291
-\LT@rows=\count292
-\c@LT@tables=\count293
-\c@LT@chunks=\count294
-\LT@p@ftn=\toks38
+\LTchunksize=\count291
+\LTcapwidth=\dimen262
+\LT@head=\box72
+\LT@firsthead=\box73
+\LT@foot=\box74
+\LT@lastfoot=\box75
+\LT@cols=\count292
+\LT@rows=\count293
+\c@LT@tables=\count294
+\c@LT@chunks=\count295
+\LT@p@ftn=\toks39
 )
-Class scrreprt Info: longtable captions redefined on input line 14.
+Class scrreprt Info: longtable captions redefined on input line 15.
 
 (/home/trent/texmf/tex/latex/tudscr/tudscrcolor.sty
 
@@ -1479,16 +1487,16 @@ File: omliwona.fd 2008/07/22 v0.995 font definition file for OML/iwona (MW)
 (/home/trent/texmf/tex/latex/iwona/omsiwona.fd
 File: omsiwona.fd 2008/07/22 v0.995 font definition file for OMS/iwona (MW)
 )
-LaTeX Info: Redefining \textcdln on input line 19.
-LaTeX Info: Redefining \textcdrn on input line 19.
-LaTeX Info: Redefining \textcdsn on input line 19.
-LaTeX Info: Redefining \textcdbn on input line 19.
-LaTeX Info: Redefining \textcdxn on input line 19.
-LaTeX Info: Redefining \textcdli on input line 19.
-LaTeX Info: Redefining \textcdri on input line 19.
-LaTeX Info: Redefining \textcdsi on input line 19.
-LaTeX Info: Redefining \textcdbi on input line 19.
-LaTeX Info: Redefining \textcdxi on input line 19.
+LaTeX Info: Redefining \textcdln on input line 20.
+LaTeX Info: Redefining \textcdrn on input line 20.
+LaTeX Info: Redefining \textcdsn on input line 20.
+LaTeX Info: Redefining \textcdbn on input line 20.
+LaTeX Info: Redefining \textcdxn on input line 20.
+LaTeX Info: Redefining \textcdli on input line 20.
+LaTeX Info: Redefining \textcdri on input line 20.
+LaTeX Info: Redefining \textcdsi on input line 20.
+LaTeX Info: Redefining \textcdbi on input line 20.
+LaTeX Info: Redefining \textcdxi on input line 20.
 
 
 Class tudscrreprt Warning: The packages `cbfonts/cbgreek' and
@@ -1497,7 +1505,7 @@ Class tudscrreprt Warning: The packages `cbfonts/cbgreek' and
 (tudscrreprt)              are not, standard math versions are applied.
 
 LaTeX Font Info:    Try loading font information for OT1+opensans-TLF on input 
-line 19.
+line 20.
 (/home/trent/texmf/tex/latex/opensans/OT1opensans-TLF.fd
 File: OT1opensans-TLF.fd 2019/06/24 Font definitions for OT1/opensans-TLF.
 )
@@ -1536,73 +1544,73 @@ Package typearea Info: These are the values describing the layout:
 (typearea)              \topskip        = 11.0pt
 (typearea)              \footskip       = 47.6pt
 (typearea)              \baselineskip   = 13.6pt
-(typearea)              on input line 19.
+(typearea)              on input line 20.
 
 (./sigplanconf-template.aux (./introduction.aux) (./state-of-the-art.aux)
 (./concept-problems.aux) (./related-work.aux) (./concept-proposals.aux)
 (./implementation.aux) (./evaluation.aux) (./conclusion.aux))
 \openout1 = `sigplanconf-template.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-Package scrbase Info: activating english \contentsname on input line 19.
-Package scrbase Info: activating english \listfigurename on input line 19.
-Package scrbase Info: activating english \listtablename on input line 19.
-Package scrbase Info: activating english \graduationtext on input line 19.
-Package scrbase Info: activating english \refereename on input line 19.
-Package scrbase Info: activating english \refereeothername on input line 19.
-Package scrbase Info: activating english \advisorname on input line 19.
-Package scrbase Info: activating english \advisorothername on input line 19.
-Package scrbase Info: activating english \supervisorname on input line 19.
-Package scrbase Info: activating english \supervisorothername on input line 19.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+Package scrbase Info: activating english \contentsname on input line 20.
+Package scrbase Info: activating english \listfigurename on input line 20.
+Package scrbase Info: activating english \listtablename on input line 20.
+Package scrbase Info: activating english \graduationtext on input line 20.
+Package scrbase Info: activating english \refereename on input line 20.
+Package scrbase Info: activating english \refereeothername on input line 20.
+Package scrbase Info: activating english \advisorname on input line 20.
+Package scrbase Info: activating english \advisorothername on input line 20.
+Package scrbase Info: activating english \supervisorname on input line 20.
+Package scrbase Info: activating english \supervisorothername on input line 20.
 
-Package scrbase Info: activating english \professorname on input line 19.
-Package scrbase Info: activating english \professorothername on input line 19.
-Package scrbase Info: activating english \datetext on input line 19.
-Package scrbase Info: activating english \dateofbirthtext on input line 19.
-Package scrbase Info: activating english \placeofbirthtext on input line 19.
-Package scrbase Info: activating english \defensedatetext on input line 19.
-Package scrbase Info: activating english \matriculationyearname on input line 1
-9.
+Package scrbase Info: activating english \professorname on input line 20.
+Package scrbase Info: activating english \professorothername on input line 20.
+Package scrbase Info: activating english \datetext on input line 20.
+Package scrbase Info: activating english \dateofbirthtext on input line 20.
+Package scrbase Info: activating english \placeofbirthtext on input line 20.
+Package scrbase Info: activating english \defensedatetext on input line 20.
+Package scrbase Info: activating english \matriculationyearname on input line 2
+0.
 Package scrbase Info: activating english \matriculationnumbername on input line
- 19.
-Package scrbase Info: activating english \coverpagename on input line 19.
-Package scrbase Info: activating english \titlepagename on input line 19.
-Package scrbase Info: activating english \titlename on input line 19.
-Package scrbase Info: activating english \confirmationname on input line 19.
-Package scrbase Info: activating english \confirmationtext on input line 19.
-Package scrbase Info: activating english \blockingname on input line 19.
-Package scrbase Info: activating english \blockingtext on input line 19.
-Package scrbase Info: activating english \coursename on input line 19.
-Package scrbase Info: activating english \disciplinename on input line 19.
-Package scrbase Info: activating english \listingname on input line 19.
-Package scrbase Info: activating english \listlistingname on input line 19.
-Package scrbase Info: activating english \dissertationname on input line 19.
-Package scrbase Info: activating english \diplomathesisname on input line 19.
-Package scrbase Info: activating english \masterthesisname on input line 19.
-Package scrbase Info: activating english \bachelorthesisname on input line 19.
-Package scrbase Info: activating english \studentthesisname on input line 19.
-Package scrbase Info: activating english \studentresearchname on input line 19.
+ 20.
+Package scrbase Info: activating english \coverpagename on input line 20.
+Package scrbase Info: activating english \titlepagename on input line 20.
+Package scrbase Info: activating english \titlename on input line 20.
+Package scrbase Info: activating english \confirmationname on input line 20.
+Package scrbase Info: activating english \confirmationtext on input line 20.
+Package scrbase Info: activating english \blockingname on input line 20.
+Package scrbase Info: activating english \blockingtext on input line 20.
+Package scrbase Info: activating english \coursename on input line 20.
+Package scrbase Info: activating english \disciplinename on input line 20.
+Package scrbase Info: activating english \listingname on input line 20.
+Package scrbase Info: activating english \listlistingname on input line 20.
+Package scrbase Info: activating english \dissertationname on input line 20.
+Package scrbase Info: activating english \diplomathesisname on input line 20.
+Package scrbase Info: activating english \masterthesisname on input line 20.
+Package scrbase Info: activating english \bachelorthesisname on input line 20.
+Package scrbase Info: activating english \studentthesisname on input line 20.
+Package scrbase Info: activating english \studentresearchname on input line 20.
 
-Package scrbase Info: activating english \projectpapername on input line 19.
-Package scrbase Info: activating english \seminarpapername on input line 19.
-Package scrbase Info: activating english \termpapername on input line 19.
-Package scrbase Info: activating english \researchname on input line 19.
-Package scrbase Info: activating english \logname on input line 19.
-Package scrbase Info: activating english \internshipname on input line 19.
-Package scrbase Info: activating english \reportname on input line 19.
+Package scrbase Info: activating english \projectpapername on input line 20.
+Package scrbase Info: activating english \seminarpapername on input line 20.
+Package scrbase Info: activating english \termpapername on input line 20.
+Package scrbase Info: activating english \researchname on input line 20.
+Package scrbase Info: activating english \logname on input line 20.
+Package scrbase Info: activating english \internshipname on input line 20.
+Package scrbase Info: activating english \reportname on input line 20.
 
 *geometry* detected driver: <none>
 *geometry* verbose mode - [ preamble ] result:
@@ -1639,17 +1647,17 @@ Package scrbase Info: activating english \reportname on input line 19.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count295
-\scratchdimen=\dimen261
-\scratchbox=\box75
-\nofMPsegments=\count296
-\nofMParguments=\count297
-\everyMPshowfont=\toks39
-\MPscratchCnt=\count298
-\MPscratchDim=\dimen262
-\MPnumerator=\count299
-\makeMPintoPDFobject=\count300
-\everyMPtoPDFconversion=\toks40
+\scratchcounter=\count296
+\scratchdimen=\dimen263
+\scratchbox=\box76
+\nofMPsegments=\count297
+\nofMParguments=\count298
+\everyMPshowfont=\toks40
+\MPscratchCnt=\count299
+\MPscratchDim=\dimen264
+\MPnumerator=\count300
+\makeMPintoPDFobject=\count301
+\everyMPtoPDFconversion=\toks41
 ) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
@@ -1668,8 +1676,8 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 ABD: EveryShipout initializing macros
-\AtBeginShipoutBox=\box76
-Package hyperref Info: Link coloring OFF on input line 19.
+\AtBeginShipoutBox=\box77
+Package hyperref Info: Link coloring OFF on input line 20.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -1677,11 +1685,11 @@ Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count301
+\c@section@level=\count302
 )
-LaTeX Info: Redefining \ref on input line 19.
-LaTeX Info: Redefining \pageref on input line 19.
-LaTeX Info: Redefining \nameref on input line 19.
+LaTeX Info: Redefining \ref on input line 20.
+LaTeX Info: Redefining \pageref on input line 20.
+LaTeX Info: Redefining \nameref on input line 20.
 
 (./sigplanconf-template.out) (./sigplanconf-template.out)
 \@outlinefile=\write4
@@ -1694,7 +1702,7 @@ Class scrreprt Info: loading recommended package `bookmark'.
 (scrreprt)           `bookmarkpackage=false' before \begin{document} and
 (scrreprt)           you can avoid this message adding:
 (scrreprt)             \usepackage{bookmark}
-(scrreprt)           before \begin{document} on input line 19.
+(scrreprt)           before \begin{document} on input line 20.
 
 (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/bookmark.sty
 Package: bookmark 2016/05/17 v1.26 PDF bookmarks (HO)
@@ -1704,7 +1712,7 @@ File: bkm-pdftex.def 2016/05/17 v1.26 bookmark driver for pdfTeX (HO)
 Package auxhook Info: \AddLineBeginMainAux comes a little late,
 (auxhook)             because the main .aux file is already opened on input lin
 e 164.
-\BKM@id=\count302
+\BKM@id=\count303
 ))
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: float package is loaded.
@@ -1714,61 +1722,62 @@ Package caption Info: longtable package is loaded.
 Package: ltcaption 2013/06/09 v1.4-94 longtable captions (AR)
 )
 Package caption Info: rotating package is loaded.
+Package caption Info: wrapfig package is loaded.
 Package caption Info: End \AtBeginDocument code.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <20.74> on input line 27.
+(Font)              <20.74> on input line 28.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <14.4> on input line 27.
+(Font)              <14.4> on input line 28.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 27.
+(Font)              <12> on input line 28.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <24.88> on input line 27.
+(Font)              <24.88> on input line 28.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <17.28> on input line 27.
+(Font)              <17.28> on input line 28.
 <TUD-black.pdf, id=7, 256.15298pt x 74.32167pt>
 File: TUD-black.pdf Graphic file (type pdf)
 <use TUD-black.pdf>
-Package pdftex.def Info: TUD-black.pdf  used on input line 27.
+Package pdftex.def Info: TUD-black.pdf  used on input line 28.
 (pdftex.def)             Requested size: 162.18016pt x 47.05765pt.
 <TUD-blue.pdf, id=8, 256.15298pt x 74.32167pt>
 File: TUD-blue.pdf Graphic file (type pdf)
 <use TUD-blue.pdf>
-Package pdftex.def Info: TUD-blue.pdf  used on input line 27.
+Package pdftex.def Info: TUD-blue.pdf  used on input line 28.
 (pdftex.def)             Requested size: 162.18016pt x 47.05765pt.
 <TUD-white.pdf, id=9, 256.15298pt x 74.32167pt>
 File: TUD-white.pdf Graphic file (type pdf)
 <use TUD-white.pdf>
-Package pdftex.def Info: TUD-white.pdf  used on input line 27.
+Package pdftex.def Info: TUD-white.pdf  used on input line 28.
 (pdftex.def)             Requested size: 162.18016pt x 47.05765pt.
 <DDC-24.pdf, id=10, 144.20576pt x 51.4994pt>
 File: DDC-24.pdf Graphic file (type pdf)
 <use DDC-24.pdf>
-Package pdftex.def Info: DDC-24.pdf  used on input line 27.
+Package pdftex.def Info: DDC-24.pdf  used on input line 28.
 (pdftex.def)             Requested size: 131.77533pt x 47.05765pt.
 <DDC-27.pdf, id=11, 144.20576pt x 51.4994pt>
 File: DDC-27.pdf Graphic file (type pdf)
 <use DDC-27.pdf>
-Package pdftex.def Info: DDC-27.pdf  used on input line 27.
+Package pdftex.def Info: DDC-27.pdf  used on input line 28.
 (pdftex.def)             Requested size: 131.77533pt x 47.05765pt.
 <DDC-30.pdf, id=12, 144.20576pt x 51.4994pt>
 File: DDC-30.pdf Graphic file (type pdf)
 <use DDC-30.pdf>
-Package pdftex.def Info: DDC-30.pdf  used on input line 27.
+Package pdftex.def Info: DDC-30.pdf  used on input line 28.
 (pdftex.def)             Requested size: 131.77533pt x 47.05765pt.
 <DDC-22.pdf, id=13, 34.71169pt x 69.42436pt>
 File: DDC-22.pdf Graphic file (type pdf)
 <use DDC-22.pdf>
-Package pdftex.def Info: DDC-22.pdf  used on input line 27.
+Package pdftex.def Info: DDC-22.pdf  used on input line 28.
 (pdftex.def)             Requested size: 23.52893pt x 47.05765pt.
 <DDC-25.pdf, id=14, 34.71169pt x 69.42436pt>
 File: DDC-25.pdf Graphic file (type pdf)
 <use DDC-25.pdf>
-Package pdftex.def Info: DDC-25.pdf  used on input line 27.
+Package pdftex.def Info: DDC-25.pdf  used on input line 28.
 (pdftex.def)             Requested size: 23.52893pt x 47.05765pt.
 <DDC-28.pdf, id=15, 34.71169pt x 69.42436pt>
 File: DDC-28.pdf Graphic file (type pdf)
 <use DDC-28.pdf>
-Package pdftex.def Info: DDC-28.pdf  used on input line 27.
+Package pdftex.def Info: DDC-28.pdf  used on input line 28.
 (pdftex.def)             Requested size: 23.52893pt x 47.05765pt.
  [1{/home/trent/.texlive2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
@@ -1781,7 +1790,7 @@ Package pdftex.def Info: DDC-28.pdf  used on input line 27.
 
  </home/trent/texmf/tex/latex/tudscr/logo/TUD-black.pdf>]
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 34.
+(Font)              <7> on input line 35.
  [2
 
 
@@ -1857,7 +1866,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 23--32
  []
 
 )
-Underfull \hbox (badness 10000) in paragraph at lines 34--38
+Underfull \hbox (badness 10000) in paragraph at lines 34--39
 
  []
 
@@ -2579,35 +2588,46 @@ Overfull \hbox (10.23676pt too wide) in paragraph at lines 16--16
 
 
 ]
+<screenshots/redesign/main_view_iteration_1.jpg, id=417, 1084.05pt x 2409.0pt>
+File: screenshots/redesign/main_view_iteration_1.jpg Graphic file (type jpg)
+<use screenshots/redesign/main_view_iteration_1.jpg>
+Package pdftex.def Info: screenshots/redesign/main_view_iteration_1.jpg  used o
+n input line 29.
+(pdftex.def)             Requested size: 218.51524pt x 485.57758pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 23--32
+\OT1/opensans-TLF/l/n/10.95 these but-tons only when needed.
+ []
+
 
 LaTeX Warning: Marginpar on page 37 moved.
 
-
-Overfull \hbox (10.23676pt too wide) in paragraph at lines 39--39
+[37 <./screenshots/redesign/main_view_iteration_1.jpg>]
+Overfull \hbox (10.23676pt too wide) in paragraph at lines 48--48
 \OT1/opensans-TLF/l/n/10.95 graphic 
  []
 
 
-Overfull \hbox (10.23676pt too wide) in paragraph at lines 39--39
+Overfull \hbox (10.23676pt too wide) in paragraph at lines 48--48
 \OT1/opensans-TLF/l/n/10.95 graphic 
  []
 
 
-Overfull \hbox (10.23676pt too wide) in paragraph at lines 39--39
+Overfull \hbox (10.23676pt too wide) in paragraph at lines 48--48
 \OT1/opensans-TLF/l/n/10.95 graphic 
  []
 
 
-Overfull \hbox (10.23676pt too wide) in paragraph at lines 39--39
+Overfull \hbox (10.23676pt too wide) in paragraph at lines 48--48
 \OT1/opensans-TLF/l/n/10.95 graphic 
  []
 
-[37]) [38]
+[38]) [39]
 \openout2 = `evaluation.aux'.
 
  (./evaluation.tex
 chapter 7.
-) [39
+) [40
 
 
 
@@ -2616,17 +2636,17 @@ chapter 7.
 
  (./conclusion.tex
 chapter 8.
-) [40
+) [41
 
 
-
-] [41
 
 ] [42
 
+] [43
+
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 67.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 67.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 68.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 68.
  (./sigplanconf-template.aux
 Package cleveref Info: loaded `english' language definitions on input line 24.
 Package cleveref Info: loaded `english' language definitions on input line 25.
@@ -2634,16 +2654,16 @@ Package cleveref Info: loaded `english' language definitions on input line 25.
 (./state-of-the-art.aux) (./concept-problems.aux) (./related-work.aux)
 (./concept-proposals.aux) (./implementation.aux) (./evaluation.aux)
 (./conclusion.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 67.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 67.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 68.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 68.
 Package rerunfilecheck Info: File `sigplanconf-template.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 36771 strings out of 494871
- 761571 string characters out of 6178382
- 1106573 words of memory out of 5000000
- 39411 multiletter control sequences out of 15000+600000
+ 36841 strings out of 494871
+ 762707 string characters out of 6178382
+ 1107830 words of memory out of 5000000
+ 39472 multiletter control sequences out of 15000+600000
  549711 words of font info for 86 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  73i,19n,106p,10474b,1025s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2664,10 +2684,10 @@ cender/opensans/OpenSans-SemiBold-OT1-TLF--base.864pk> </home/trent/texmf/fonts
 TLF--base.1493pk> </home/trent/texmf/fonts/pk/modeless/ascender/opensans/OpenSa
 ns-Light-OT1-TLF--base.540pk> </home/trent/texmf/fonts/pk/modeless/ascender/ope
 nsans/OpenSans-SemiBold-OT1-TLF--base.540pk>
-Output written on sigplanconf-template.pdf (42 pages, 3681257 bytes).
+Output written on sigplanconf-template.pdf (43 pages, 4086938 bytes).
 PDF statistics:
- 1082 PDF objects out of 1200 (max. 8388607)
- 592 compressed objects within 6 object streams
- 155 named destinations out of 1000 (max. 500000)
- 501 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1090 PDF objects out of 1200 (max. 8388607)
+ 599 compressed objects within 6 object streams
+ 158 named destinations out of 1000 (max. 500000)
+ 506 words of extra memory for PDF output out of 10000 (max. 10000000)
 

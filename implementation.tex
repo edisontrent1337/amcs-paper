@@ -109,56 +109,56 @@ This iteration also includes the introduction of the aforementioned \emph{Action
 		\centering
 		\includegraphics[width=0.95\linewidth]{screenshots/redesign/lecture_tab_labels.jpg}
 		\captionsetup{width=.8\linewidth}
-		\caption{Expanded \emph{Burger Menu}.}
+		\caption{Improved \emph{Lecture Tabs} of \emph{Iteration 3} with textual labels. Either three or four tabs are displayed depending on the user role.}
 		\label{fig:main_view_tab_labels}
 	\end{minipage}%
 	\begin{minipage}[t]{.5\textwidth}
 		\centering
 		\includegraphics[width=0.95\linewidth]{screenshots/redesign/main_view_it3_lecture_box.jpg}
 		\captionsetup{width=.8\linewidth}
-		\caption{Lectures that belong to a certain course displayed in the \emph{Course View}.}
+		\caption{Improved \emph{Lecture Box} of \emph{Iteration 3}. The two buttons, previously at the top and unlabeled, are now located at the bottom.}
 		\label{fig:main_view_lecture_box_buttons}
 	\end{minipage}
 \end{figure}
 \paragraph{Problems}
-The introduction of the \emph{Actions Menu} is problematic as placement of the buttons pushes all content that follows further down the page. This problem is essentially the same issue that occurred with the original \emph{Burger Menu}.
+The introduction of the \emph{Actions Menu} raises new problems. The buttons are organized in a vertical list that pushes all following content further down the page. This problem is essentially identical to the issue that occurred with the original \emph{Burger Menu}. After pressing one of the buttons of the \emph{Actions Menu}, content below might change. However, in some cases, because the menu itself stays in place, these updates of the user interface below might happen completely off screen. Therefore, selecting some of the buttons could feel to the user like an idempotent operation.
 \begin{figure}
+	\vspace*{-1cm}
 	\centering
 	\begin{minipage}[t]{.5\textwidth}
 		\centering
 		\includegraphics[width=0.95\linewidth]{screenshots/redesign/problem_main_view_course_actions.jpg}
 		\captionsetup{width=.8\linewidth}
-		\caption{\emph{Actions Menu for Lecturer}: The \emph{Lecture Tabs} are displaced to the bottom. }
-		\label{fig:main_view_lecture_box_updated}
+		\caption{\emph{Actions Menu for Lecturer} in \emph{Iteration 3}: The \emph{Lecture Tabs} are displaced by the long list of buttons. }
+		\label{fig:main_view_course_options_bad}
 	\end{minipage}%
 	\begin{minipage}[t]{.5\textwidth}
 		\centering
 		\includegraphics[width=0.95\linewidth]{screenshots/redesign/main_view_iteration_4_actions.jpg}
 		\captionsetup{width=.8\linewidth}
-		\caption{Improved \emph{Actions Menu}. An extra button donated by the three dots in the red square opens an overlay that contains the \emph{Actions Menu}.}
-		\label{fig:main_view_lecture_tab_labels}
+		\caption{Improved \emph{Actions Menu} of \emph{Iteration 4}: An extra button donated by three dots (in the red square) opens an overlay that contains the \emph{Actions Menu}.}
+		\label{fig:main_view_course_options_good}
 	\end{minipage}
 \end{figure}
 
 
 
 \subsection{Iteration 4}
-\emph{Iteration 4} represents the last incremental update to the \emph{Main View}.
-\emph{Iteration 4} represents the last incremental update to the \emph{Main View}.
-The \emph{Iteration 4} represents the last incremental update to the \emph{Main View}.The \emph{Iteration 4} represents the last incremental update to the \emph{Main View}.
 \begin{wrapfigure}{r}{0.5\textwidth}
 	\vspace*{-0.5cm}
 	\begin{center}
 		\includegraphics[width=0.48\textwidth]{screenshots/redesign/main_view_iteration_4.jpg}
 	\end{center}
-	\caption{Iteration 2 of the \emph{Main View}. Four tabs are displayed when logged in as a \emph{Lecturer}. From left to right: \emph{Live, Upcoming, Past, Offline}.}
-	\label{fig:main_view_course_actions_bad}
+	\caption{\emph{Iteration 4}: The \emph{Action Menu} now is accessed by pressing the \emph{Three-Dots-Button} next to the \emph{Drop Down Menu}. An indicator for unanswered polls is added to the \emph{Lecture Box}.}
+	\label{fig:main_view_iteration_4}
 \end{wrapfigure}
 \emph{Iteration 4} represents the last incremental update to the \emph{Main View}.
-\emph{Iteration 4} represents the last incremental update to the \emph{Main View}.
-The \emph{Iteration 4} represents the last incremental update to the \emph{Main View}.The \emph{Iteration 4} represents the last incremental update to the \emph{Main View}.
-
-
+Most prominently, the  \emph{Action Menu} is now hidden per default. 
+A new button next to the \emph{Drop Down Menu} suggests additional options that concern the selected course. Tapping this button shows the \emph{Action Menu} (see \Cref{fig:main_view_course_options_good}). Selecting one of the options from the \emph{Actions Menu} causes it to close and update the view below accordingly.
+Furthermore, changes to the \emph{Lecture Tabs} are made. The \emph{Notification Bubbles} are changed slightly in style. They now serve as absolute counter for the number of elements inside a tab.
+Besides this change, a \emph{Notification Bubble} is displayed for each \emph{Lecture Box}, indicating new and unanswered questions for a given lecture.
+\\
+\\ 
 \section{Navigation}
 As proposed earlier in \Cref{chapter:concept}, the \emph{Burger Menu} was slimmed down considerably. A logged in user can only find the menu entries \emph{Profile}
 , \emph{How it works} and \emph{Logout}.

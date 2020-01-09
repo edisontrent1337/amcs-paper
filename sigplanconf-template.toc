@@ -68,8 +68,8 @@
 \contentsline {paragraph}{\nonumberline Problems}{39}{section*.63}
 \contentsline {subsection}{\numberline {6.1.5}Iteration 4}{39}{subsection.6.1.5}
 \contentsline {section}{\numberline {6.2}Navigation}{40}{section.6.2}
-\contentsline {section}{\numberline {6.3}Poll View}{40}{section.6.3}
-\contentsline {subsection}{\numberline {6.3.1}Navigation between Questions}{40}{subsection.6.3.1}
-\contentsline {chapter}{\numberline {7}Evaluation}{42}{chapter.7}
-\contentsline {chapter}{\numberline {8}Conclusion}{43}{chapter.8}
-\contentsline {section}{\numberline {.1}Appendix Title}{44}{section.Alph0.1}
+\contentsline {section}{\numberline {6.3}Poll View}{42}{section.6.3}
+\contentsline {subsection}{\numberline {6.3.1}Navigation between Questions}{42}{subsection.6.3.1}
+\contentsline {chapter}{\numberline {7}Evaluation}{43}{chapter.7}
+\contentsline {chapter}{\numberline {8}Conclusion}{44}{chapter.8}
+\contentsline {section}{\numberline {.1}Appendix Title}{45}{section.Alph0.1}

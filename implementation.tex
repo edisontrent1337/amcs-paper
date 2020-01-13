@@ -11,14 +11,14 @@ In the following, the implementation process and the required adjustments to the
 		\centering
 		\includegraphics[width=0.95\linewidth]{screenshots/redesign/drop_down_student.jpg}
 		\captionsetup{width=.8\linewidth}
-		\caption{Expanded \emph{Burger Menu}.}
+		\caption{The \emph{Drop Down Menu} for the role \emph{Student}: The \emph{Enrollment Form} is embedded.}
 		\label{fig:drop_down_student}
 	\end{minipage}%
 	\begin{minipage}[t]{.5\textwidth}
 		\centering
 		\includegraphics[width=0.95\linewidth]{screenshots/redesign/drop_down_lecturer.jpg}
 		\captionsetup{width=.8\linewidth}
-		\caption{Lectures that belong to a certain course displayed in the \emph{Course View}.}
+		\caption{The \emph{Drop Down Menu} for the role \emph{Lecturer}. A menu entry that allows for course creation replaces the embedded \emph{Enrollment Form}.}
 		\label{fig:drop_down_lecturer}
 	\end{minipage}
 \end{figure}
@@ -46,7 +46,7 @@ The number and kind of buttons displayed in the \emph{Actions Menu} varies depen
 
 
 \subsection{Lecture Tabs}
-Lastly, the \emph{Lecture Tabs} are displayed at the bottom. Each temporal context is associated with a color, label and icon to allow for easier differentiation between them. Similar to the \emph{Actions Menu}, the concept for displaying lectures had to be adapted to comply with the semantics of different user roles.
+The \emph{Lecture Tabs} are displayed below the \emph{Drop Down Menu}. Each temporal context is associated with a color, label and icon to allow for easier differentiation between them. Similar to the \emph{Actions Menu}, the concept for displaying lectures had to be adapted to comply with the semantics of different user roles.
 If a \emph{Student} is logged in, the tabs \emph{Live}, \emph{Upcoming} and \emph{Past} are shown. An additional tab labeled \emph{Offline} is displayed when logged in as a \emph{Lecturer}, as \emph{Lecturers} are able to create lectures in advance and restrict access to them by changing their status to \emph{Offline}.
 \\
 \\
@@ -93,12 +93,12 @@ The description remains retractable. The buttons on the top of each lecture have
 Furthermore, each lecture box is given a drop shadow to indicate that the area is pressable. Pressing anywhere on this \emph{card-like} box will redirect students to the \emph{Poll View}, whereas lecturers will arrive at the \emph{Course Dashboard}.
 
 \paragraph{Problems}
-Besides the ambiguity of the buttons at the top of each lecture, each \emph{tab} is suffering from the same problem. According to feedback from the AMCS group, the used iconography alone fails to convey which temporal context each tab is representing.
+Similar to the ambiguity of the top buttons of each lecture that remains in this iteration, every \emph{tab} is suffering from the same problem. According to feedback from the AMCS group, the used iconography alone fails to convey which temporal context each tab is representing.
 
 \subsubsection{Iteration 3}
 Some issues regarding the \emph{Lecture List} are fixed in this iteration.
 To clarify the meaning of each \emph{tab}, a textual label is added. 
-The colors of each tab are adjusted slightly to be more easy on the eyes. Time and duration of each lecture is displayed in one line next to each other. The two buttons previously discussed are moved to the bottom. They are expanded to take most of the width of the lecture box. The icons remain the same but they are reduced in size and pushed to the left.
+The colors of each tab are adjusted slightly to be more easy on the eyes (see \Cref{fig:main_view_tab_labels}). Furthermore, improvements to the \emph{Lecture Box} design are made (see \Cref{fig:main_view_lecture_box_buttons}). Time and duration of each lecture is displayed in one line next to each other. The two buttons previously discussed are moved to the bottom. They are expanded to take most of the width of the lecture box. The icons remain the same but they are reduced in size and pushed to the left.
 A textual label in the center of each button now describes its purpose.
 
 This iteration also includes the introduction of the aforementioned \emph{Actions Menu}. It consists of a vertical list of buttons and remains completely hidden if the entry \emph{All courses} is selected from the \emph{Drop Down Menu}. This design hopes to remove unnecessary clutter by displaying these buttons only when needed.
@@ -109,7 +109,7 @@ This iteration also includes the introduction of the aforementioned \emph{Action
 		\centering
 		\includegraphics[width=0.95\linewidth]{screenshots/redesign/lecture_tab_labels.jpg}
 		\captionsetup{width=.8\linewidth}
-		\caption{Improved \emph{Lecture Tabs} of \emph{Iteration 3} with textual labels. Either three or four tabs are displayed depending on the user role.}
+		\caption{Improved \emph{Lecture Tabs} of \emph{Iteration 3} with textual labels. The \emph{Offline} tab is displayed only to \emph{Lecturers}.}
 		\label{fig:main_view_tab_labels}
 	\end{minipage}%
 	\begin{minipage}[t]{.5\textwidth}
@@ -129,14 +129,14 @@ The introduction of the \emph{Actions Menu} raises new problems. The buttons are
 		\centering
 		\includegraphics[width=0.95\linewidth]{screenshots/redesign/problem_main_view_course_actions.jpg}
 		\captionsetup{width=.8\linewidth}
-		\caption{\emph{Actions Menu for Lecturer} in \emph{Iteration 3}: The \emph{Lecture Tabs} are displaced by the long list of buttons. }
+		\caption{\emph{Actions Menu for Lecturer} in \emph{Iteration 3}: The \emph{Lecture Tabs} and any other content below is always displaced by the long list of buttons, because it never disappears. }
 		\label{fig:main_view_course_options_bad}
 	\end{minipage}%
 	\begin{minipage}[t]{.5\textwidth}
 		\centering
 		\includegraphics[width=0.95\linewidth]{screenshots/redesign/main_view_iteration_4_actions.jpg}
 		\captionsetup{width=.8\linewidth}
-		\caption{Improved \emph{Actions Menu} of \emph{Iteration 4}: An extra button donated by three dots (in the red square) opens an overlay that contains the \emph{Actions Menu}.}
+		\caption{Improved \emph{Actions Menu} of \emph{Iteration 4}: An extra button denoted by three dots (in the red square) toggles an overlay that contains the \emph{Actions Menu}. Once a selection is made from the \emph{Actions Menu}, no displacement of the content below occurs anymore.}
 		\label{fig:main_view_course_options_good}
 	\end{minipage}
 \end{figure}
@@ -145,7 +145,7 @@ The introduction of the \emph{Actions Menu} raises new problems. The buttons are
 
 \subsection{Iteration 4}
 \begin{wrapfigure}{r}{0.5\textwidth}
-	\vspace*{-0.5cm}
+	\vspace*{-1cm}
 	\begin{center}
 		\includegraphics[width=0.48\textwidth]{screenshots/redesign/main_view_iteration_4.jpg}
 	\end{center}
@@ -160,13 +160,25 @@ Besides this change, a \emph{Notification Bubble} is displayed for each \emph{Le
 \\
 \\ 
 \section{Navigation}
-As proposed earlier in \Cref{chapter:concept}, the \emph{Burger Menu} was slimmed down considerably. A logged in user can only find the menu entries \emph{Profile}
-, \emph{How it works} and \emph{Logout}.
-The \emph{Question Pool} and \emph{Evaluation of Answers} is moved to the respective lectures in the \emph{Main View}. Apart from these changes, the \emph{Burger Menu} stayed the same.
+As proposed earlier in \Cref{chapter:concept}, the \emph{Burger Menu} was slimmed down considerably. A logged in user can only find the menu entries \emph{Edit account}, \emph{How it works} and \emph{Logout} (see \Cref{fig:navigation}).
+The \emph{Question Pool} and \emph{Evaluation of Answers} is moved to the respective lectures in the \emph{Main View}. Apart from these changes, the \emph{Burger Menu} stayed the same. Content below now has a higher chance to stay inside the visible view-port.
 
-
+\begin{wrapfigure}{r}{0.5\textwidth}
+	\vspace*{-1cm}
+	\begin{center}
+		\includegraphics[width=0.48\textwidth]{screenshots/redesign/navigation_new.jpg}
+	\end{center}
+	\caption{\emph{Iteration 4}: The \emph{Action Menu} now is accessed by pressing the \emph{Three-Dots-Button} next to the \emph{Drop Down Menu}. An indicator for unanswered polls is added to the \emph{Lecture Box}.}
+	\label{fig:navigation}
+\end{wrapfigure}
 
 \section{Poll View}
+
+The \emph{Poll View} is implemented closer to the proposals made in \Cref{chapter:redesignstrategy}.
+
+\subsection{Layout}
+
+The \emph{Poll View} uses a layout consisting of tabs. Each poll type has a designated tab, esentially reusing the tab component used in the \emph{Main View}.
 
 
 \subsection{Navigation between Questions}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.11.5)  13 JAN 2020 13:44
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.11.5)  14 JAN 2020 10:18
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2419,6 +2419,11 @@ chapter 4.
 
  (./concept-proposals.tex
 chapter 5.
+
+Underfull \hbox (badness 10000) in paragraph at lines 14--22
+
+ []
+
 [27
 
 
@@ -2429,26 +2434,36 @@ chapter 5.
 File: mockups/main_view_enhancement_v1_annotated.png Graphic file (type png)
 <use mockups/main_view_enhancement_v1_annotated.png>
 Package pdftex.def Info: mockups/main_view_enhancement_v1_annotated.png  used o
-n input line 30.
+n input line 33.
 (pdftex.def)             Requested size: 318.66953pt x 216.91037pt.
 <mockups/main_view_enhancement_v2_cropped.png, id=347, 499.8675pt x 436.63126pt
 >
 File: mockups/main_view_enhancement_v2_cropped.png Graphic file (type png)
 <use mockups/main_view_enhancement_v2_cropped.png>
 Package pdftex.def Info: mockups/main_view_enhancement_v2_cropped.png  used on 
-input line 42.
+input line 45.
 (pdftex.def)             Requested size: 318.66953pt x 278.36372pt.
 <mockups/main_view_enhancement_v3.png, id=348, 508.90125pt x 939.51pt>
 File: mockups/main_view_enhancement_v3.png Graphic file (type png)
 <use mockups/main_view_enhancement_v3.png>
 Package pdftex.def Info: mockups/main_view_enhancement_v3.png  used on input li
-ne 54.
+ne 57.
 (pdftex.def)             Requested size: 318.66953pt x 588.33917pt.
- [28]
-<mockups/embedded_drop_down.png, id=357, 457.71pt x 352.31625pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 70--80
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 70--80
+
+ []
+
+[28]
+<mockups/embedded_drop_down.png, id=358, 457.71pt x 352.31625pt>
 File: mockups/embedded_drop_down.png Graphic file (type png)
 <use mockups/embedded_drop_down.png>
-Package pdftex.def Info: mockups/embedded_drop_down.png  used on input line 80.
+Package pdftex.def Info: mockups/embedded_drop_down.png  used on input line 91.
 
 (pdftex.def)             Requested size: 318.66953pt x 245.30258pt.
  [29 <./mockups/main_view_enhancement_v1_annotated.png>]
@@ -2456,101 +2471,126 @@ Package pdftex.def Info: mockups/embedded_drop_down.png  used on input line 80.
 File: mockups/poll_view_enhancement.png Graphic file (type png)
 <use mockups/poll_view_enhancement.png>
 Package pdftex.def Info: mockups/poll_view_enhancement.png  used on input line 
-101.
+113.
 (pdftex.def)             Requested size: 318.66953pt x 449.63033pt.
 <mockups/poll_view_enhancement_v2.png, id=368, 525.965pt x 873.2625pt>
 File: mockups/poll_view_enhancement_v2.png Graphic file (type png)
 <use mockups/poll_view_enhancement_v2.png>
 Package pdftex.def Info: mockups/poll_view_enhancement_v2.png  used on input li
-ne 115.
+ne 127.
 (pdftex.def)             Requested size: 318.66953pt x 529.10495pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 123--131
+Underfull \hbox (badness 10000) in paragraph at lines 135--146
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 135--146
 
  []
 
 [30 <./mockups/main_view_enhancement_v2_cropped.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 140--145
+Underfull \hbox (badness 10000) in paragraph at lines 155--160
 
  []
 
 [31]
-Overfull \hbox (10.23676pt too wide) in paragraph at lines 154--154
+Overfull \hbox (10.23676pt too wide) in paragraph at lines 167--167
 \OT1/opensans-TLF/l/n/10.95 graphic 
  []
 
 
-Overfull \hbox (10.23676pt too wide) in paragraph at lines 154--154
+Overfull \hbox (10.23676pt too wide) in paragraph at lines 167--167
 \OT1/opensans-TLF/l/n/10.95 graphic 
  []
 
 
-Overfull \hbox (10.23676pt too wide) in paragraph at lines 154--154
+Overfull \hbox (10.23676pt too wide) in paragraph at lines 167--167
 \OT1/opensans-TLF/l/n/10.95 graphic 
  []
 
 
-Overfull \hbox (10.23676pt too wide) in paragraph at lines 154--154
+Overfull \hbox (10.23676pt too wide) in paragraph at lines 167--167
 \OT1/opensans-TLF/l/n/10.95 graphic 
  []
 
 
-Overfull \hbox (6.83026pt too wide) in paragraph at lines 157--157
+Overfull \hbox (10.23676pt too wide) in paragraph at lines 172--172
+\OT1/opensans-TLF/l/n/10.95 graphic 
+ []
+
+
+Overfull \hbox (10.23676pt too wide) in paragraph at lines 172--172
+\OT1/opensans-TLF/l/n/10.95 graphic 
+ []
+
+
+Overfull \hbox (10.23676pt too wide) in paragraph at lines 172--172
+\OT1/opensans-TLF/l/n/10.95 graphic 
+ []
+
+
+Overfull \hbox (10.23676pt too wide) in paragraph at lines 172--172
+\OT1/opensans-TLF/l/n/10.95 graphic 
+ []
+
+
+Overfull \hbox (6.83026pt too wide) in paragraph at lines 175--175
 \OT1/opensans-TLF/l/n/10.95 names 
  []
 
 
-Overfull \hbox (8.46179pt too wide) in paragraph at lines 157--157
+Overfull \hbox (8.46179pt too wide) in paragraph at lines 175--175
 \OT1/opensans-TLF/l/n/10.95 scribes 
  []
 
 
-Overfull \hbox (1.2972pt too wide) in paragraph at lines 157--157
+Overfull \hbox (1.2972pt too wide) in paragraph at lines 175--175
 \OT1/opensans-TLF/l/n/10.95 chap- 
  []
 
 
-Overfull \hbox (6.83026pt too wide) in paragraph at lines 157--157
+Overfull \hbox (6.83026pt too wide) in paragraph at lines 175--175
 \OT1/opensans-TLF/l/n/10.95 names 
  []
 
 
-Overfull \hbox (8.46179pt too wide) in paragraph at lines 157--157
+Overfull \hbox (8.46179pt too wide) in paragraph at lines 175--175
 \OT1/opensans-TLF/l/n/10.95 scribes 
  []
 
 
-Overfull \hbox (1.2972pt too wide) in paragraph at lines 157--157
+Overfull \hbox (1.2972pt too wide) in paragraph at lines 175--175
 \OT1/opensans-TLF/l/n/10.95 chap- 
  []
 
 
-Overfull \hbox (6.83026pt too wide) in paragraph at lines 157--157
+Overfull \hbox (6.83026pt too wide) in paragraph at lines 175--175
 \OT1/opensans-TLF/l/n/10.95 names 
  []
 
 
-Overfull \hbox (8.46179pt too wide) in paragraph at lines 157--157
+Overfull \hbox (8.46179pt too wide) in paragraph at lines 175--175
 \OT1/opensans-TLF/l/n/10.95 scribes 
  []
 
 
-Overfull \hbox (1.2972pt too wide) in paragraph at lines 157--157
+Overfull \hbox (1.2972pt too wide) in paragraph at lines 175--175
 \OT1/opensans-TLF/l/n/10.95 chap- 
  []
 
 
-Overfull \hbox (6.83026pt too wide) in paragraph at lines 157--157
+Overfull \hbox (6.83026pt too wide) in paragraph at lines 175--175
 \OT1/opensans-TLF/l/n/10.95 names 
  []
 
 
-Overfull \hbox (8.46179pt too wide) in paragraph at lines 157--157
+Overfull \hbox (8.46179pt too wide) in paragraph at lines 175--175
 \OT1/opensans-TLF/l/n/10.95 scribes 
  []
 
 
-Overfull \hbox (1.2972pt too wide) in paragraph at lines 157--157
+Overfull \hbox (1.2972pt too wide) in paragraph at lines 175--175
 \OT1/opensans-TLF/l/n/10.95 chap- 
  []
 
@@ -2565,7 +2605,7 @@ _enhancement_v2.png>]
 
  (./implementation.tex
 chapter 6.
-<screenshots/redesign/drop_down_student.jpg, id=419, 987.69pt x 643.40375pt>
+<screenshots/redesign/drop_down_student.jpg, id=420, 987.69pt x 643.40375pt>
 File: screenshots/redesign/drop_down_student.jpg Graphic file (type jpg)
 <use screenshots/redesign/drop_down_student.jpg>
 Package pdftex.def Info: screenshots/redesign/drop_down_student.jpg  used on in
@@ -2577,7 +2617,7 @@ Underfull \hbox (badness 1460) in paragraph at lines 14--14
 ed-
  []
 
-<screenshots/redesign/drop_down_lecturer.jpg, id=420, 969.6225pt x 767.86874pt>
+<screenshots/redesign/drop_down_lecturer.jpg, id=421, 969.6225pt x 767.86874pt>
 
 File: screenshots/redesign/drop_down_lecturer.jpg Graphic file (type jpg)
 <use screenshots/redesign/drop_down_lecturer.jpg>
@@ -2620,7 +2660,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 49--56
 
  []
 
-<screenshots/redesign/main_view_iteration_1.jpg, id=431, 1079.03125pt x 2217.28
+<screenshots/redesign/main_view_iteration_1.jpg, id=432, 1079.03125pt x 2217.28
 375pt>
 File: screenshots/redesign/main_view_iteration_1.jpg Graphic file (type jpg)
 <use screenshots/redesign/main_view_iteration_1.jpg>
@@ -2633,7 +2673,7 @@ _down_lecturer.jpg>]
 Package wrapfig Warning: Stationary wrapfigure forced to float on input line 67
 .
 
-<screenshots/redesign/main_view_iteration_2.jpg, id=438, 1084.05pt x 2049.6575p
+<screenshots/redesign/main_view_iteration_2.jpg, id=439, 1084.05pt x 2049.6575p
 t>
 File: screenshots/redesign/main_view_iteration_2.jpg Graphic file (type jpg)
 <use screenshots/redesign/main_view_iteration_2.jpg>
@@ -2647,13 +2687,13 @@ re sep-a-rately.
  []
 
 [39 <./screenshots/redesign/main_view_iteration_1.jpg>]
-<screenshots/redesign/lecture_tab_labels.jpg, id=450, 1084.05pt x 433.62pt>
+<screenshots/redesign/lecture_tab_labels.jpg, id=451, 1084.05pt x 433.62pt>
 File: screenshots/redesign/lecture_tab_labels.jpg Graphic file (type jpg)
 <use screenshots/redesign/lecture_tab_labels.jpg>
 Package pdftex.def Info: screenshots/redesign/lecture_tab_labels.jpg  used on i
 nput line 110.
 (pdftex.def)             Requested size: 216.24028pt x 86.49088pt.
-<screenshots/redesign/main_view_it3_lecture_box.jpg, id=451, 1084.05pt x 733.74
+<screenshots/redesign/main_view_it3_lecture_box.jpg, id=452, 1084.05pt x 733.74
 126pt>
 File: screenshots/redesign/main_view_it3_lecture_box.jpg Graphic file (type jpg
 )
@@ -2661,7 +2701,7 @@ File: screenshots/redesign/main_view_it3_lecture_box.jpg Graphic file (type jpg
 Package pdftex.def Info: screenshots/redesign/main_view_it3_lecture_box.jpg  us
 ed on input line 117.
 (pdftex.def)             Requested size: 216.24028pt x 146.35379pt.
-<screenshots/redesign/problem_main_view_course_actions.jpg, id=452, 1084.05pt x
+<screenshots/redesign/problem_main_view_course_actions.jpg, id=453, 1084.05pt x
  2040.62375pt>
 File: screenshots/redesign/problem_main_view_course_actions.jpg Graphic file (t
 ype jpg)
@@ -2674,7 +2714,7 @@ Underfull \hbox (badness 1533) in paragraph at lines 132--132
 [][][]|\OT1/opensans-TLF/l/it/10.95 Ac-tions Menu for Lec-turer
  []
 
-<screenshots/redesign/main_view_iteration_4_actions.jpg, id=453, 1084.05pt x 20
+<screenshots/redesign/main_view_iteration_4_actions.jpg, id=454, 1084.05pt x 20
 45.6425pt>
 File: screenshots/redesign/main_view_iteration_4_actions.jpg Graphic file (type
  jpg)
@@ -2682,7 +2722,7 @@ File: screenshots/redesign/main_view_iteration_4_actions.jpg Graphic file (type
 Package pdftex.def Info: screenshots/redesign/main_view_iteration_4_actions.jpg
   used on input line 137.
 (pdftex.def)             Requested size: 216.24028pt x 408.02876pt.
-<screenshots/redesign/main_view_iteration_4.jpg, id=454, 1076.02pt x 1733.47626
+<screenshots/redesign/main_view_iteration_4.jpg, id=455, 1076.02pt x 1733.47626
 pt>
 File: screenshots/redesign/main_view_iteration_4.jpg Graphic file (type jpg)
 <use screenshots/redesign/main_view_iteration_4.jpg>
@@ -2752,7 +2792,7 @@ s/redesign/main_view_iteration_4_actions.jpg>]
 Package wrapfig Warning: Collision between wrapping environments on input line 
 166.
 
-<screenshots/redesign/navigation_new.jpg, id=477, 1084.05pt x 2044.63875pt>
+<screenshots/redesign/navigation_new.jpg, id=478, 1084.05pt x 2044.63875pt>
 File: screenshots/redesign/navigation_new.jpg Graphic file (type jpg)
 <use screenshots/redesign/navigation_new.jpg>
 Package pdftex.def Info: screenshots/redesign/navigation_new.jpg  used on input
@@ -2806,10 +2846,10 @@ Package rerunfilecheck Info: File `sigplanconf-template.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 36885 strings out of 494871
- 764760 string characters out of 6178382
- 1108830 words of memory out of 5000000
- 39498 multiletter control sequences out of 15000+600000
+ 36887 strings out of 494871
+ 764815 string characters out of 6178382
+ 1107830 words of memory out of 5000000
+ 39500 multiletter control sequences out of 15000+600000
  549711 words of font info for 86 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  73i,19n,106p,10474b,1025s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2830,10 +2870,10 @@ cender/opensans/OpenSans-SemiBold-OT1-TLF--base.864pk> </home/trent/texmf/fonts
 TLF--base.1493pk> </home/trent/texmf/fonts/pk/modeless/ascender/opensans/OpenSa
 ns-Light-OT1-TLF--base.540pk> </home/trent/texmf/fonts/pk/modeless/ascender/ope
 nsans/OpenSans-SemiBold-OT1-TLF--base.540pk>
-Output written on sigplanconf-template.pdf (47 pages, 5829430 bytes).
+Output written on sigplanconf-template.pdf (47 pages, 5829978 bytes).
 PDF statistics:
- 1142 PDF objects out of 1200 (max. 8388607)
- 634 compressed objects within 7 object streams
+ 1143 PDF objects out of 1200 (max. 8388607)
+ 635 compressed objects within 7 object streams
  167 named destinations out of 1000 (max. 500000)
  567 words of extra memory for PDF output out of 10000 (max. 10000000)
 

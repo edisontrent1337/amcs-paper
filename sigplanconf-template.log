@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.11.5)  16 JAN 2020 12:39
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.11.5)  16 JAN 2020 12:53
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2211,6 +2211,11 @@ Package pdftex.def Info: screenshots/poll_view_2.png  used on input line 109.
 (pdftex.def)             Requested size: 227.62209pt x 321.91035pt.
  [21] [22 <./diagrams/amcs-click-paths.png>] [23 <./screenshots/poll_view_2.png
 >]
+Overfull \hbox (0.91507pt too wide) in paragraph at lines 120--120
+[]|\OT1/opensans-TLF/l/n/10.95 Components| 
+ []
+
+
 Overfull \hbox (4.06726pt too wide) in paragraph at lines 121--121
 []|\OT1/opensans-TLF/l/n/10.95 Visualization
  []
@@ -2222,12 +2227,7 @@ Overfull \hbox (4.06726pt too wide) in paragraph at lines 121--121
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 121--121
-[]|\OT1/opensans-TLF/l/n/10.95 The hi-er-ar-chi-cal or-der of
- []
-
-
-Underfull \hbox (badness 1953) in paragraph at lines 121--121
-\OT1/opensans-TLF/l/n/10.95 courses con-tain-ing lec-tures is
+\OT1/opensans-TLF/l/n/10.95 con-tain-ing lec-tures is dis-re-
  []
 
 
@@ -2251,11 +2251,6 @@ Overfull \hbox (4.04974pt too wide) in paragraph at lines 123--123
  []
 
 
-Underfull \hbox (badness 6141) in paragraph at lines 123--123
-[]|\OT1/opensans-TLF/l/n/10.95 Lecture badges that in-di-cate
- []
-
-
 Overfull \hbox (6.41931pt too wide) in paragraph at lines 124--124
 []|\OT1/opensans-TLF/l/n/10.95 Visualization,
  []
@@ -2276,13 +2271,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 125--125
  []
 
 
-Underfull \hbox (badness 4441) in paragraph at lines 126--126
-[]|\OT1/opensans-TLF/l/n/10.95 Course Fil-
+Underfull \hbox (badness 1527) in paragraph at lines 125--125
+[]|\OT1/opensans-TLF/l/n/10.95 The sec-tion \OT1/opensans-TLF/l/it/10.95 En-rol
+l-ment \OT1/opensans-TLF/l/n/10.95 and the
  []
 
 
-Underfull \hbox (badness 5119) in paragraph at lines 126--126
-[]|\OT1/opensans-TLF/l/n/10.95 The view lacks of a fil-ter-ing
+Underfull \hbox (badness 4441) in paragraph at lines 126--126
+[]|\OT1/opensans-TLF/l/n/10.95 Course Fil-
  []
 
 
@@ -2306,26 +2302,6 @@ Overfull \hbox (4.06726pt too wide) in paragraph at lines 128--128
  []
 
 
-Underfull \hbox (badness 3954) in paragraph at lines 129--129
-[]|\OT1/opensans-TLF/l/n/10.95 The view lacks of sep-a-ra-tion
- []
-
-
-Underfull \hbox (badness 5862) in paragraph at lines 129--129
-\OT1/opensans-TLF/l/n/10.95 be-tween dif-fer-ent poll types.
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 129--129
-\OT1/opensans-TLF/l/n/10.95 Nav-i-ga-tion be-tween dif-fer-ent
- []
-
-
-Underfull \hbox (badness 2027) in paragraph at lines 129--129
-\OT1/opensans-TLF/l/n/10.95 poll types re-quires too much
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 130--130
 []|\OT1/opensans-TLF/l/n/10.95 Switching
  []
@@ -2336,18 +2312,19 @@ Underfull \hbox (badness 10000) in paragraph at lines 130--130
  []
 
 
-Underfull \hbox (badness 3460) in paragraph at lines 130--130
+Underfull \hbox (badness 10000) in paragraph at lines 130--130
 \OT1/opensans-TLF/l/n/10.95 courses re-quires un-nec-es-sary
+ []
+
+
+Underfull \hbox (badness 1755) in paragraph at lines 130--130
+\OT1/opensans-TLF/l/n/10.95 nav-i-ga-tion be-tween \OT1/opensans-TLF/l/it/10.95
+ Course View
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 131--131
 []|\OT1/opensans-TLF/l/n/10.95 Confusing
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 131--131
-[]|\OT1/opensans-TLF/l/n/10.95 Under cer-tain cir-cum-stances,
  []
 
 
@@ -2362,7 +2339,22 @@ Underfull \hbox (badness 10000) in paragraph at lines 132--132
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 132--132
-\OT1/opensans-TLF/l/it/10.95 Question Pool
+\OT1/opensans-TLF/l/it/10.95 Question
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 132--132
+\OT1/opensans-TLF/l/it/10.95 Answer
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 132--132
+\OT1/opensans-TLF/l/it/10.95 Eval-u-a-tion
+ []
+
+
+Underfull \hbox (badness 2050) in paragraph at lines 132--132
+\OT1/opensans-TLF/l/n/10.95 tons to re-turn to the pre-vi-ous
  []
 
 
@@ -2386,8 +2378,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 135--135
  []
 
 
-Underfull \hbox (badness 4505) in paragraph at lines 135--135
-\OT1/opensans-TLF/l/n/10.95 be op-er-ated to eval-u-ate an-
+Underfull \hbox (badness 3547) in paragraph at lines 135--135
+[]|\OT1/opensans-TLF/l/it/10.95 Answer Eval-
  []
 
 
@@ -2397,13 +2389,24 @@ Underfull \hbox (badness 10000) in paragraph at lines 136--136
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 136--136
-[]|\OT1/opensans-TLF/l/it/10.95 Question Pool
+[]|\OT1/opensans-TLF/l/it/10.95 Question
  []
 
 
-Underfull \hbox (badness 1348) in paragraph at lines 136--136
+Underfull \hbox (badness 4595) in paragraph at lines 136--136
 []|\OT1/opensans-TLF/l/n/10.95 The \OT1/opensans-TLF/l/it/10.95 Ques-tion Pool 
 View \OT1/opensans-TLF/l/n/10.95 is not
+ []
+
+
+Underfull \hbox (badness 2384) in paragraph at lines 136--136
+\OT1/opensans-TLF/l/n/10.95 reach-able easy enough, as ex-
+ []
+
+
+Underfull \hbox (badness 1163) in paragraph at lines 136--136
+\OT1/opensans-TLF/l/n/10.95 pand-ing the \OT1/opensans-TLF/l/it/10.95 Burger Me
+nu \OT1/opensans-TLF/l/n/10.95 is re-
  []
 
 
@@ -2594,12 +2597,12 @@ Overfull \hbox (2.10028pt too wide) in paragraph at lines 202--202
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 202--202
-[]|\OT1/opensans-TLF/l/n/10.95 Restructuring
+[]|\OT1/opensans-TLF/l/n/10.95 Improved
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 202--202
-\OT1/opensans-TLF/l/n/10.95 Of Lec-ture
+\OT1/opensans-TLF/l/n/10.95 Lec-ture Vi-su-al-
  []
 
 
@@ -2648,13 +2651,8 @@ Overfull \hbox (0.54976pt too wide) in paragraph at lines 252--252
  []
 
 
-Underfull \hbox (badness 1009) in paragraph at lines 252--252
-[]|\OT1/opensans-TLF/l/n/10.95 Remove un-nec-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 252--252
-\OT1/opensans-TLF/l/n/10.95 es-sary menu
+Underfull \hbox (badness 5832) in paragraph at lines 252--252
+[]|\OT1/opensans-TLF/l/n/10.95 Slimmed Down
  []
 
 
@@ -2663,7 +2661,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 252--252
  []
 
 
-Underfull \vbox (badness 10000) detected at line 261
+Underfull \hbox (badness 10000) in paragraph at lines 258--258
+[]|\OT1/opensans-TLF/l/n/10.95 Notification
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 266
  []
 
 ) [37
@@ -2905,7 +2908,7 @@ Package rerunfilecheck Info: File `sigplanconf-template.out' has not changed.
 Here is how much of TeX's memory you used:
  37188 strings out of 494871
  769995 string characters out of 6178382
- 1114932 words of memory out of 5000000
+ 1115932 words of memory out of 5000000
  39792 multiletter control sequences out of 15000+600000
  550008 words of font info for 87 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
@@ -2928,7 +2931,7 @@ rent/texmf/fonts/pk/modeless/ascender/opensans/OpenSans-SemiBold-OT1-TLF--base.
 1493pk> </home/trent/texmf/fonts/pk/modeless/ascender/opensans/OpenSans-Light-O
 T1-TLF--base.540pk> </home/trent/texmf/fonts/pk/modeless/ascender/opensans/Open
 Sans-SemiBold-OT1-TLF--base.540pk>
-Output written on sigplanconf-template.pdf (48 pages, 5832572 bytes).
+Output written on sigplanconf-template.pdf (48 pages, 5832763 bytes).
 PDF statistics:
  1161 PDF objects out of 1200 (max. 8388607)
  651 compressed objects within 7 object streams

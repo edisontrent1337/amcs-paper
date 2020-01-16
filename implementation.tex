@@ -144,12 +144,12 @@ The introduction of the \emph{Actions Menu} raises new problems. The buttons are
 
 
 \subsection{Iteration 4}
-\begin{wrapfigure}{r}{0.5\textwidth}
+\begin{wrapfigure}{r}{0.55\textwidth}
 	\vspace*{-1cm}
 	\begin{center}
 		\includegraphics[width=0.48\textwidth]{screenshots/redesign/main_view_iteration_4.jpg}
 	\end{center}
-	\caption{\emph{Iteration 4}: The \emph{Action Menu} now is accessed by pressing the \emph{Three-Dots-Button} next to the \emph{Drop Down Menu}. An indicator for unanswered polls is added to the \emph{Lecture Box}.}
+	\caption{\emph{Iteration 4}: The \emph{Action Menu} is now accessed by pressing the \emph{Three-Dots-Button} next to the \emph{Drop Down Menu}. Furthermore, an indicator for unanswered polls is added to the \emph{Lecture Box}.}
 	\label{fig:main_view_iteration_4}
 \end{wrapfigure}
 \emph{Iteration 4} represents the last incremental update to the \emph{Main View}.
@@ -174,11 +174,10 @@ The \emph{Question Pool} and \emph{Evaluation of Answers} is moved to the respec
 
 \section{Poll View}
 
-The \emph{Poll View} is implemented closer to the proposals made in \Cref{chapter:redesignstrategy}.
+The \emph{Poll View} is implemented closer to the proposals made in \Cref{chapter:redesignstrategy}.	
 
 \subsection{Layout}
 
-The \emph{Poll View} uses a layout consisting of tabs. Each poll type has a designated tab, esentially reusing the tab component used in the \emph{Main View}.
-
+As tabs are already used by the \emph{Main View}, a reusable \emph{Tab Component} was implemented. The \emph{Poll View} uses its own instance of the component. Each poll type has a designated tab, complete with \emph{Notification Bubbles} showing the remainder of unanswered questions for each category respectively.
 
 \subsection{Navigation between Questions}

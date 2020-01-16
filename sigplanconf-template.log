@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.11.5)  14 JAN 2020 10:18
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.11.5)  14 JAN 2020 10:23
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2730,48 +2730,40 @@ Package pdftex.def Info: screenshots/redesign/main_view_iteration_4.jpg  used o
 n input line 150.
 (pdftex.def)             Requested size: 218.51524pt x 352.00569pt.
 [40 <./screenshots/redesign/main_view_iteration_2.jpg>]
-Underfull \hbox (badness 1308) in paragraph at lines 155--162
+Underfull \hbox (badness 1168) in paragraph at lines 155--162
 []\OT1/opensans-TLF/l/it/10.95 Iteration 4 \OT1/opensans-TLF/l/n/10.95 rep-re-s
-ents the last in-cre-men-
+ents the last in-cre-
  []
 
 
-Underfull \hbox (badness 3735) in paragraph at lines 155--162
-\OT1/opensans-TLF/l/n/10.95 nently, the \OT1/opensans-TLF/l/it/10.95 Ac-tion Me
-nu \OT1/opensans-TLF/l/n/10.95 is now hid-den
+Underfull \hbox (badness 1990) in paragraph at lines 155--162
+\OT1/opensans-TLF/l/n/10.95 hid-den per de-fault. A new but-ton
  []
 
 
-Underfull \hbox (badness 1377) in paragraph at lines 155--162
-\OT1/opensans-TLF/l/n/10.95 per de-fault. A new but-ton next to the
+Underfull \hbox (badness 2717) in paragraph at lines 155--162
+\OT1/opensans-TLF/l/n/10.95 ad-di-tional op-tions that con-cern the
  []
 
 
-Underfull \hbox (badness 1694) in paragraph at lines 155--162
-\OT1/opensans-TLF/l/n/10.95 ping this but-ton shows the \OT1/opensans-TLF/l/it/
-10.95 Ac-tion Menu
+Underfull \hbox (badness 2189) in paragraph at lines 155--162
+\OT1/opensans-TLF/l/n/10.95 se-lected course. Tap-ping this but-
  []
 
 
-Underfull \hbox (badness 1082) in paragraph at lines 155--162
-\OT1/opensans-TLF/l/n/10.95 ingly. Fur-ther-more, changes to the \OT1/opensans-
-TLF/l/it/10.95 Lec-
+Underfull \hbox (badness 1789) in paragraph at lines 155--162
+\OT1/opensans-TLF/l/n/10.95 ure []6.8[]). Se-lect-ing one of the op-
  []
 
 
-Underfull \hbox (badness 1521) in paragraph at lines 155--162
-\OT1/opensans-TLF/l/n/10.95 serve as ab-so-lute counter for the num-
+Underfull \hbox (badness 2213) in paragraph at lines 155--162
+\OT1/opensans-TLF/l/n/10.95 in-side a tab. Be-sides this change,
  []
 
 
-Underfull \hbox (badness 2165) in paragraph at lines 155--162
-\OT1/opensans-TLF/l/n/10.95 ber of el-e-ments in-side a tab. Be-sides
- []
-
-
-Underfull \hbox (badness 1742) in paragraph at lines 155--162
-\OT1/opensans-TLF/l/n/10.95 this change, a \OT1/opensans-TLF/l/it/10.95 No-ti-f
-i-ca-tion Bub-ble \OT1/opensans-TLF/l/n/10.95 is dis-
+Underfull \hbox (badness 1147) in paragraph at lines 155--162
+\OT1/opensans-TLF/l/n/10.95 a \OT1/opensans-TLF/l/it/10.95 No-ti-fi-ca-tion Bub
+-ble \OT1/opensans-TLF/l/n/10.95 is dis-played for
  []
 
 
@@ -2788,10 +2780,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 155--162
 n_view_it3_lecture_box.jpg> <./screenshots/redesign/main_view_iteration_4.jpg>]
 [42 <./screenshots/redesign/problem_main_view_course_actions.jpg> <./screenshot
 s/redesign/main_view_iteration_4_actions.jpg>]
-
-Package wrapfig Warning: Collision between wrapping environments on input line 
-166.
-
 <screenshots/redesign/navigation_new.jpg, id=478, 1084.05pt x 2044.63875pt>
 File: screenshots/redesign/navigation_new.jpg Graphic file (type jpg)
 <use screenshots/redesign/navigation_new.jpg>
@@ -2870,7 +2858,7 @@ cender/opensans/OpenSans-SemiBold-OT1-TLF--base.864pk> </home/trent/texmf/fonts
 TLF--base.1493pk> </home/trent/texmf/fonts/pk/modeless/ascender/opensans/OpenSa
 ns-Light-OT1-TLF--base.540pk> </home/trent/texmf/fonts/pk/modeless/ascender/ope
 nsans/OpenSans-SemiBold-OT1-TLF--base.540pk>
-Output written on sigplanconf-template.pdf (47 pages, 5829978 bytes).
+Output written on sigplanconf-template.pdf (47 pages, 5830006 bytes).
 PDF statistics:
  1143 PDF objects out of 1200 (max. 8388607)
  635 compressed objects within 7 object streams

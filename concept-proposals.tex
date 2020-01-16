@@ -7,7 +7,7 @@ No redesign of all modular components is attempted, but rather a redesign of the
 
 \section{Main View}
 
-Several improvements for the layout and visualization of the \emph{Main View} follow in this section. \Cref{figure:mainviewenhancement}, \Cref{figure:mainviewenhancement2} and \Cref{figure:mainviewenhancement3} respectively show an evolution of mock-ups for the \emph{Main View}.
+Several improvements for the layout and visualization of the \emph{Main View} are elaborated in this section. \Cref{figure:mainviewenhancement}, \Cref{figure:mainviewenhancement2} and \Cref{figure:mainviewenhancement3} respectively show an evolution of mock-ups for the \emph{Main View}.
 \subsection{Layout}
 \label{section:con:proposals:mainview:layout}
 \paragraph{Iteration 1}
@@ -98,6 +98,7 @@ In summary, the \emph{Drop Down Menu} acts as a coarse grain filter to the \emph
 \end{figure}
 
 \subsection{Poll View}
+\label{section:con:proposals:pollview}
 
 \subsection{Layout and Visualization}
 Several issues have been identified regarding layout and visualization of polls in \Cref{section:con:problems:pollview}. Main problems include the ineffective use of vertical space and a lack of visual separation between poll types. Regardless of their type, polls are simply appended to the bottom of the list.
@@ -171,5 +172,90 @@ By shifting navigation elements from the old \emph{Burger Menu} to components of
 It only contains the buttons labeled \emph{How it works}, \emph{Edit account} and \emph{Login/Logout}. The options to view the \emph{Question Pool}, to \emph{Evaluate} a given lecture or to unsubscribe from a course are all moved to the \emph{Main View}, as described in  \Cref{section:con:proposals:mainview:layout} and \Cref{section:con:proposals:dropdown}.
 These changes lead to shorter click paths with well-defined behavior (see \todogrf).
 
+\section{Summary}
+All proposals and their respective goals are shortly summarized in \Cref{tab:proposals}. It serves as a reference to which features have to be implemented by the prototype. Therefore, this table will be referenced in \Cref{chapter:implementation}.
 
-\todo{Add a table that names and describes all proposals so that the implementation chapter can refer to this}
+\cleardoublepage
+\renewcommand*{\arraystretch}{1.5}
+\begin{longtable}{ | p{0.7cm} | p{2.8cm} | p{2cm} | p{7.6cm} |}
+	\hline
+	ID & Name & Component & Goals \\ \hline
+	MV1 & Lecture Tabs & \emph{Main View}& 
+	\vspace{-0.45cm}
+	\begin{itemize}[leftmargin=*,noitemsep, topsep=0pt,  partopsep=0pt]
+		\item Visual separation of lectures
+		\item Filter lectures by temporal context
+		\item Reduce amount of vertical space used
+	\end{itemize} \vspace{-0.45cm} \\ \hline
+	MV2 & Drop Down Menu & \emph{Main View} & 
+	\vspace{-0.45cm}
+	\begin{itemize}[leftmargin=*,noitemsep, topsep=0pt]
+		\item Filter lectures by course
+		\item Reduce amount of vertical space used
+	\end{itemize} \vspace{-0.45cm} \\ \hline
+	MV3 & Embedded Enrollment Form &\emph{Main View} &
+	\vspace{-0.45cm}
+	\begin{itemize}[leftmargin=*,noitemsep, topsep=0pt]
+		\item Reduce cognitive effort to enroll to a course
+		\item Reduce amount of vertical space used
+	\end{itemize} \vspace{-0.45cm} \\ \hline
+	MV4 & Restructuring Of Lecture Boxes &\emph{Main View} &
+	\vspace{-0.45cm}	
+	\begin{itemize}[leftmargin=*,noitemsep, topsep=0pt]
+		\item Reduce cognitive effort to find information
+		\item Reduce visual clutter
+		\item Reduce amount of vertical space used
+	\end{itemize} \vspace{-0.45cm} \\ \hline
+	MV5 & Improved Location of Access To Features &\emph{Main View} &
+	\vspace{-0.45cm}	
+	\begin{itemize}[leftmargin=*,noitemsep, topsep=0pt]
+		\item Reduce amount of vertical space used
+		\item Reduce click path length
+		\item Remove unnecessary click paths
+	\end{itemize} \vspace{-0.45cm} \\ \hline
+	MV6 & Pagination Of Lectures &\emph{Main View} & 
+	\vspace{-0.45cm}	
+	\begin{itemize}[leftmargin=*,noitemsep, topsep=0pt]
+		\item Reduce amount of vertical space used
+		\item Reduce visual clutter
+		\item Remove unnecessary click paths
+	\end{itemize} \vspace{-0.45cm} \\ \hline
+	PV1 & Poll Tabs & \emph{Poll View} &
+	\vspace{-0.45cm}	
+	\begin{itemize}[leftmargin=*,noitemsep, topsep=0pt]
+		\item Reduce amount of vertical space used
+		\item Reduce visual clutter
+	\end{itemize} \vspace{-0.45cm} \\ \hline
+	PV2 & Improved Visualization of Questions & \emph{Poll View} &
+	\vspace{-0.45cm}	
+	\begin{itemize}[leftmargin=*,noitemsep, topsep=0pt]
+		\item Improve visuals and readability
+		\item Reduce visual clutter
+	\end{itemize} \vspace{-0.45cm} \\ \hline
+	PV3 & Navigation Bar & \emph{Poll View} &
+	\vspace{-0.45cm}	
+	\begin{itemize}[leftmargin=*,noitemsep, topsep=0pt]
+		\item Improve navigation between questions
+		\item Reduce visual clutter
+		\item Reduce amount of vertical space used
+	\end{itemize} \vspace{-0.45cm} \\ \hline
+	PV4 & Next/Back Buttons & \emph{Poll View} &
+	\begin{itemize}[leftmargin=*,noitemsep, topsep=0pt]
+		\item Improve navigation between questions
+	\end{itemize} \vspace{-0.45cm} \\ \hline
+	PV5 & Support Swiping & \emph{Poll View} &
+	\vspace{-0.45cm}	
+	\begin{itemize}[leftmargin=*,noitemsep, topsep=0pt]
+		\item Improve navigation between questions
+		\item Improve quality of user interaction
+	\end{itemize} \vspace{-0.45cm} \\ \hline
+	NV1 & Remove unnecessary menu entries & \emph{Burger Menu} & 		\vspace{-0.45cm}	
+	\begin{itemize}[leftmargin=*,noitemsep, topsep=0pt]
+		\item Improve global navigation
+		\item Reduce click paths and their length
+		\item Reduce amount of vertical space used
+	\end{itemize} \vspace{-0.45cm} \\ \hline
+	
+	\caption{Classification of proposals for improved usability of AMCS. This classification serves as a feature list for the prototype.}
+	\label{tab:proposals}
+\end{longtable}

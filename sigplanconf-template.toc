@@ -54,23 +54,24 @@
 \contentsline {subsection}{\numberline {5.1.6}Navigation between questions}{31}{subsection.5.1.6}
 \contentsline {section}{\numberline {5.2}Course View}{32}{section.5.2}
 \contentsline {subsection}{\numberline {5.2.1}Navigation}{32}{subsection.5.2.1}
-\contentsline {chapter}{\numberline {6}Implementation}{37}{chapter.6}
-\contentsline {section}{\numberline {6.1}Main View}{37}{section.6.1}
-\contentsline {subsection}{\numberline {6.1.1}Drop Down Menu}{37}{subsection.6.1.1}
-\contentsline {subsection}{\numberline {6.1.2}Actions Menu}{38}{subsection.6.1.2}
-\contentsline {subsection}{\numberline {6.1.3}Lecture Tabs}{38}{subsection.6.1.3}
-\contentsline {subsection}{\numberline {6.1.4}Lecture List}{39}{subsection.6.1.4}
-\contentsline {subsubsection}{\nonumberline Iteration 1}{39}{section*.56}
-\contentsline {paragraph}{\nonumberline Problems}{39}{section*.57}
-\contentsline {subsubsection}{\nonumberline Iteration 2}{39}{section*.58}
-\contentsline {paragraph}{\nonumberline Problems}{40}{section*.60}
-\contentsline {subsubsection}{\nonumberline Iteration 3}{40}{section*.61}
-\contentsline {paragraph}{\nonumberline Problems}{40}{section*.63}
-\contentsline {subsection}{\numberline {6.1.5}Iteration 4}{41}{subsection.6.1.5}
-\contentsline {section}{\numberline {6.2}Navigation}{41}{section.6.2}
-\contentsline {section}{\numberline {6.3}Poll View}{43}{section.6.3}
-\contentsline {subsection}{\numberline {6.3.1}Layout}{43}{subsection.6.3.1}
-\contentsline {subsection}{\numberline {6.3.2}Navigation between Questions}{43}{subsection.6.3.2}
-\contentsline {chapter}{\numberline {7}Evaluation}{44}{chapter.7}
-\contentsline {chapter}{\numberline {8}Conclusion}{45}{chapter.8}
-\contentsline {section}{\numberline {.1}Appendix Title}{46}{section.Alph0.1}
+\contentsline {section}{\numberline {5.3}Summary}{32}{section.5.3}
+\contentsline {chapter}{\numberline {6}Implementation}{38}{chapter.6}
+\contentsline {section}{\numberline {6.1}Main View}{38}{section.6.1}
+\contentsline {subsection}{\numberline {6.1.1}Drop Down Menu}{38}{subsection.6.1.1}
+\contentsline {subsection}{\numberline {6.1.2}Actions Menu}{39}{subsection.6.1.2}
+\contentsline {subsection}{\numberline {6.1.3}Lecture Tabs}{39}{subsection.6.1.3}
+\contentsline {subsection}{\numberline {6.1.4}Lecture List}{40}{subsection.6.1.4}
+\contentsline {subsubsection}{\nonumberline Iteration 1}{40}{section*.55}
+\contentsline {paragraph}{\nonumberline Problems}{40}{section*.56}
+\contentsline {subsubsection}{\nonumberline Iteration 2}{40}{section*.57}
+\contentsline {paragraph}{\nonumberline Problems}{41}{section*.59}
+\contentsline {subsubsection}{\nonumberline Iteration 3}{41}{section*.60}
+\contentsline {paragraph}{\nonumberline Problems}{41}{section*.62}
+\contentsline {subsection}{\numberline {6.1.5}Iteration 4}{42}{subsection.6.1.5}
+\contentsline {section}{\numberline {6.2}Navigation}{42}{section.6.2}
+\contentsline {section}{\numberline {6.3}Poll View}{44}{section.6.3}
+\contentsline {subsection}{\numberline {6.3.1}Layout}{44}{subsection.6.3.1}
+\contentsline {subsection}{\numberline {6.3.2}Navigation between Questions}{44}{subsection.6.3.2}
+\contentsline {chapter}{\numberline {7}Evaluation}{45}{chapter.7}
+\contentsline {chapter}{\numberline {8}Conclusion}{46}{chapter.8}
+\contentsline {section}{\numberline {.1}Appendix Title}{47}{section.Alph0.1}

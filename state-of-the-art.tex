@@ -1,4 +1,4 @@
-ds\chapter{Current State of AMCS}
+\chapter{Current State of AMCS}
 \label{chapter:stateoftheart}
 AMCS provides front end applications for iOS, Android, and web that enable access to a variety of features that benefit both lecturers and the audience.
 As already established in the introduction, AMCS is a research prototype used to implement and test new components in the ARS context.
@@ -22,14 +22,16 @@ Additionally, a subscription to courses is mandatory in order to use the service
 	\begin{minipage}[t]{.5\textwidth}
 		\centering
 		\includegraphics[width=0.95\linewidth]{screenshots/landing_page.jpg}
-		\captionsetup{width=.8\linewidth}
+		\captionsetup{width=.9\linewidth}
+		\captionsetup{format=plain}
 		\caption{The landing page of AMCS. This is the initial screen shown when accessing \emph{https://amcs.website}}
 		\label{fig:landingpage}
 	\end{minipage}%
 	\begin{minipage}[t]{.5\textwidth}
 		\centering
 		\includegraphics[width=0.95\linewidth]{screenshots/login_form.jpg}
-		\captionsetup{width=.8\linewidth}
+		\captionsetup{width=.9\linewidth}
+		\captionsetup{format=plain}
 		\caption{The login form of AMCS. Users can choose a synonym and a password to create an account.}
 		\label{fig:loginform}
 	\end{minipage}
@@ -45,14 +47,16 @@ It can be scrolled in the vertical direction and consists of a header and a body
 	\begin{minipage}[t]{.5\textwidth}
 		\centering
 		\includegraphics[width=0.95\linewidth]{screenshots/main_view_1.jpg}
-		\captionsetup{width=.8\linewidth}
+		\captionsetup{width=.9\linewidth}
+		\captionsetup{format=plain}
 		\caption{Main View: Lecture information is provided in different sections for each temporal context. Per default, a section with proposed lectures is expanded.}
 		\label{fig:mainview}
 	\end{minipage}%
 	\begin{minipage}[t]{.5\textwidth}
 		\centering
 		\includegraphics[width=0.95\linewidth]{screenshots/main_view_course_management.jpg}
-		\captionsetup{width=.8\linewidth}
+		\captionsetup{width=.9\linewidth}
+		\captionsetup{format=plain}
 		\caption{Course management below Lectures: Each course is listed below an enrollment form consisting of a PIN input and a submit button.}
 		\label{fig:mainviewcoursemanagement}
 	\end{minipage}
@@ -119,14 +123,16 @@ The course name and PIN, its description and lists of upcoming, live and past le
 	\begin{minipage}[t]{.5\textwidth}
 		\centering
 		\includegraphics[width=0.95\linewidth]{screenshots/course_view_1.jpg}
-		\captionsetup{width=.8\linewidth}
+		\captionsetup{width=.9\linewidth}
+		\captionsetup{format=plain}
 		\caption{\emph{Course View}: Details like the course name, description and PIN are displayed.}
 		\label{fig:courseview}
 	\end{minipage}%
 	\begin{minipage}[t]{.5\textwidth}
 		\centering
 		\includegraphics[width=0.95\linewidth]{screenshots/course_view_3.jpg}
-		\captionsetup{width=.8\linewidth}
+		\captionsetup{width=.9\linewidth}
+		\captionsetup{format=plain}
 		\caption{Lectures that belong to a certain course displayed in the \emph{Course View}.}
 		\label{fig:courseviewlectures}
 	\end{minipage}
@@ -175,14 +181,16 @@ If logging out was successful, the \emph{Landing Page} is displayed.
 	\begin{minipage}[t]{.5\textwidth}
 		\centering
 		\includegraphics[width=0.95\linewidth]{screenshots/expanded_burger_menu.jpg}
-		\captionsetup{width=.8\linewidth}
-		\caption{Expanded \emph{Burger Menu}.}
+		\captionsetup{width=.9\linewidth}
+		\captionsetup{format=plain}
+		\caption{Expanded \emph{Burger Menu}. The \emph{Lecture List} below is displaced significantly.}
 		\label{fig:menu}
 	\end{minipage}%
 	\begin{minipage}[t]{.5\textwidth}
 		\centering
 		\includegraphics[width=0.95\linewidth]{screenshots/course_view_3.jpg}
-		\captionsetup{width=.8\linewidth}
+		\captionsetup{width=.9\linewidth}
+		\captionsetup{format=plain}
 		\caption{Lectures that belong to a certain course displayed in the \emph{Course View}.}
 		\label{fig:other}
 	\end{minipage}
@@ -193,15 +201,15 @@ The identified UI components that will be further analyzed and discussed are sum
 
 \begin{table}[H]
 	{\renewcommand{\arraystretch}{2}
-		\begin{tabular}{ | p{4cm} | p{11cm} |}
+		\begin{tabular}{ p{4cm} p{11cm}}
 			\hline
-			Component & Description \\ \hline \hline
-			Landing Page & Shown when the web page is opened. Points to the Login mechanism. \\ \hline
-			Main View & Gives an overview of ongoing lectures and enrolled courses. Allows to enroll to or unsubscribe from courses. \\ \hline
-			Poll View & Shown whenever a poll should be answered. \\ \hline
-			Course View & Displays information and lectures of a single course. \\ \hline
-			Burger Menu & Overarching navigation element visible in all views. \\ \hline
-			Question Pool & Shown when the creation of a question pool is attempted. It can be reached from the \emph{Burger Menu}. \\ \hline
+			Component & Description \\ \hline
+			Landing Page & Shown when the web page is opened. Points to the Login mechanism. \\ 
+			Main View & Gives an overview of ongoing lectures and enrolled courses. Allows to enroll to or unsubscribe from courses. \\ 
+			Poll View & Shown whenever a poll should be answered. \\ 
+			Course View & Displays information and lectures of a single course. \\ 
+			Burger Menu & Overarching navigation element visible in all views. \\ 
+			Question Pool & Shown when the creation of a question pool is attempted. It can be reached from the \emph{Burger Menu}. \\ 
 			Evaluation of answers & Shown when the evaluation of answers to polls is attempted. It can be reached from the \emph{Burger Menu}. \\ \hline
 		\end{tabular}
 	}

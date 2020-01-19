@@ -79,7 +79,8 @@ At the time of writing, the ways of navigating the application are problematic a
 On the one hand, the interconnected graph of views, as described in \Cref{figure:clickpathproblems}, contains two bigger issues. One example of unexpected behavior is the path that a user takes when he wants to return from the \emph{Poll View} to the \emph{Main View} in order to choose a different poll.
 It is possible to reach the \emph{Poll View} from the \emph{Main View} with only one tap, for example, by selecting a lecture.
 However, by pressing the back button, the user is first redirected to the \emph{Course View} and then, with a second tap on the back button, to the \emph{Main View}. A more well-defined implementation would rather directly return to the last element of the \emph{View Stack}, in this case, the \emph{Main View}.
-
+\newline
+\newline
 Furthermore, some views like the \emph{Question Pool View} and the \emph{Answer Evaluation View} do not offer buttons that allow navigating back. Consequently, the navigation relies partly on the corporate branding on the upper-left that, when tapped, will redirect to the \emph{Main View}.
 One could argue that the interconnectedness between different views might not be strong enough.
 \newline
@@ -104,38 +105,43 @@ Moreover, the question list suffers from the same rendering and navigation probl
 	\label{figure:clickpathproblems}
 \end{figure}
 
-\begin{figure}[ht]
-	\centering
+\begin{wrapfigure}{l}{0.5\textwidth}
+	\vspace*{-0.5cm}
+	\begin{center}
 	\includegraphics[width=0.5\textwidth]{screenshots/poll_view_2.png}
+	\end{center}
 	\caption{\emph{Poll View}: Multiple questions are displayed at the same time.}
 	\label{figure:pollview}
-\end{figure}
+	\vspace*{-1.5cm}
+\end{wrapfigure}
+
 \subsubsection{Question Pool}
 
 The question pool suffers from the same navigation problems described in the preceding section. Again, a drop down menu for selecting a course is shown before students can see the overview of the \emph{Question Pool}. Once more, students might think that access to this functionality is located near the \emph{Main View} or the \emph{Course View}, which is not the case.
 \cleardoublepage
 \renewcommand*{\arraystretch}{1.4}
-\begin{longtable}{ | p{0.8cm} | p{2cm} | p{2cm} | p{2.2cm} | p{5.8cm} |}
-	\hline
-	ID & Name & Categories & Components & Summary \\ \hline \hline
-	GV 1 & Visualization of Lectures & Visualization & Main View & The hierarchical order of courses containing lectures is disregarded. \\ \hline
-	GV 2 & Missing Notifications & Visualization & Main View, \newline Course View & No notifications for new or unread content are given. \\ \hline
-	GV 3 & Lecture Badges & Visualization, \newline Redundancy & Main View, \newline Course View & Lecture badges that indicate temporal context are redundant and do not match their respective section in the lecture list. \\ \hline
-	GV 4 & Course List & Visualization, \ Redundancy & Main View & The Course List is placed at the very bottom of the \emph{Main View}. The list contains redundant visual elements. \\ \hline
-	IN 1 & Course Management & Layout & Main View & The section \emph{Enrollment} and the course list are located too far to the bottom of the view. \\ \hline
-	IN 2 & Course Filter & Functional & Main View & The view lacks of a filtering mechanism. \\ \hline
-	PV 1 & Poll View Layout & Visualization \newline Layout & \emph{Poll View} & The poll layout uses too much vertical space. \\ \hline
-	PV 2 & Missing Poll Information & Visualization & \emph{Poll View} & The number of total and remaining questions is missing. \\ \hline
-	PV 3 & Missing Poll Separation & Layout, \newline Navigation & \emph{Poll View} & The view lacks of separation between different poll types. Navigation between different poll types requires too much scrolling. \\ \hline
-	NV 1 & Switching Courses & Navigation & Main View, \newline Course View & Quickly switching between courses requires unnecessary navigation between \emph{Course View} and \emph{Main View}. \\ \hline    
-	NV 2 & Confusing Click Paths & Navigation & \emph{Main View, \newline Course View, \newline Poll View} & Under certain circumstances, returning to an earlier view can yield unexpected results. \\ \hline
-	NV 3 & Weak View Interconnectedness & Navigation & \emph{Main View, \newline Question Pool View, \newline Answer Evaluation View} & Some views miss proper back buttons to return to the previous view. \\ \hline
-	NV 4 & Menu Size & Visualization \newline Layout & \emph{Burger Menu} & Fully expanding the \emph{Burger Menu} uses too much screen space. \\ \hline
-	NV 5 & Menu Labeling & Visualization & \emph{Burger Menu} & Some menu entries are labeled inadequately. \\ \hline            
-	NV 6 & Evaluation of Answers & Navigation \newline Layout & \emph{Answer Evaluation View} & Several drop down menus must be operated to evaluate answers for a given lecture. \\ \hline    
-	NV 7 & Question Pool & Navigation & \emph{Question Pool View} & The \emph{Question Pool View} is not reachable easy enough, as expanding the \emph{Burger Menu} is required. \\ \hline                                    
-	
-	\caption{Classification of issues identified in the usability analysis of AMCS.}
-	\label{tab:problems2}
-\end{longtable}
-
+\begin{small}
+	\begin{longtable}{  p{0.8cm}  p{3cm}  p{2cm}  p{1.6cm}  p{5.8cm} }
+		\hline
+		ID & Name & Categories & Views & Summary \\ \hline
+		GV 1 & Visualization of Lectures & Visualization & MV & The hierarchical order of courses containing lectures is disregarded. \\ 
+		GV 2 & Missing Notifications & Visualization & MV,  CV & No notifications for new or unread content are given. \\ 
+		GV 3 & Lecture Badges & Visualization,  Redundancy & MV,  CV & Lecture badges that indicate temporal context are redundant and do not match their respective section in the lecture list. \\ 
+		GV 4 & Course List & Visualization, \ Redundancy & MV & The Course List is placed at the very bottom of the \emph{MV}. The list contains redundant visual elements. \\ 
+		IN 1 & Course Management & Layout & MV & The section \emph{Enrollment} and the course list are located too far to the bottom of the view. \\ 
+		IN 2 & Course Filter & Functional & MV & The view lacks of a filtering mechanism. \\ 
+		PV 1 & Poll View Content Displacement & Visualization  Layout & \emph{PV} & The poll layout uses too much vertical space. \\ 
+		PV 2 & Missing Poll Information & Visualization & \emph{PV} & The number of total and remaining questions is missing. \\ 
+		PV 3 & Missing Poll Separation & Layout,  Navigation & \emph{PV} & The view lacks of separation between different poll types. Navigation between different poll types requires too much scrolling. \\ 
+		NV 1 & Switching Courses & Navigation & MV,  CV & Quickly switching between courses requires unnecessary navigation between \emph{CV} and \emph{MV}. \\     
+		NV 2 & Confusing Click Paths & Navigation & \emph{MV,  CV,  PV} & Under certain circumstances, returning to an earlier view can yield unexpected results. \\ 
+		NV 3 & Weak View Interconnectedness & Navigation & \emph{MV,  QPV,  AEV} & Some views miss proper back buttons to return to the previous view. \\ 
+		NV 4 & Menu Size & Visualization  Layout & \emph{BM} & Fully expanding the \emph{BM} uses too much screen space. \\ 
+		NV 5 & Menu Labeling & Visualization & \emph{BM} & Some menu entries are labeled inadequately. \\             
+		NV 6 & Evaluation of Answers & Navigation  Layout & \emph{AEV} & Several drop down menus must be operated to evaluate answers for a given lecture. \\     
+		NV 7 & Question Pool & Navigation & \emph{QPV} & The \emph{QPV} is not reachable easy enough, as expanding the \emph{BM} is required. \\ \hline                                    
+		
+		\caption{Classification of issues identified in the usability analysis of AMCS. MV = Main View, CV = Course View, AEV = Answer Evaluation View, PV = Poll View, BM = Burger Menu, QPV = Question Pool View }
+		\label{tab:problems2}
+	\end{longtable}
+\end{small}
